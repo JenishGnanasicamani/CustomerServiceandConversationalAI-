@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: api
+    env_file: .env
+    environment:
+      - 'OLLAMA_BASE_URL=${OLLAMA_BASE_URL}'
+    ports:
+      - '8000:8000'
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: ui
+    env_file: .env
+    environment:
+      - 'API_URL=${INTERNAL_API_URL}'
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - '7860:7860'
