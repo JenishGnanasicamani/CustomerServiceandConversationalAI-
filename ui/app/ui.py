@@ -21,6 +21,7 @@ async def chat_wrapper(message, history):
     print("History:", history)
     return await chat_fn(session_id.value, message, history)
 
+
 with gr.Blocks(title="CustomerServiceandConversationalAI") as demo:
     gr.Markdown("# CustomerServiceandConversationalAI")
     with gr.Row():
