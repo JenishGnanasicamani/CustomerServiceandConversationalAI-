@@ -16,12 +16,17 @@ async def chat_fn(session_identifier: str, message: str, history: list[tuple[str
         data = resp.json()
         return data["reply"]
 
+async def chat_wrapper(message, history):
+    print("Message:", message)
+    print("History:", history)
+    return await chat_fn(session_id.value, message, history)
+
 with gr.Blocks(title="CustomerServiceandConversationalAI") as demo:
     gr.Markdown("# CustomerServiceandConversationalAI")
     with gr.Row():
         session_id = gr.Textbox(label="Session ID", value="demo-session")
     chat = gr.ChatInterface(
-        fn=lambda message, history: chat_fn(session_id.value, message, history),
+        fn=chat_wrapper,
         title="Assistant",
         textbox=gr.Textbox(placeholder="Ask something..."),
     )
