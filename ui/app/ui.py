@@ -23,7 +23,7 @@ async def chat_wrapper(message, history):
 
 
 with gr.Blocks(title="CustomerServiceandConversationalAI") as demo:
-    gr.Markdown("# CustomerServiceandConversationalAI")
+    gr.Markdown("# CustomerServiceandConversationalAI Demo")
     with gr.Row():
         session_id = gr.Textbox(label="Session ID", value="demo-session")
     chat = gr.ChatInterface(
