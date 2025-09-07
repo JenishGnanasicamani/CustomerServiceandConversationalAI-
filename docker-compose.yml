@@ -9,11 +9,11 @@ services:
       - 'OLLAMA_BASE_URL=${OLLAMA_BASE_URL}'
     ports:
       - '8000:8000'
-    healthcheck:
-      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
-      interval: 60s
-      timeout: 5s
-      retries: 10
+#    healthcheck:
+#      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+#      interval: 60s
+#      timeout: 5s
+#      retries: 10
   ui:
     build:
       context: ./ui
@@ -23,7 +23,6 @@ services:
     environment:
       - 'API_URL=${INTERNAL_API_URL}'
     depends_on:
-      api:
-        condition: service_healthy
+      - api
     ports:
       - '7860:7860'
