@@ -19,6 +19,10 @@ class Settings(BaseSettings):
     MONGODB_DB: str = os.getenv("MONGODB_DB", "csai")
     MONGODB_COLLECTION: str = os.getenv("MONGODB_COLLECTION", "messages")
 
+    KAFKA_TOPIC:str = os.getenv("KAFKA_TOPIC", "customer_conversation")
+    KAFKA_BOOTSTRAP_SERVERS:str = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:9092")
+    KAFKA_GROUP_ID:str = os.getenv("KAFKA_GROUP_ID", "customer_conversation_consumer")
+    KAFKA_MAX_MESSAGE_SIZE:int = int(os.getenv("KAFKA_MAX_MESSAGE_SIZE"))
 
     class Config:
         env_file = ".env"

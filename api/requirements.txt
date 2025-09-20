@@ -9,3 +9,4 @@ langchain
 langchain-community
 langgraph
 langchain-ollama
+aiokafka

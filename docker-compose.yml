@@ -1,28 +1,79 @@
 services:
-  api:
+  csci-api:
     build:
       context: ./api
       dockerfile: Dockerfile
-    container_name: api
+    container_name: csci-api
     env_file: .env
     environment:
       - 'OLLAMA_BASE_URL=${OLLAMA_BASE_URL}'
     ports:
       - '8000:8000'
-#    healthcheck:
-#      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
-#      interval: 60s
-#      timeout: 5s
-#      retries: 10
-  ui:
+    depends_on:
+      kafka:
+        condition: service_healthy
+  csci-ui:
     build:
       context: ./ui
       dockerfile: Dockerfile
-    container_name: ui
+    container_name: csci-ui
     env_file: .env
     environment:
       - 'API_URL=${INTERNAL_API_URL}'
     depends_on:
-      - api
+      - csci-api
     ports:
       - '7860:7860'
+
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"     # internal
+      - "29092:29092"   # external (host access)
+    environment:
+      KAFKA_CFG_PROCESS_ROLES: broker,controller
+      KAFKA_CFG_NODE_ID: 1
+      KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093,PLAINTEXT_HOST://:29092
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_CFG_MESSAGE_MAX_BYTES: ${KAFKA_MAX_MESSAGE_SIZE}
+      KAFKA_CFG_REPLICA_FETCH_MAX_BYTES: ${KAFKA_MAX_MESSAGE_SIZE}
+      KAFKA_CFG_FETCH_MESSAGE_MAX_BYTES: ${KAFKA_MAX_MESSAGE_SIZE}
+      KAFKA_CFG_MAX_REQUEST_SIZE: ${KAFKA_MAX_MESSAGE_SIZE}
+    healthcheck:
+      test: [ "CMD", "kafka-topics.sh", "--bootstrap-server", "localhost:9092", "--list" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  kafka-ui:
+      image: provectuslabs/kafka-ui:latest
+      container_name: kafka-ui
+      ports:
+        - "8080:8080"
+      depends_on:
+        - kafka
+      environment:
+        KAFKA_CLUSTERS_0_NAME: local
+        KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+        LOGGING_LEVEL_ORG_APACHE_KAFKA: WARN
+
+
+  data-producer:
+    build:
+      context: ./producer
+      dockerfile: Dockerfile
+    container_name: data-producer
+    env_file: .env
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC=${KAFKA_TOPIC}
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      kafka:
+        condition: service_healthy
