@@ -2,7 +2,8 @@ import json
 import os
 import time
 from kafka import KafkaProducer
-from watchdog.observers import Observer
+# from watchdog.observers import Observer
+from watchdog.observers.polling import PollingObserver as Observer
 from watchdog.events import FileSystemEventHandler
 
 TOPIC = os.getenv("KAFKA_TOPIC", "customer_conversation")
@@ -30,6 +31,7 @@ class FileHandler(FileSystemEventHandler):
             print(f"Failed to process {filename}: {e}")
 
     def on_created(self, event):
+        print(f"Created file {event.src_path}, {event.is_directory}")
         if not event.is_directory:
             self.process_file(event.src_path)
 
