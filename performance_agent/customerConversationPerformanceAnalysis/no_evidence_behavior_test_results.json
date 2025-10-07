@@ -1,0 +1,223 @@
+{
+  "test_timestamp": "2025-10-05T16:08:05.061446",
+  "test_conversation_id": "test_no_evidence_001",
+  "total_kpis_checked": 26,
+  "no_evidence_violations": [],
+  "max_score_violations": [],
+  "test_passed": true,
+  "full_analysis_result": {
+    "conversation_id": "unknown",
+    "analysis_timestamp": "2025-10-05T16:08:05.061154",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_score": 6.0,
+          "kpis": {
+            "resolution_completeness": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for resolution_completeness based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "accuracy_automated_responses": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for accuracy_automated_responses based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            }
+          }
+        },
+        "empathy_communication": {
+          "category_score": 6.38,
+          "kpis": {
+            "empathy_score": {
+              "score": 6.25,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for empathy_score based on conversation content - no specific evidence found Overall score calculated using weighted formula: 6.25",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good",
+              "sub_factors": {
+                "emotion_recognition": {
+                  "score": 6.41,
+                  "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                  "evidence": []
+                },
+                "acknowledgment_feelings": {
+                  "score": 6.63,
+                  "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                  "evidence": []
+                },
+                "appropriate_response": {
+                  "score": 5.65,
+                  "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                  "evidence": []
+                },
+                "personalization": {
+                  "score": 5.82,
+                  "reasoning": "Sub-factor analysis for Personalization based on conversation evidence",
+                  "evidence": []
+                },
+                "supportive_language": {
+                  "score": 6.28,
+                  "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                  "evidence": []
+                },
+                "active_listening": {
+                  "score": 6.94,
+                  "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "sentiment_shift": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for sentiment_shift based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "clarity_language": {
+              "score": 6.55,
+              "normalized_score": 0.65,
+              "reasoning": "Analysis based on conversation evidence for clarity_language Overall score calculated using weighted formula: 6.55",
+              "evidence": [
+                "Agent: \"Hello\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Good",
+              "sub_factors": {
+                "readability_level": {
+                  "score": 6.07,
+                  "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hello\""
+                  ]
+                },
+                "jargon_usage": {
+                  "score": 6.36,
+                  "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                  "evidence": []
+                },
+                "sentence_structure": {
+                  "score": 6.51,
+                  "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                  "evidence": []
+                },
+                "coherence": {
+                  "score": 7.4,
+                  "reasoning": "Sub-factor analysis for Coherence based on conversation evidence",
+                  "evidence": []
+                },
+                "active_voice": {
+                  "score": 7.3,
+                  "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                  "evidence": []
+                },
+                "conciseness": {
+                  "score": 5.94,
+                  "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "cultural_sensitivity": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for cultural_sensitivity based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "adaptability_quotient": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for adaptability_quotient based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "conversation_flow": {
+              "score": 7.5,
+              "normalized_score": 0.75,
+              "reasoning": "Analysis based on conversation evidence for conversation_flow",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            }
+          }
+        },
+        "efficiency_resolution": {
+          "category_score": 6.0,
+          "kpis": {
+            "followup_necessity": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for followup_necessity based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "customer_effort_score": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for customer_effort_score based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "first_response_accuracy": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for first_response_accuracy based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "csat_resolution": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for csat_resolution based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "escalation_rate": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for escalation_rate based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "customer_effort_reduction": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis for customer_effort_reduction based on conversation content - no specific evidence found",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "total_kpis_evaluated": 14,
+        "evaluation_timestamp": "2025-10-05T16:08:04.926552",
+        "model_used": "claude-4"
+      }
+    },
+    "overall_performance": {
+      "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+      "method": "LLM-based comprehensive evaluation"
+    },
+    "agent_output": "I'll perform a complete and systematic analysis of the conversation against all 14 configured KPIs. Let me start by formatting the conversation data and then analyze each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 1001, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:00:00Z\", \"text\": \"Hi there\"}, {\"tweet_id\": 1002, \"author_id\": \"agent_1\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-01T10:01:00Z\", \"text\": \"Hello\"}, {\"tweet_id\": 1003, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:02:00Z\", \"text\": \"Ok\"}], \"classification\": {\"categorization\": \"General Inquiry\", \"intent\": \"Information\", \"topic\": \"General\", \"sentiment\": \"Neutral\"}}</parameter>\n</invoke>\n\nNow I'll analyze each KPI systematically. Let me start with the ACCURACY_COMPLIANCE category:\n\n## 1. RESOLUTION_COMPLETENESS\n\n<invoke name=\"configuration_..."
+  }
+}

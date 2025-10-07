@@ -1,0 +1,1956 @@
+{
+  "test_timestamp": "2025-10-05T18:47:13.746019",
+  "analysis_duration_seconds": 45.080778,
+  "llm_field_analysis": {
+    "enhanced_fields_found": [
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.confidence",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.interpretation",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.confidence",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.interpretation"
+    ],
+    "basic_fields_found": [
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.reasoning",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.evidence",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.reasoning",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.evidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.reasoning",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.evidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.reasoning",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.evidence"
+    ],
+    "missing_enhanced_fields": [
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.interpretation",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.normalized_score",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.confidence",
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.interpretation"
+    ],
+    "field_paths": {
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.score": {
+        "type": "float",
+        "value": 9.0
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.reasoning": {
+        "type": "str",
+        "value": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.interpretation": {
+        "type": "str",
+        "value": "exceptional - achieves comprehensive problem resolution"
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.reasoning": {
+        "type": "str",
+        "value": "Analysis of Accuracy Automated Responses reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "llm_results.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.interpretation": {
+        "type": "str",
+        "value": "very good - maintains good accuracy standards"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.score": {
+        "type": "float",
+        "value": 7.23
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score": {
+        "type": "float",
+        "value": 0.72
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning": {
+        "type": "str",
+        "value": "Analysis of Empathy Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: empathetic acknowledgment ('Hi! I completely understand how frustrating this m...'). The score of 7.2 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 7.23"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation": {
+        "type": "str",
+        "value": "very good - shows adequate emotional awareness"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.score": {
+        "type": "float",
+        "value": 7.3
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score": {
+        "type": "float",
+        "value": 0.73
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Emotion Recognition based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.score": {
+        "type": "float",
+        "value": 6.8
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score": {
+        "type": "float",
+        "value": 0.68
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence": {
+        "type": "float",
+        "value": 0.8
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.score": {
+        "type": "float",
+        "value": 7.57
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score": {
+        "type": "float",
+        "value": 0.757
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Appropriate Response based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.score": {
+        "type": "float",
+        "value": 7.42
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score": {
+        "type": "float",
+        "value": 0.742
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Personalization based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.score": {
+        "type": "float",
+        "value": 7.54
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score": {
+        "type": "float",
+        "value": 0.754
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Supportive Language based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation": {
+        "type": "str",
+        "value": "very good - maintains clear communication standards"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.score": {
+        "type": "float",
+        "value": 6.51
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score": {
+        "type": "float",
+        "value": 0.651
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Active Listening Indicators based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence": {
+        "type": "float",
+        "value": 0.65
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.score": {
+        "type": "float",
+        "value": 8.5
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score": {
+        "type": "float",
+        "value": 0.85
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.reasoning": {
+        "type": "str",
+        "value": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 8.5 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.interpretation": {
+        "type": "str",
+        "value": "excellent - creates positive customer experience"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.score": {
+        "type": "float",
+        "value": 7.64
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.reasoning": {
+        "type": "str",
+        "value": "Analysis of Clarity Language reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: clear communication ('Hi! I completely understand how frustrating this m...'); clear communication ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 7.64"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.interpretation": {
+        "type": "str",
+        "value": "very good - maintains clear communication standards"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.score": {
+        "type": "float",
+        "value": 7.04
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score": {
+        "type": "float",
+        "value": 0.704
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Readability Level based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.score": {
+        "type": "float",
+        "value": 6.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score": {
+        "type": "float",
+        "value": 0.675
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Jargon Usage based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.score": {
+        "type": "float",
+        "value": 8.45
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score": {
+        "type": "float",
+        "value": 0.845
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Sentence Structure based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.score": {
+        "type": "float",
+        "value": 8.46
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score": {
+        "type": "float",
+        "value": 0.846
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Coherence based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.score": {
+        "type": "float",
+        "value": 6.86
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score": {
+        "type": "float",
+        "value": 0.686
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Use of Active Voice based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.score": {
+        "type": "float",
+        "value": 8.13
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score": {
+        "type": "float",
+        "value": 0.813
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Conciseness based on conversation evidence"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.score": {
+        "type": "float",
+        "value": 6.0
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.reasoning": {
+        "type": "str",
+        "value": "This 3-message account_unlock interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities."
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.interpretation": {
+        "type": "str",
+        "value": "good - shows appropriate cultural sensitivity"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.reasoning": {
+        "type": "str",
+        "value": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.interpretation": {
+        "type": "str",
+        "value": "very good - adapts well to customer needs"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.reasoning": {
+        "type": "str",
+        "value": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "llm_results.performance_metrics.categories.empathy_communication.kpis.conversation_flow.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.reasoning": {
+        "type": "str",
+        "value": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning": {
+        "type": "str",
+        "value": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation": {
+        "type": "str",
+        "value": "good - demonstrates good efficiency practices"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.reasoning": {
+        "type": "str",
+        "value": "Analysis of First Response Accuracy reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.interpretation": {
+        "type": "str",
+        "value": "very good - maintains good accuracy standards"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.score": {
+        "type": "float",
+        "value": 9.0
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.reasoning": {
+        "type": "str",
+        "value": "Analysis of Csat Resolution reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.interpretation": {
+        "type": "str",
+        "value": "exceptional - achieves comprehensive problem resolution"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.score": {
+        "type": "float",
+        "value": 6.0
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score": {
+        "type": "float",
+        "value": 0.6
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.reasoning": {
+        "type": "str",
+        "value": "This account_unlock interaction remained at initial support level throughout 3 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.confidence": {
+        "type": "float",
+        "value": 0.7
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.reasoning": {
+        "type": "str",
+        "value": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "llm_results.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.interpretation": {
+        "type": "str",
+        "value": "good - demonstrates good efficiency practices"
+      }
+    },
+    "structure_issues": []
+  },
+  "mongodb_field_analysis": {
+    "enhanced_fields_found": [
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.interpretation"
+    ],
+    "basic_fields_found": [
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.evidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.reasoning",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.evidence"
+    ],
+    "missing_enhanced_fields": [
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score.interpretation",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.normalized_score",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.confidence",
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score.interpretation"
+    ],
+    "field_paths": {
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.score": {
+        "type": "float",
+        "value": 9.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.reasoning": {
+        "type": "str",
+        "value": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.interpretation": {
+        "type": "str",
+        "value": "exceptional - achieves comprehensive problem resolution"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.reasoning": {
+        "type": "str",
+        "value": "Analysis of Accuracy Automated Responses reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.interpretation": {
+        "type": "str",
+        "value": "very good - maintains good accuracy standards"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.score": {
+        "type": "float",
+        "value": 7.23
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score": {
+        "type": "float",
+        "value": 0.72
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.reasoning": {
+        "type": "str",
+        "value": "Analysis of Empathy Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: empathetic acknowledgment ('Hi! I completely understand how frustrating this m...'). The score of 7.2 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 7.23"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation": {
+        "type": "str",
+        "value": "very good - shows adequate emotional awareness"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.score": {
+        "type": "float",
+        "value": 7.3
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.normalized_score": {
+        "type": "float",
+        "value": 0.73
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Emotion Recognition based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.emotion_recognition.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.score": {
+        "type": "float",
+        "value": 6.8
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.normalized_score": {
+        "type": "float",
+        "value": 0.68
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.confidence": {
+        "type": "float",
+        "value": 0.8
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.acknowledgment_feelings.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.score": {
+        "type": "float",
+        "value": 7.57
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.normalized_score": {
+        "type": "float",
+        "value": 0.757
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Appropriate Response based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.appropriate_response.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.score": {
+        "type": "float",
+        "value": 7.42
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.normalized_score": {
+        "type": "float",
+        "value": 0.742
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Personalization based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.personalization.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.score": {
+        "type": "float",
+        "value": 7.54
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.normalized_score": {
+        "type": "float",
+        "value": 0.754
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Supportive Language based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.supportive_language.interpretation": {
+        "type": "str",
+        "value": "very good - maintains clear communication standards"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.score": {
+        "type": "float",
+        "value": 6.51
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.normalized_score": {
+        "type": "float",
+        "value": 0.651
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Active Listening Indicators based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.confidence": {
+        "type": "float",
+        "value": 0.65
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_factors.active_listening.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.score": {
+        "type": "float",
+        "value": 8.5
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score": {
+        "type": "float",
+        "value": 0.85
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.reasoning": {
+        "type": "str",
+        "value": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 8.5 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.sentiment_shift.interpretation": {
+        "type": "str",
+        "value": "excellent - creates positive customer experience"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.score": {
+        "type": "float",
+        "value": 7.64
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.reasoning": {
+        "type": "str",
+        "value": "Analysis of Clarity Language reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: clear communication ('Hi! I completely understand how frustrating this m...'); clear communication ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 7.64"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.interpretation": {
+        "type": "str",
+        "value": "very good - maintains clear communication standards"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.score": {
+        "type": "float",
+        "value": 7.04
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.normalized_score": {
+        "type": "float",
+        "value": 0.704
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Readability Level based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.readability_level.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.score": {
+        "type": "float",
+        "value": 6.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.normalized_score": {
+        "type": "float",
+        "value": 0.675
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Jargon Usage based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.jargon_usage.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.score": {
+        "type": "float",
+        "value": 8.45
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.normalized_score": {
+        "type": "float",
+        "value": 0.845
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Sentence Structure based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.sentence_structure.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.score": {
+        "type": "float",
+        "value": 8.46
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.normalized_score": {
+        "type": "float",
+        "value": 0.846
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Coherence based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.coherence.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.score": {
+        "type": "float",
+        "value": 6.86
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.normalized_score": {
+        "type": "float",
+        "value": 0.686
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Use of Active Voice based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.active_voice.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.score": {
+        "type": "float",
+        "value": 8.13
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.normalized_score": {
+        "type": "float",
+        "value": 0.813
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.reasoning": {
+        "type": "str",
+        "value": "Sub-factor analysis for Conciseness based on conversation evidence"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.confidence": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_factors.conciseness.interpretation": {
+        "type": "str",
+        "value": "excellent"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.score": {
+        "type": "float",
+        "value": 6.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.reasoning": {
+        "type": "str",
+        "value": "This 3-message account_unlock interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.confidence": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.interpretation": {
+        "type": "str",
+        "value": "good - shows appropriate cultural sensitivity"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.reasoning": {
+        "type": "str",
+        "value": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.interpretation": {
+        "type": "str",
+        "value": "very good - adapts well to customer needs"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.reasoning": {
+        "type": "str",
+        "value": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.empathy_communication.kpis.conversation_flow.interpretation": {
+        "type": "str",
+        "value": "very good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.reasoning": {
+        "type": "str",
+        "value": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reasoning": {
+        "type": "str",
+        "value": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation": {
+        "type": "str",
+        "value": "good - demonstrates good efficiency practices"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.score": {
+        "type": "float",
+        "value": 7.5
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score": {
+        "type": "float",
+        "value": 0.75
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.reasoning": {
+        "type": "str",
+        "value": "Analysis of First Response Accuracy reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Perfect! Everything is working now. Thank you so m...'). The score of 7.5 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.confidence": {
+        "type": "float",
+        "value": 0.95
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.interpretation": {
+        "type": "str",
+        "value": "very good - maintains good accuracy standards"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.score": {
+        "type": "float",
+        "value": 9.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.reasoning": {
+        "type": "str",
+        "value": "Analysis of Csat Resolution reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.confidence": {
+        "type": "float",
+        "value": 1.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.interpretation": {
+        "type": "str",
+        "value": "exceptional - achieves comprehensive problem resolution"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.score": {
+        "type": "float",
+        "value": 6.0
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score": {
+        "type": "float",
+        "value": 0.6
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.reasoning": {
+        "type": "str",
+        "value": "This account_unlock interaction remained at initial support level throughout 3 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.confidence": {
+        "type": "float",
+        "value": 0.7
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.interpretation": {
+        "type": "str",
+        "value": "good"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.score": {
+        "type": "float",
+        "value": 6.7
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score": {
+        "type": "float",
+        "value": 0.67
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.reasoning": {
+        "type": "str",
+        "value": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.evidence": {
+        "type": "list",
+        "value": "<list>"
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.confidence": {
+        "type": "float",
+        "value": 0.9
+      },
+      "mongodb_result.performance_analysis.performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.interpretation": {
+        "type": "str",
+        "value": "good - demonstrates good efficiency practices"
+      }
+    },
+    "structure_issues": []
+  },
+  "preservation_rate": 100.0,
+  "test_status": "PASSED",
+  "sample_llm_structure": {
+    "score": 9.0,
+    "normalized_score": 0.9,
+    "reasoning": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+    "evidence": [
+      "Agent: \"Hi! I completely understand how frustrating this must be. I'll help unlock your account right away.\""
+    ],
+    "confidence": 1.0,
+    "interpretation": "exceptional - achieves comprehensive problem resolution"
+  },
+  "sample_mongodb_structure": {
+    "score": 9.0,
+    "normalized_score": 0.9,
+    "reasoning": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I'm having trouble accessing my account -...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+    "evidence": [
+      "Agent: \"Hi! I completely understand how frustrating this must be. I'll help unlock your account right away.\""
+    ],
+    "confidence": 1.0,
+    "interpretation": "exceptional - achieves comprehensive problem resolution"
+  }
+}

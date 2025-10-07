@@ -1,0 +1,316 @@
+{
+  "test_timestamp": "2025-10-05T00:32:01.006268",
+  "restructured_result": {
+    "conversation_id": "unknown",
+    "customer": "TestCustomer",
+    "created_at": "2025-10-05T00:00:00Z",
+    "created_time": "00:00:00",
+    "conversation_summary": {
+      "total_messages": 2,
+      "customer_messages": 1,
+      "agent_messages": 1,
+      "conversation_type": "Technical Support",
+      "intent": "Account Access",
+      "topic": "Login Issues",
+      "final_sentiment": "Neutral",
+      "categorization": "Technical Support"
+    },
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_description": "Measures Accuracy Compliance performance",
+          "overall_score": 5.25,
+          "kpis": {
+            "resolution_completeness": {
+              "value": 5.9,
+              "score": 5.9,
+              "description": "Performance measure for resolution completeness",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            },
+            "accuracy_automated_responses": {
+              "value": 4.6,
+              "score": 4.6,
+              "description": "Performance measure for accuracy automated responses",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            }
+          },
+          "improvement_suggestions": [
+            "Recommendations for improving accuracy_automated_responses performance",
+            "Recommendations for improving resolution_completeness performance"
+          ]
+        },
+        "empathy_communication": {
+          "category_description": "Measures Empathy Communication performance",
+          "overall_score": 6.066666666666666,
+          "kpis": {
+            "empathy_score": {
+              "value": 6.3,
+              "score": 6.3,
+              "description": "Performance measure for empathy score",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "sentiment_shift": {
+              "value": 6.6,
+              "score": 6.6,
+              "description": "Performance measure for sentiment shift",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "clarity_language": {
+              "value": 6.4,
+              "score": 6.4,
+              "description": "Performance measure for clarity language",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "cultural_sensitivity": {
+              "value": 5.5,
+              "score": 5.5,
+              "description": "Performance measure for cultural sensitivity",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            },
+            "adaptability_quotient": {
+              "value": 5.2,
+              "score": 5.2,
+              "description": "Performance measure for adaptability quotient",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            },
+            "conversation_flow": {
+              "value": 6.4,
+              "score": 6.4,
+              "description": "Performance measure for conversation flow",
+              "benchmark": "N/A",
+              "status": "good"
+            }
+          },
+          "improvement_suggestions": [
+            "Recommendations for improving cultural_sensitivity performance",
+            "Recommendations for improving sentiment_shift performance",
+            "Recommendations for improving empathy_score performance",
+            "Recommendations for improving clarity_language performance",
+            "Recommendations for improving adaptability_quotient performance",
+            "Recommendations for improving conversation_flow performance"
+          ]
+        },
+        "efficiency_resolution": {
+          "category_description": "Measures Efficiency Resolution performance",
+          "overall_score": 5.6499999999999995,
+          "kpis": {
+            "followup_necessity": {
+              "value": 6.0,
+              "score": 6.0,
+              "description": "Performance measure for followup necessity",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "customer_effort_score": {
+              "value": 6.2,
+              "score": 6.2,
+              "description": "Performance measure for customer effort score",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "first_response_accuracy": {
+              "value": 4.5,
+              "score": 4.5,
+              "description": "Performance measure for first response accuracy",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            },
+            "csat_resolution": {
+              "value": 6.2,
+              "score": 6.2,
+              "description": "Performance measure for csat resolution",
+              "benchmark": "N/A",
+              "status": "good"
+            },
+            "escalation_rate": {
+              "value": 5.0,
+              "score": 5.0,
+              "description": "Performance measure for escalation rate",
+              "benchmark": "N/A",
+              "status": "needs_improvement"
+            },
+            "customer_effort_reduction": {
+              "value": 6.0,
+              "score": 6.0,
+              "description": "Performance measure for customer effort reduction",
+              "benchmark": "N/A",
+              "status": "good"
+            }
+          },
+          "improvement_suggestions": [
+            "Recommendations for improving customer_effort_reduction performance",
+            "Recommendations for improving first_response_accuracy performance",
+            "Recommendations for improving followup_necessity performance",
+            "Recommendations for improving customer_effort_score performance",
+            "Recommendations for improving csat_resolution performance",
+            "Recommendations for improving escalation_rate performance"
+          ]
+        }
+      }
+    },
+    "categories": {
+      "accuracy_compliance": {
+        "category_description": "Measures Accuracy Compliance performance",
+        "overall_score": 5.25,
+        "kpis": {
+          "resolution_completeness": {
+            "value": 5.9,
+            "score": 5.9,
+            "description": "Performance measure for resolution completeness",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          },
+          "accuracy_automated_responses": {
+            "value": 4.6,
+            "score": 4.6,
+            "description": "Performance measure for accuracy automated responses",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          }
+        },
+        "improvement_suggestions": [
+          "Recommendations for improving accuracy_automated_responses performance",
+          "Recommendations for improving resolution_completeness performance"
+        ]
+      },
+      "empathy_communication": {
+        "category_description": "Measures Empathy Communication performance",
+        "overall_score": 6.066666666666666,
+        "kpis": {
+          "empathy_score": {
+            "value": 6.3,
+            "score": 6.3,
+            "description": "Performance measure for empathy score",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "sentiment_shift": {
+            "value": 6.6,
+            "score": 6.6,
+            "description": "Performance measure for sentiment shift",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "clarity_language": {
+            "value": 6.4,
+            "score": 6.4,
+            "description": "Performance measure for clarity language",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "cultural_sensitivity": {
+            "value": 5.5,
+            "score": 5.5,
+            "description": "Performance measure for cultural sensitivity",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          },
+          "adaptability_quotient": {
+            "value": 5.2,
+            "score": 5.2,
+            "description": "Performance measure for adaptability quotient",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          },
+          "conversation_flow": {
+            "value": 6.4,
+            "score": 6.4,
+            "description": "Performance measure for conversation flow",
+            "benchmark": "N/A",
+            "status": "good"
+          }
+        },
+        "improvement_suggestions": [
+          "Recommendations for improving cultural_sensitivity performance",
+          "Recommendations for improving sentiment_shift performance",
+          "Recommendations for improving empathy_score performance",
+          "Recommendations for improving clarity_language performance",
+          "Recommendations for improving adaptability_quotient performance",
+          "Recommendations for improving conversation_flow performance"
+        ]
+      },
+      "efficiency_resolution": {
+        "category_description": "Measures Efficiency Resolution performance",
+        "overall_score": 5.6499999999999995,
+        "kpis": {
+          "followup_necessity": {
+            "value": 6.0,
+            "score": 6.0,
+            "description": "Performance measure for followup necessity",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "customer_effort_score": {
+            "value": 6.2,
+            "score": 6.2,
+            "description": "Performance measure for customer effort score",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "first_response_accuracy": {
+            "value": 4.5,
+            "score": 4.5,
+            "description": "Performance measure for first response accuracy",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          },
+          "csat_resolution": {
+            "value": 6.2,
+            "score": 6.2,
+            "description": "Performance measure for csat resolution",
+            "benchmark": "N/A",
+            "status": "good"
+          },
+          "escalation_rate": {
+            "value": 5.0,
+            "score": 5.0,
+            "description": "Performance measure for escalation rate",
+            "benchmark": "N/A",
+            "status": "needs_improvement"
+          },
+          "customer_effort_reduction": {
+            "value": 6.0,
+            "score": 6.0,
+            "description": "Performance measure for customer effort reduction",
+            "benchmark": "N/A",
+            "status": "good"
+          }
+        },
+        "improvement_suggestions": [
+          "Recommendations for improving customer_effort_reduction performance",
+          "Recommendations for improving first_response_accuracy performance",
+          "Recommendations for improving followup_necessity performance",
+          "Recommendations for improving customer_effort_score performance",
+          "Recommendations for improving csat_resolution performance",
+          "Recommendations for improving escalation_rate performance"
+        ]
+      }
+    },
+    "analysis_timestamp": "2025-10-05T00:32:01.005089",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "agent_output": "I'll perform a complete and systematic analysis of the conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 1, \"author_id\": \"customer123\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2025-10-05T00:00:00Z\", \"text\": \"Hello, I need help with my account login issue.\"}, {\"tweet_id\": 2, \"author_id\": \"agent456\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2025-10-05T00:01:00Z\", \"text\": \"I'd be happy to help you with your login issue. Let me check your account.\"}], \"classification\": {\"categorization\": \"Technical Support\", \"intent\": \"Account Access\", \"topic\": \"Login Issues\", \"sentiment\": \"Neutral\"}}</parameter>\n</invoke>\n\nNow I'll systematically analyze each KPI. Let me start with the ACCURACY_COMPLIANCE category:\n\n## 1. Resolution Completeness\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">resolution_completeness</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"resolution_completeness\",\n  \"category\": \"accuracy_compliance\",\n  \"description\": \"Measures how thoroughly and completely customer issues are resolved\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"complete_resolution\": \"Issue fully addressed with clear solution (9-10)\",\n    \"partial_resolution\": \"Issue partially addressed, some gaps remain (6-8)\", \n    \"minimal_resolution\": \"Basic acknowledgment, limited solution provided (3-5)\",\n    \"no_resolution\": \"Issue not addressed or resolved (0-2)\"\n  },\n  \"key_indicators\": [\n    \"All customer concerns addressed\",\n    \"Clear solution or next steps provided\",\n    \"Customer confirmation of resolution\",\n    \"No outstanding questions or issues\"\n  ]\n}</parameter>\n</invoke>\n\n## 2. Accuracy Automated Responses\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">accuracy_automated_responses</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"accuracy_automated_responses\",\n  \"category\": \"accuracy_compliance\", \n  \"description\": \"Evaluates the accuracy and relevance of automated responses to customer queries\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"highly_accurate\": \"Response perfectly matches query context and provides relevant information (9-10)\",\n    \"mostly_accurate\": \"Response is relevant with minor inaccuracies or gaps (7-8)\",\n    \"somewhat_accurate\": \"Response addresses query but has notable inaccuracies (5-6)\",\n    \"inaccurate\": \"Response is irrelevant or contains significant errors (0-4)\"\n  },\n  \"key_indicators\": [\n    \"Response relevance to customer query\",\n    \"Factual accuracy of information provided\", \n    \"Appropriate tone and context matching\",\n    \"No misleading or incorrect guidance\"\n  ]\n}</parameter>\n</invoke>\n\nNow let me continue with the EMPATHY_COMMUNICATION category:\n\n## 3. Empathy Score\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">empathy_score</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"empathy_score\",\n  \"category\": \"empathy_communication\",\n  \"description\": \"Measures the agent's ability to understand and respond to customer emotions with empathy\",\n  \"scale\": \"0-10\", \n  \"evaluation_criteria\": {\n    \"high_empathy\": \"Agent demonstrates deep understanding of customer emotions and responds with genuine care (8-10)\",\n    \"moderate_empathy\": \"Agent shows some emotional awareness and appropriate responses (6-7)\",\n    \"low_empathy\": \"Agent acknowledges customer but lacks emotional connection (4-5)\",\n    \"no_empathy\": \"Agent shows no awareness of customer emotions or responds inappropriately (0-3)\"\n  },\n  \"key_indicators\": [\n    \"Acknowledgment of customer emotions\",\n    \"Use of empathetic language and phrases\",\n    \"Appropriate emotional tone matching\",\n    \"Validation of customer concerns\"\n  ]\n}</parameter>\n</invoke>\n\n## 4. Sentiment Shift\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">sentiment_shift</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"sentiment_shift\",\n  \"category\": \"empathy_communication\",\n  \"description\": \"Tracks changes in customer sentiment throughout the conversation\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"positive_shift\": \"Customer sentiment improves significantly during interaction (8-10)\",\n    \"slight_improvement\": \"Customer sentiment shows modest positive change (6-7)\", \n    \"neutral_stable\": \"Customer sentiment remains stable throughout (5)\",\n    \"negative_shift\": \"Customer sentiment deteriorates during interaction (0-4)\"\n  },\n  \"key_indicators\": [\n    \"Initial customer sentiment level\",\n    \"Final customer sentiment level\", \n    \"Sentiment trajectory throughout conversation\",\n    \"Agent's impact on customer mood\"\n  ]\n}</parameter>\n</invoke>\n\n## 5. Clarity Language\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">clarity_language</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"clarity_language\",\n  \"category\": \"empathy_communication\",\n  \"description\": \"Evaluates how clear, understandable, and jargon-free the agent's communication is\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"very_clear\": \"Language is crystal clear, easy to understand, no jargon (9-10)\",\n    \"mostly_clear\": \"Generally clear with minor unclear elements (7-8)\",\n    \"somewhat_clear\": \"Understandable but has some confusing parts (5-6)\", \n    \"unclear\": \"Difficult to understand, heavy jargon, confusing (0-4)\"\n  },\n  \"key_indicators\": [\n    \"Use of simple, everyday language\",\n    \"Avoidance of technical jargon\",\n    \"Clear structure and flow\",\n    \"Easy comprehension for average customer\"\n  ]\n}</parameter>\n</invoke>\n\n## 6. Cultural Sensitivity\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">cultural_sensitivity</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"cultural_sensitivity\",\n  \"category\": \"empathy_communication\",\n  \"description\": \"Assesses agent's awareness and respect for cultural differences and diverse backgrounds\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"highly_sensitive\": \"Demonstrates excellent cultural awareness and inclusive communication (9-10)\",\n    \"culturally_aware\": \"Shows good cultural sensitivity with minor gaps (7-8)\",\n    \"neutral_approach\": \"Uses standard approach without cultural considerations (5-6)\",\n    \"insensitive\": \"Shows cultural insensitivity or inappropriate assumptions (0-4)\"\n  },\n  \"key_indicators\": [\n    \"Inclusive and respectful language\",\n    \"Avoidance of cultural assumptions\",\n    \"Adaptation to customer communication style\",\n    \"Respect for diverse perspectives\"\n  ]\n}</parameter>\n</invoke>\n\n## 7. Adaptability Quotient\n\n<invoke name=\"configuration_tool\">\n<parameter name=\"kpi_name\">adaptability_quotient</parameter>\n</invoke>\n\n<invoke name=\"conversation_analysis_tool\">\n<parameter name=\"conversation_data\">**Conversation Analysis**\n\n**Participants:** Customer (customer123) and Agent (agent456)\n**Channel:** Twitter/Social Media\n**Classification:** Technical Support - Account Access - Login Issues\n**Overall Sentiment:** Neutral\n\n**Conversation Flow:**\n\n**Turn 1 - Customer (2025-10-05T00:00:00Z):**\n- Role: Customer\n- Message: \"Hello, I need help with my account login issue.\"\n- Sentiment: Neutral\n- Intent: Requesting technical support for login problem\n\n**Turn 2 - Agent (2025-10-05T00:01:00Z):**\n- Role: Agent  \n- Message: \"I'd be happy to help you with your login issue. Let me check your account.\"\n- Sentiment: Positive/Helpful\n- Response Time: 1 minute\n\n**Key Conversation Metrics:**\n- Total Turns: 2\n- Customer Turns: 1\n- Agent Turns: 1\n- Conversation Status: In Progress\n- Issue Type: Technical Support - Login Issues\n- Response Time: 1 minute (very fast)</parameter>\n<parameter name=\"kpi_config\">{\n  \"name\": \"adaptability_quotient\",\n  \"category\": \"empathy_communication\",\n  \"description\": \"Measures agent's ability to adapt communication style and approach based on customer needs\",\n  \"scale\": \"0-10\",\n  \"evaluation_criteria\": {\n    \"highly_adaptable\": \"Agent expertly adjusts approach based on customer cues and needs (9-10)\",\n    \"moderately_adaptable\": \"Agent shows some flexibility in communication approach (6-8)\",\n    \"limited_adaptability\": \"Agent uses mostly standard approach with minimal adjustment (4-5)\",\n    \"rigid_approach\": \"Agent fails to adapt to customer needs or situation (0-3)\"\n  },\n  \"key_indicators\": [\n    \"Recognition of customer communication preferences\",\n    \"Adjustment of tone and style as needed\",\n    \"Flexibility in problem-solving approach\",\n    \"",
+    "source_object_id": "test_object_id_12345",
+    "source_timestamp": "2025-10-05T00:00:00Z",
+    "analysis_metadata": {
+      "processed_timestamp": "2025-10-05 00:32:01.006221",
+      "source_collection": "sentiment_analysis",
+      "analysis_version": "4.2.0",
+      "model_used": "claude-4",
+      "restructured_format": true
+    }
+  },
+  "verification": {
+    "performance_metrics_kpi_count": 14,
+    "top_level_categories_kpi_count": 14,
+    "kpi_counts_match": true,
+    "success": true
+  }
+}

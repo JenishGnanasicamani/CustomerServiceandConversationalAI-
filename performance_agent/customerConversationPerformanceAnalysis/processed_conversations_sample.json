@@ -1,0 +1,138 @@
+[
+  {
+    "conversation_number": "4",
+    "original_id": "68d581f05aabfd4596f3093c",
+    "tweets": [
+      {
+        "tweet_id": 5523,
+        "author_id": "117001",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:12:51 +0000 2017",
+        "text": "@sprintcare @115714 thinking about upgrading my wife's iPhone 6.  What is your best offer?"
+      },
+      {
+        "tweet_id": 5522,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 23:16:16 +0000 2017",
+        "text": "@117001 Hey! We would need to see what offers are available to you. Send us a DM so we can further assist you. -CD"
+      }
+    ],
+    "classification": {
+      "categorization": "Inquiring about phone upgrade and offers",
+      "intent": "Product Inquiry",
+      "topic": "Product Info",
+      "sentiment": "Neutral"
+    },
+    "performance_analysis": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sapaicore. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "conversation_id": "unknown",
+      "analysis_timestamp": "2025-09-25T23:51:00.590311"
+    },
+    "analysis_metadata": {
+      "analyzed_at": "2025-09-25T18:21:00.590477",
+      "analysis_version": "2.0.0",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "gpt-4",
+      "conversation_id": "unknown"
+    }
+  },
+  {
+    "conversation_number": "7",
+    "original_id": "68d581f05aabfd4596f3093f",
+    "tweets": [
+      {
+        "tweet_id": 8867,
+        "author_id": "117592",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:28:34 +0000 2017",
+        "text": "@sprintcare @115714 the sad part is i'm at my own house. and everyone else that i live with, has service. https://t.co/OHhmkBfr0B"
+      },
+      {
+        "tweet_id": 8866,
+        "author_id": "117592",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:30:23 +0000 2017",
+        "text": "@sprintcare @115714 never mind i can't even send txts. https://t.co/iWFDZrLDzF"
+      },
+      {
+        "tweet_id": 8864,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 23:52:12 +0000 2017",
+        "text": "@117592 We will like to take a look into this for you. Shoot us a DM to assist. -JA"
+      },
+      {
+        "tweet_id": 8865,
+        "author_id": "117592",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:52:48 +0000 2017",
+        "text": "@sprintcare well i just tried calling you guys but it automatically fails. i had this problem an hour ago and it's back. just messaged you."
+      }
+    ],
+    "classification": {
+      "categorization": "No service or connectivity issue",
+      "intent": "Technical Support",
+      "topic": "Technical",
+      "sentiment": "Negative"
+    },
+    "performance_analysis": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sapaicore. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "conversation_id": "unknown",
+      "analysis_timestamp": "2025-09-25T23:51:00.920171"
+    },
+    "analysis_metadata": {
+      "analyzed_at": "2025-09-25T18:21:00.920293",
+      "analysis_version": "2.0.0",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "gpt-4",
+      "conversation_id": "unknown"
+    }
+  },
+  {
+    "conversation_number": "10",
+    "original_id": "68d581f05aabfd4596f30942",
+    "tweets": [
+      {
+        "tweet_id": 11327,
+        "author_id": "118160",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Wed Nov 01 00:49:44 +0000 2017",
+        "text": "@sprintcare WTF THEY JUST HUNG UP ON ME AGAIN!!!!"
+      },
+      {
+        "tweet_id": 11326,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Wed Nov 01 00:52:07 +0000 2017",
+        "text": "@118160 We want to help you, in order for us to do so, you'll need to send us a Direct Message so we can better assist. -AG"
+      }
+    ],
+    "classification": {
+      "categorization": "Frustration with previous interaction",
+      "intent": "Technical Support",
+      "topic": "Technical",
+      "sentiment": "Negative"
+    },
+    "performance_analysis": {
+      "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sapaicore. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}",
+      "conversation_id": "unknown",
+      "analysis_timestamp": "2025-09-25T23:51:01.269076"
+    },
+    "analysis_metadata": {
+      "analyzed_at": "2025-09-25T18:21:01.269156",
+      "analysis_version": "2.0.0",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "gpt-4",
+      "conversation_id": "unknown"
+    }
+  }
+]

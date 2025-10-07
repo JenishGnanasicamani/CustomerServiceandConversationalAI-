@@ -1,0 +1,129 @@
+{
+  "_id": "test_conversation_id",
+  "conversation_id": "unknown",
+  "customer": "TestCustomer",
+  "created_at": "2025-10-05T00:16:31.346895",
+  "created_time": "00:16:31",
+  "conversation_summary": {
+    "participant_count": 2,
+    "message_count": 2,
+    "duration_minutes": 5,
+    "resolution_status": "in_progress"
+  },
+  "performance_metrics": {
+    "categories": {
+      "accuracy_compliance": {
+        "category_score": 8.2,
+        "kpis": {
+          "resolution_completeness": {
+            "score": 8.5,
+            "reasoning": "The agent provided a complete resolution pathway for the customer issue."
+          },
+          "accuracy_automated_responses": {
+            "score": 7.9,
+            "reasoning": "Response was accurate to the customer query with appropriate automation."
+          }
+        }
+      },
+      "empathy_communication": {
+        "category_score": 8.56,
+        "kpis": {
+          "empathy_score": {
+            "score": 8.88,
+            "reasoning": "Excellent demonstration of empathy through genuine appreciation. Overall score calculated using weighted formula: 8.88",
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 7.84,
+                "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence"
+              },
+              "acknowledgment_feelings": {
+                "score": 9.09,
+                "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence"
+              },
+              "appropriate_response": {
+                "score": 8.96,
+                "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence"
+              },
+              "personalization": {
+                "score": 9.66,
+                "reasoning": "Sub-factor analysis for Personalization based on conversation evidence"
+              },
+              "supportive_language": {
+                "score": 8.43,
+                "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence"
+              },
+              "active_listening": {
+                "score": 9.84,
+                "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence"
+              }
+            }
+          },
+          "clarity_language": {
+            "score": 8.81,
+            "reasoning": "Clear and professional language used throughout. Overall score calculated using weighted formula: 8.81",
+            "sub_factors": {
+              "readability_level": {
+                "score": 8.78,
+                "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence"
+              },
+              "jargon_usage": {
+                "score": 8.18,
+                "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence"
+              },
+              "sentence_structure": {
+                "score": 9.1,
+                "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence"
+              },
+              "coherence": {
+                "score": 9.25,
+                "reasoning": "Sub-factor analysis for Coherence based on conversation evidence"
+              },
+              "active_voice": {
+                "score": 8.93,
+                "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence"
+              },
+              "conciseness": {
+                "score": 8.52,
+                "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence"
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 8.0,
+            "reasoning": "Good potential for positive sentiment change."
+          }
+        }
+      },
+      "efficiency_resolution": {
+        "category_score": 7.75,
+        "kpis": {
+          "customer_effort_score": {
+            "score": 8.0,
+            "reasoning": "Minimal effort required from customer for issue resolution."
+          },
+          "followup_necessity": {
+            "score": 7.5,
+            "reasoning": "Good follow-up process initiated."
+          }
+        }
+      }
+    },
+    "metadata": {
+      "total_kpis_evaluated": 7,
+      "evaluation_timestamp": "2025-10-05T00:16:31.346895",
+      "model_used": "claude-4"
+    }
+  },
+  "categories": {},
+  "analysis_timestamp": "2025-10-05T00:16:31.346895",
+  "analysis_method": "LLM-based Agent Analysis",
+  "model_used": "claude-4",
+  "agent_output": "Complete analysis performed with 7 KPIs evaluated",
+  "analysis_metadata": {
+    "processed_timestamp": "2025-10-05T00:16:31.346895",
+    "source_collection": "sentiment_analysis",
+    "analysis_version": "4.2.0",
+    "model_used": "claude-4",
+    "restructured_format": true
+  }
+}

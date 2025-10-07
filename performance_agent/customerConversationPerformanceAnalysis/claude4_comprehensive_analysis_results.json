@@ -1,0 +1,1258 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-28T16:50:12.590057",
+    "model": "claude-4",
+    "total_conversations": 4,
+    "analysis_version": "4.1.0",
+    "schema_compliance": "Full Agent Performance Configuration (Clean)",
+    "categories_analyzed": [
+      "accuracy_compliance",
+      "empathy_communication",
+      "efficiency_resolution"
+    ],
+    "kpis_evaluated": {
+      "accuracy_compliance": [
+        "resolution_completeness",
+        "accuracy_automated_responses"
+      ],
+      "empathy_communication": [
+        "empathy_score (with 6 sub-factors)",
+        "sentiment_shift",
+        "clarity_language (with 6 sub-factors)",
+        "cultural_sensitivity",
+        "adaptability_quotient",
+        "conversation_flow"
+      ],
+      "efficiency_resolution": [
+        "followup_necessity",
+        "customer_effort_score",
+        "first_response_accuracy",
+        "csat_resolution",
+        "escalation_rate",
+        "customer_effort_reduction"
+      ]
+    },
+    "excluded_sections": [
+      "overall_assessment",
+      "claude4_insights"
+    ]
+  },
+  "results": [
+    {
+      "conversation_id": "conv_001",
+      "analysis_timestamp": "2025-09-28T16:50:12.589722",
+      "analysis_method": "Claude-4 via SAP AI Core (Simulated)",
+      "model_used": "claude-4",
+      "conversation_summary": {
+        "total_messages": 5,
+        "customer_messages": 3,
+        "agent_messages": 2,
+        "conversation_type": "Technical Support",
+        "final_sentiment": "Positive",
+        "intent": "Technical Support",
+        "topic": "Technical",
+        "categorization": "Technical Support - Internet Connectivity"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": {
+            "score": 1,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "Yes",
+            "target": {
+              "value": 1,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue was fully addressed"
+            ]
+          },
+          "accuracy_automated_responses": {
+            "score": 90,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 95,
+              "operator": ">"
+            },
+            "evidence": [
+              "Responses were factually correct and relevant"
+            ]
+          }
+        },
+        "empathy_communication": {
+          "empathy_score": {
+            "overall_score": 9.21,
+            "max_score": 10.0,
+            "interpretation": "Excellent",
+            "target": {
+              "value": 7,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 9.9,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent recognized customer emotional state"
+                ]
+              },
+              "acknowledgment_feelings": {
+                "score": 8.25,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent acknowledged customer emotions appropriately"
+                ]
+              },
+              "appropriate_response": {
+                "score": 10.45,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Response tone was suitable for the situation"
+                ]
+              },
+              "personalization": {
+                "score": 7.7,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Personalized approach to customer situation"
+                ]
+              },
+              "supportive_language": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Used supportive and understanding language"
+                ]
+              },
+              "active_listening": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.1,
+                "evidence": [
+                  "Demonstrated understanding of customer concerns"
+                ]
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 0.8,
+            "scale": "numeric",
+            "range": [
+              -1,
+              1
+            ],
+            "interpretation": "Positive shift",
+            "target": {
+              "value": 0,
+              "operator": ">"
+            },
+            "evidence": [
+              "Customer sentiment improved during interaction"
+            ]
+          },
+          "clarity_language": {
+            "overall_score": 9.14,
+            "max_score": 10.0,
+            "interpretation": "Excellent",
+            "target": {
+              "value": 8,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "readability_level": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.25,
+                "evidence": [
+                  "Language was clear and understandable"
+                ]
+              },
+              "jargon_usage": {
+                "score": 85.8,
+                "max_score": 100,
+                "weight": 0.15,
+                "evidence": [
+                  "Technical terms were explained appropriately"
+                ]
+              },
+              "sentence_structure": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Sentences were well-structured"
+                ]
+              },
+              "coherence": {
+                "score": 9.57,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Ideas flowed logically"
+                ]
+              },
+              "active_voice": {
+                "score": 79.2,
+                "max_score": 100,
+                "weight": 0.1,
+                "evidence": [
+                  "Active voice used effectively"
+                ]
+              },
+              "conciseness": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Communication was concise and to the point"
+                ]
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 4.18,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Culturally appropriate language used"
+            ]
+          },
+          "adaptability_quotient": {
+            "score": 99.0,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 80,
+              "operator": ">="
+            },
+            "evidence": [
+              "Agent adapted communication style appropriately"
+            ]
+          },
+          "conversation_flow": {
+            "score": 4.95,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Conversation flowed naturally"
+            ]
+          }
+        },
+        "efficiency_resolution": {
+          "followup_necessity": {
+            "score": 0,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "No follow-up needed",
+            "target": {
+              "value": 0,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution status evaluated"
+            ]
+          },
+          "customer_effort_score": {
+            "score": 2.4,
+            "max_score": 7,
+            "scale": "numeric",
+            "interpretation": "Low effort",
+            "target": {
+              "value": 3,
+              "operator": "<"
+            },
+            "evidence": [
+              "Customer effort level assessed"
+            ]
+          },
+          "first_response_accuracy": {
+            "score": 95,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 90,
+              "operator": ">"
+            },
+            "evidence": [
+              "First response was accurate and relevant"
+            ]
+          },
+          "csat_resolution": {
+            "score": 5,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4.5,
+              "operator": ">="
+            },
+            "evidence": [
+              "Customer satisfaction with resolution assessed"
+            ]
+          },
+          "escalation_rate": {
+            "score": 2,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 10,
+              "operator": "<"
+            },
+            "evidence": [
+              "Escalation requirement evaluated"
+            ]
+          },
+          "customer_effort_reduction": {
+            "score": -13,
+            "scale": "percentage_change",
+            "range": [
+              -100,
+              100
+            ],
+            "interpretation": "Improving",
+            "target": {
+              "value": -10,
+              "operator": "<="
+            },
+            "evidence": [
+              "Customer effort reduction trend analyzed"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "conversation_id": "conv_002",
+      "analysis_timestamp": "2025-09-28T16:50:12.589805",
+      "analysis_method": "Claude-4 via SAP AI Core (Simulated)",
+      "model_used": "claude-4",
+      "conversation_summary": {
+        "total_messages": 4,
+        "customer_messages": 2,
+        "agent_messages": 2,
+        "conversation_type": "Billing Support",
+        "final_sentiment": "Neutral",
+        "intent": "Billing Support",
+        "topic": "Billing",
+        "categorization": "Billing Inquiry - Unexpected Charges"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": {
+            "score": 0,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "No",
+            "target": {
+              "value": 1,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution unclear"
+            ]
+          },
+          "accuracy_automated_responses": {
+            "score": 100,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 95,
+              "operator": ">"
+            },
+            "evidence": [
+              "Responses were factually correct and relevant"
+            ]
+          }
+        },
+        "empathy_communication": {
+          "empathy_score": {
+            "overall_score": 7.82,
+            "max_score": 10.0,
+            "interpretation": "Strong",
+            "target": {
+              "value": 7,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 8.0,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent recognized customer emotional state"
+                ]
+              },
+              "acknowledgment_feelings": {
+                "score": 9.5,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent acknowledged customer emotions appropriately"
+                ]
+              },
+              "appropriate_response": {
+                "score": 7.0,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Response tone was suitable for the situation"
+                ]
+              },
+              "personalization": {
+                "score": 7.0,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Personalized approach to customer situation"
+                ]
+              },
+              "supportive_language": {
+                "score": 6.8,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Used supportive and understanding language"
+                ]
+              },
+              "active_listening": {
+                "score": 8.5,
+                "max_score": 10,
+                "weight": 0.1,
+                "evidence": [
+                  "Demonstrated understanding of customer concerns"
+                ]
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 0.2,
+            "scale": "numeric",
+            "range": [
+              -1,
+              1
+            ],
+            "interpretation": "Positive shift",
+            "target": {
+              "value": 0,
+              "operator": ">"
+            },
+            "evidence": [
+              "Customer sentiment improved during interaction"
+            ]
+          },
+          "clarity_language": {
+            "overall_score": 8.38,
+            "max_score": 10.0,
+            "interpretation": "Good",
+            "target": {
+              "value": 8,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "readability_level": {
+                "score": 8.5,
+                "max_score": 10,
+                "weight": 0.25,
+                "evidence": [
+                  "Language was clear and understandable"
+                ]
+              },
+              "jargon_usage": {
+                "score": 90.0,
+                "max_score": 100,
+                "weight": 0.15,
+                "evidence": [
+                  "Technical terms were explained appropriately"
+                ]
+              },
+              "sentence_structure": {
+                "score": 7.8,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Sentences were well-structured"
+                ]
+              },
+              "coherence": {
+                "score": 8.7,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Ideas flowed logically"
+                ]
+              },
+              "active_voice": {
+                "score": 72.0,
+                "max_score": 100,
+                "weight": 0.1,
+                "evidence": [
+                  "Active voice used effectively"
+                ]
+              },
+              "conciseness": {
+                "score": 8.5,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Communication was concise and to the point"
+                ]
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 3.8,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Good",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Culturally appropriate language used"
+            ]
+          },
+          "adaptability_quotient": {
+            "score": 90.0,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 80,
+              "operator": ">="
+            },
+            "evidence": [
+              "Agent adapted communication style appropriately"
+            ]
+          },
+          "conversation_flow": {
+            "score": 4.5,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Conversation flowed naturally"
+            ]
+          }
+        },
+        "efficiency_resolution": {
+          "followup_necessity": {
+            "score": 1,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "Follow-up needed",
+            "target": {
+              "value": 0,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution status evaluated"
+            ]
+          },
+          "customer_effort_score": {
+            "score": 3.2,
+            "max_score": 7,
+            "scale": "numeric",
+            "interpretation": "Moderate effort",
+            "target": {
+              "value": 3,
+              "operator": "<"
+            },
+            "evidence": [
+              "Customer effort level assessed"
+            ]
+          },
+          "first_response_accuracy": {
+            "score": 90,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 90,
+              "operator": ">"
+            },
+            "evidence": [
+              "First response was accurate and relevant"
+            ]
+          },
+          "csat_resolution": {
+            "score": 3.8,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Good",
+            "target": {
+              "value": 4.5,
+              "operator": ">="
+            },
+            "evidence": [
+              "Customer satisfaction with resolution assessed"
+            ]
+          },
+          "escalation_rate": {
+            "score": 12,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 10,
+              "operator": "<"
+            },
+            "evidence": [
+              "Escalation requirement evaluated"
+            ]
+          },
+          "customer_effort_reduction": {
+            "score": -8,
+            "scale": "percentage_change",
+            "range": [
+              -100,
+              100
+            ],
+            "interpretation": "Stable",
+            "target": {
+              "value": -10,
+              "operator": "<="
+            },
+            "evidence": [
+              "Customer effort reduction trend analyzed"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "conversation_id": "conv_003",
+      "analysis_timestamp": "2025-09-28T16:50:12.589869",
+      "analysis_method": "Claude-4 via SAP AI Core (Simulated)",
+      "model_used": "claude-4",
+      "conversation_summary": {
+        "total_messages": 4,
+        "customer_messages": 2,
+        "agent_messages": 2,
+        "conversation_type": "Complaint Resolution",
+        "final_sentiment": "Negative",
+        "intent": "Complaint Resolution",
+        "topic": "Technical",
+        "categorization": "Service Complaint - Multiple Issues"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": {
+            "score": 1,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "Yes",
+            "target": {
+              "value": 1,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue was fully addressed"
+            ]
+          },
+          "accuracy_automated_responses": {
+            "score": 95,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 95,
+              "operator": ">"
+            },
+            "evidence": [
+              "Responses were factually correct and relevant"
+            ]
+          }
+        },
+        "empathy_communication": {
+          "empathy_score": {
+            "overall_score": 7.2,
+            "max_score": 10.0,
+            "interpretation": "Strong",
+            "target": {
+              "value": 7,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 7.65,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent recognized customer emotional state"
+                ]
+              },
+              "acknowledgment_feelings": {
+                "score": 8.07,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent acknowledged customer emotions appropriately"
+                ]
+              },
+              "appropriate_response": {
+                "score": 6.8,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Response tone was suitable for the situation"
+                ]
+              },
+              "personalization": {
+                "score": 5.95,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Personalized approach to customer situation"
+                ]
+              },
+              "supportive_language": {
+                "score": 7.22,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Used supportive and understanding language"
+                ]
+              },
+              "active_listening": {
+                "score": 7.22,
+                "max_score": 10,
+                "weight": 0.1,
+                "evidence": [
+                  "Demonstrated understanding of customer concerns"
+                ]
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": -0.3,
+            "scale": "numeric",
+            "range": [
+              -1,
+              1
+            ],
+            "interpretation": "Negative shift",
+            "target": {
+              "value": 0,
+              "operator": ">"
+            },
+            "evidence": [
+              "Customer sentiment declined during interaction"
+            ]
+          },
+          "clarity_language": {
+            "overall_score": 7.12,
+            "max_score": 10.0,
+            "interpretation": "Good",
+            "target": {
+              "value": 8,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "readability_level": {
+                "score": 7.22,
+                "max_score": 10,
+                "weight": 0.25,
+                "evidence": [
+                  "Language was clear and understandable"
+                ]
+              },
+              "jargon_usage": {
+                "score": 76.5,
+                "max_score": 100,
+                "weight": 0.15,
+                "evidence": [
+                  "Technical terms were explained appropriately"
+                ]
+              },
+              "sentence_structure": {
+                "score": 6.63,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Sentences were well-structured"
+                ]
+              },
+              "coherence": {
+                "score": 7.39,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Ideas flowed logically"
+                ]
+              },
+              "active_voice": {
+                "score": 61.2,
+                "max_score": 100,
+                "weight": 0.1,
+                "evidence": [
+                  "Active voice used effectively"
+                ]
+              },
+              "conciseness": {
+                "score": 7.22,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Communication was concise and to the point"
+                ]
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 3.23,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Good",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Culturally appropriate language used"
+            ]
+          },
+          "adaptability_quotient": {
+            "score": 76.5,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 80,
+              "operator": ">="
+            },
+            "evidence": [
+              "Agent adapted communication style appropriately"
+            ]
+          },
+          "conversation_flow": {
+            "score": 3.82,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Good",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Conversation flowed naturally"
+            ]
+          }
+        },
+        "efficiency_resolution": {
+          "followup_necessity": {
+            "score": 0,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "No follow-up needed",
+            "target": {
+              "value": 0,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution status evaluated"
+            ]
+          },
+          "customer_effort_score": {
+            "score": 4.5,
+            "max_score": 7,
+            "scale": "numeric",
+            "interpretation": "Moderate effort",
+            "target": {
+              "value": 3,
+              "operator": "<"
+            },
+            "evidence": [
+              "Customer effort level assessed"
+            ]
+          },
+          "first_response_accuracy": {
+            "score": 82,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 90,
+              "operator": ">"
+            },
+            "evidence": [
+              "First response was accurate and relevant"
+            ]
+          },
+          "csat_resolution": {
+            "score": 4.1,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Good",
+            "target": {
+              "value": 4.5,
+              "operator": ">="
+            },
+            "evidence": [
+              "Customer satisfaction with resolution assessed"
+            ]
+          },
+          "escalation_rate": {
+            "score": 5,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 10,
+              "operator": "<"
+            },
+            "evidence": [
+              "Escalation requirement evaluated"
+            ]
+          },
+          "customer_effort_reduction": {
+            "score": -5,
+            "scale": "percentage_change",
+            "range": [
+              -100,
+              100
+            ],
+            "interpretation": "Stable",
+            "target": {
+              "value": -10,
+              "operator": "<="
+            },
+            "evidence": [
+              "Customer effort reduction trend analyzed"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "conversation_id": "conv_004",
+      "analysis_timestamp": "2025-09-28T16:50:12.590039",
+      "analysis_method": "Claude-4 via SAP AI Core (Simulated)",
+      "model_used": "claude-4",
+      "conversation_summary": {
+        "total_messages": 4,
+        "customer_messages": 2,
+        "agent_messages": 2,
+        "conversation_type": "Sales Support",
+        "final_sentiment": "Positive",
+        "intent": "Sales Support",
+        "topic": "Product Info",
+        "categorization": "Sales Inquiry - Plan Upgrade"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": {
+            "score": 0,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "No",
+            "target": {
+              "value": 1,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution unclear"
+            ]
+          },
+          "accuracy_automated_responses": {
+            "score": 85,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 95,
+              "operator": ">"
+            },
+            "evidence": [
+              "Responses were factually correct and relevant"
+            ]
+          }
+        },
+        "empathy_communication": {
+          "empathy_score": {
+            "overall_score": 8.08,
+            "max_score": 10.0,
+            "interpretation": "Strong",
+            "target": {
+              "value": 7,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 7.15,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent recognized customer emotional state"
+                ]
+              },
+              "acknowledgment_feelings": {
+                "score": 6.6,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Agent acknowledged customer emotions appropriately"
+                ]
+              },
+              "appropriate_response": {
+                "score": 10.45,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Response tone was suitable for the situation"
+                ]
+              },
+              "personalization": {
+                "score": 7.7,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Personalized approach to customer situation"
+                ]
+              },
+              "supportive_language": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Used supportive and understanding language"
+                ]
+              },
+              "active_listening": {
+                "score": 6.82,
+                "max_score": 10,
+                "weight": 0.1,
+                "evidence": [
+                  "Demonstrated understanding of customer concerns"
+                ]
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 0.8,
+            "scale": "numeric",
+            "range": [
+              -1,
+              1
+            ],
+            "interpretation": "Positive shift",
+            "target": {
+              "value": 0,
+              "operator": ">"
+            },
+            "evidence": [
+              "Customer sentiment improved during interaction"
+            ]
+          },
+          "clarity_language": {
+            "overall_score": 9.48,
+            "max_score": 10.0,
+            "interpretation": "Excellent",
+            "target": {
+              "value": 8,
+              "operator": ">="
+            },
+            "sub_factors": {
+              "readability_level": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.25,
+                "evidence": [
+                  "Language was clear and understandable"
+                ]
+              },
+              "jargon_usage": {
+                "score": 99.0,
+                "max_score": 100,
+                "weight": 0.15,
+                "evidence": [
+                  "Technical terms were explained appropriately"
+                ]
+              },
+              "sentence_structure": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Sentences were well-structured"
+                ]
+              },
+              "coherence": {
+                "score": 9.57,
+                "max_score": 10,
+                "weight": 0.2,
+                "evidence": [
+                  "Ideas flowed logically"
+                ]
+              },
+              "active_voice": {
+                "score": 93.5,
+                "max_score": 100,
+                "weight": 0.1,
+                "evidence": [
+                  "Active voice used effectively"
+                ]
+              },
+              "conciseness": {
+                "score": 9.35,
+                "max_score": 10,
+                "weight": 0.15,
+                "evidence": [
+                  "Communication was concise and to the point"
+                ]
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 4.18,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Culturally appropriate language used"
+            ]
+          },
+          "adaptability_quotient": {
+            "score": 99.0,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 80,
+              "operator": ">="
+            },
+            "evidence": [
+              "Agent adapted communication style appropriately"
+            ]
+          },
+          "conversation_flow": {
+            "score": 4.95,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4,
+              "operator": ">="
+            },
+            "evidence": [
+              "Conversation flowed naturally"
+            ]
+          }
+        },
+        "efficiency_resolution": {
+          "followup_necessity": {
+            "score": 1,
+            "max_score": 1,
+            "scale": "binary",
+            "interpretation": "Follow-up needed",
+            "target": {
+              "value": 0,
+              "operator": "="
+            },
+            "evidence": [
+              "Issue resolution status evaluated"
+            ]
+          },
+          "customer_effort_score": {
+            "score": 2.4,
+            "max_score": 7,
+            "scale": "numeric",
+            "interpretation": "Low effort",
+            "target": {
+              "value": 3,
+              "operator": "<"
+            },
+            "evidence": [
+              "Customer effort level assessed"
+            ]
+          },
+          "first_response_accuracy": {
+            "score": 87,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Good",
+            "target": {
+              "value": 90,
+              "operator": ">"
+            },
+            "evidence": [
+              "First response was accurate and relevant"
+            ]
+          },
+          "csat_resolution": {
+            "score": 4.7,
+            "max_score": 5,
+            "scale": "numeric",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 4.5,
+              "operator": ">="
+            },
+            "evidence": [
+              "Customer satisfaction with resolution assessed"
+            ]
+          },
+          "escalation_rate": {
+            "score": 9,
+            "max_score": 100,
+            "scale": "percentage",
+            "interpretation": "Excellent",
+            "target": {
+              "value": 10,
+              "operator": "<"
+            },
+            "evidence": [
+              "Escalation requirement evaluated"
+            ]
+          },
+          "customer_effort_reduction": {
+            "score": -13,
+            "scale": "percentage_change",
+            "range": [
+              -100,
+              100
+            ],
+            "interpretation": "Improving",
+            "target": {
+              "value": -10,
+              "operator": "<="
+            },
+            "evidence": [
+              "Customer effort reduction trend analyzed"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

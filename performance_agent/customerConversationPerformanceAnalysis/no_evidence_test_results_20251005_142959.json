@@ -1,0 +1,169 @@
+{
+  "conversation_id": "unknown",
+  "analysis_timestamp": "2025-10-05T14:29:59.519382",
+  "analysis_method": "LLM-based Agent Analysis",
+  "model_used": "claude-4",
+  "performance_metrics": {
+    "categories": {
+      "accuracy_compliance": {
+        "category_score": 10.0,
+        "kpis": {
+          "resolution_completeness": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "accuracy_automated_responses": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      },
+      "empathy_communication": {
+        "category_score": 8.64,
+        "kpis": {
+          "empathy_score": {
+            "score": 6.07,
+            "reasoning": "No Evidence Overall score calculated using weighted formula: 6.07",
+            "evidence": [],
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 6.2,
+                "reasoning": "No Evidence - Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                "evidence": []
+              },
+              "acknowledgment_feelings": {
+                "score": 5.7,
+                "reasoning": "No Evidence - Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                "evidence": []
+              },
+              "appropriate_response": {
+                "score": 6.76,
+                "reasoning": "No Evidence - Sub-factor analysis for Appropriate Response based on conversation evidence",
+                "evidence": []
+              },
+              "personalization": {
+                "score": 6.29,
+                "reasoning": "No Evidence - Sub-factor analysis for Personalization based on conversation evidence",
+                "evidence": []
+              },
+              "supportive_language": {
+                "score": 5.09,
+                "reasoning": "No Evidence - Sub-factor analysis for Supportive Language based on conversation evidence",
+                "evidence": []
+              },
+              "active_listening": {
+                "score": 6.31,
+                "reasoning": "No Evidence - Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                "evidence": []
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "clarity_language": {
+            "score": 5.76,
+            "reasoning": "No Evidence Overall score calculated using weighted formula: 5.76",
+            "evidence": [],
+            "sub_factors": {
+              "readability_level": {
+                "score": 6.26,
+                "reasoning": "No Evidence - Sub-factor analysis for Readability Level based on conversation evidence",
+                "evidence": []
+              },
+              "jargon_usage": {
+                "score": 6.31,
+                "reasoning": "No Evidence - Sub-factor analysis for Jargon Usage based on conversation evidence",
+                "evidence": []
+              },
+              "sentence_structure": {
+                "score": 5.18,
+                "reasoning": "No Evidence - Sub-factor analysis for Sentence Structure based on conversation evidence",
+                "evidence": []
+              },
+              "coherence": {
+                "score": 5.14,
+                "reasoning": "No Evidence - Sub-factor analysis for Coherence based on conversation evidence",
+                "evidence": []
+              },
+              "active_voice": {
+                "score": 6.26,
+                "reasoning": "No Evidence - Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                "evidence": []
+              },
+              "conciseness": {
+                "score": 5.46,
+                "reasoning": "No Evidence - Sub-factor analysis for Conciseness based on conversation evidence",
+                "evidence": []
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "adaptability_quotient": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "conversation_flow": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      },
+      "efficiency_resolution": {
+        "category_score": 10.0,
+        "kpis": {
+          "followup_necessity": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "customer_effort_score": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "first_response_accuracy": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "csat_resolution": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "escalation_rate": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "customer_effort_reduction": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      }
+    },
+    "metadata": {
+      "total_kpis_evaluated": 14,
+      "evaluation_timestamp": "2025-10-05T14:29:59.519259",
+      "model_used": "claude-4"
+    }
+  },
+  "overall_performance": {
+    "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+    "method": "LLM-based comprehensive evaluation"
+  },
+  "agent_output": "I'll perform a complete and systematic analysis of the conversation against all 14 configured KPIs. Let me start by formatting the conversation data and then analyze each KPI thoroughly.\n\n<conversation_formatter_tool>\n{\"tweets\": [{\"tweet_id\": 1, \"author_id\": \"customer456\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-15T10:00:00Z\", \"text\": \"Hello\"}, {\"tweet_id\": 2, \"author_id\": \"support_agent\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-15T10:01:00Z\", \"text\": \"Hi, how can I help?\"}, {\"tweet_id\": 3, \"author_id\": \"customer456\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-15T10:02:00Z\", \"text\": \"Just checking our service status\"}, {\"tweet_id\": 4, \"author_id\": \"support_agent\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-15T10:03:00Z\", \"text\": \"All services are operational\"}, {\"tweet_id\": 5, \"author_id\": \"customer456\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-15T10:04:00Z\", \"text\": \"OK thanks\"}], \"classification\"..."
+}

@@ -1,0 +1,237 @@
+{
+  "conversation_id": "unknown",
+  "analysis_timestamp": "2025-10-05T17:55:23.384032",
+  "analysis_method": "Orchestrator-based per-category Analysis",
+  "model_used": "claude-4",
+  "performance_metrics": {
+    "categories": {
+      "accuracy_compliance": {
+        "name": "accuracy_compliance",
+        "kpis": {
+          "resolution_completeness": {
+            "name": "resolution_completeness",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for resolution completeness in category accuracy_compliance. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review resolution completeness performance in future interactions"
+            ]
+          },
+          "accuracy_automated_responses": {
+            "name": "accuracy_automated_responses",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for accuracy automated responses in category accuracy_compliance. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review accuracy automated responses performance in future interactions"
+            ]
+          }
+        },
+        "category_score": 6.0,
+        "analysis_timestamp": "2025-10-05T17:54:05.516504",
+        "analysis_method": "Orchestrator per-category analysis",
+        "category_performance": "Good"
+      },
+      "empathy_communication": {
+        "name": "empathy_communication",
+        "kpis": {
+          "empathy_score": {
+            "name": "empathy_score",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for empathy score in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review empathy score performance in future interactions"
+            ]
+          },
+          "sentiment_shift": {
+            "name": "sentiment_shift",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for sentiment shift in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review sentiment shift performance in future interactions"
+            ]
+          },
+          "clarity_language": {
+            "name": "clarity_language",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for clarity language in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review clarity language performance in future interactions"
+            ]
+          },
+          "cultural_sensitivity": {
+            "name": "cultural_sensitivity",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for cultural sensitivity in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review cultural sensitivity performance in future interactions"
+            ]
+          },
+          "adaptability_quotient": {
+            "name": "adaptability_quotient",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for adaptability quotient in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review adaptability quotient performance in future interactions"
+            ]
+          },
+          "conversation_flow": {
+            "name": "conversation_flow",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for conversation flow in category empathy_communication. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review conversation flow performance in future interactions"
+            ]
+          }
+        },
+        "category_score": 6.0,
+        "analysis_timestamp": "2025-10-05T17:54:44.887786",
+        "analysis_method": "Orchestrator per-category analysis",
+        "category_performance": "Good"
+      },
+      "efficiency_resolution": {
+        "name": "efficiency_resolution",
+        "kpis": {
+          "followup_necessity": {
+            "name": "followup_necessity",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for followup necessity in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review followup necessity performance in future interactions"
+            ]
+          },
+          "customer_effort_score": {
+            "name": "customer_effort_score",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for customer effort score in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review customer effort score performance in future interactions"
+            ]
+          },
+          "first_response_accuracy": {
+            "name": "first_response_accuracy",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for first response accuracy in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review first response accuracy performance in future interactions"
+            ]
+          },
+          "csat_resolution": {
+            "name": "csat_resolution",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for csat resolution in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review csat resolution performance in future interactions"
+            ]
+          },
+          "escalation_rate": {
+            "name": "escalation_rate",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for escalation rate in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review escalation rate performance in future interactions"
+            ]
+          },
+          "customer_effort_reduction": {
+            "name": "customer_effort_reduction",
+            "score": 6.0,
+            "normalized_score": 0.6,
+            "reasoning": "Fallback analysis for customer effort reduction in category efficiency_resolution. Limited evidence available for detailed assessment.",
+            "evidence": [],
+            "confidence": 0.5,
+            "interpretation": "Good",
+            "recommendations": [
+              "Review customer effort reduction performance in future interactions"
+            ]
+          }
+        },
+        "category_score": 6.0,
+        "analysis_timestamp": "2025-10-05T17:55:23.355867",
+        "analysis_method": "Orchestrator per-category analysis",
+        "category_performance": "Good"
+      }
+    },
+    "metadata": {
+      "total_categories_analyzed": 3,
+      "total_kpis_evaluated": 14,
+      "evaluation_timestamp": "2025-10-05T17:55:23.384015",
+      "model_used": "claude-4",
+      "analysis_duration_seconds": 122.08,
+      "analysis_method": "Orchestrator per-category analysis"
+    }
+  },
+  "overall_performance": {
+    "overall_score": 6.0,
+    "normalized_score": 0.6,
+    "performance_level": "Good",
+    "summary": "Successfully analyzed 3 categories",
+    "successful_categories": [
+      "accuracy_compliance",
+      "empathy_communication",
+      "efficiency_resolution"
+    ],
+    "failed_categories": [],
+    "method": "Orchestrator per-category aggregation"
+  },
+  "analysis_summary": {
+    "successful_categories": 3,
+    "failed_categories": 0,
+    "success_rate": 100.0,
+    "total_analysis_time": 122.08,
+    "categories_analyzed": [
+      "accuracy_compliance",
+      "empathy_communication",
+      "efficiency_resolution"
+    ]
+  }
+}

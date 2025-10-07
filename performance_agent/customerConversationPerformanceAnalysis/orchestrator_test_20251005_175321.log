@@ -1,0 +1,294 @@
+2025-10-05 17:53:21,215 - __main__ - INFO - Starting Orchestrator Agent Implementation Tests
+2025-10-05 17:53:21,216 - __main__ - INFO - ============================================================
+2025-10-05 17:53:21,216 - __main__ - INFO - === Testing Configuration Loading ===
+2025-10-05 17:53:21,226 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,235 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,236 - __main__ - INFO - Configuration loaded successfully
+2025-10-05 17:53:21,236 - __main__ - INFO - Available categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:53:21,245 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,245 - __main__ - INFO -   - accuracy_compliance: 2 KPIs
+2025-10-05 17:53:21,245 - __main__ - INFO -     Sample KPIs: resolution_completeness, accuracy_automated_responses
+2025-10-05 17:53:21,255 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,255 - __main__ - INFO -   - empathy_communication: 6 KPIs
+2025-10-05 17:53:21,255 - __main__ - INFO -     Sample KPIs: empathy_score, sentiment_shift, clarity_language
+2025-10-05 17:53:21,265 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,265 - __main__ - INFO -   - efficiency_resolution: 6 KPIs
+2025-10-05 17:53:21,265 - __main__ - INFO -     Sample KPIs: followup_necessity, customer_effort_score, first_response_accuracy
+2025-10-05 17:53:21,265 - __main__ - INFO - Total KPIs across all categories: 14
+2025-10-05 17:53:21,265 - __main__ - INFO - === Testing Orchestrator Agent (Sequential Analysis) ===
+2025-10-05 17:53:21,267 - aicore_service - INFO - Successfully loaded AI Core credentials from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/aicore_credentials.yaml
+2025-10-05 17:53:21,267 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:53:21,290 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,291 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:53:21,300 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,300 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:53:21,300 - __main__ - INFO - Created sample conversation with 7 tweets
+2025-10-05 17:53:21,300 - __main__ - INFO - Starting orchestrator-based sequential analysis...
+2025-10-05 17:53:21,300 - orchestrator_agent_service - INFO - Starting orchestrator-based comprehensive analysis
+2025-10-05 17:53:21,309 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:53:21,309 - orchestrator_agent_service - INFO - Orchestrator will analyze 3 categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:53:21,309 - orchestrator_agent_service - INFO - Analyzing category 1/3: accuracy_compliance
+2025-10-05 17:53:21,309 - orchestrator_agent_service - INFO - Analyzing category 'accuracy_compliance' (attempt 1/2)
+2025-10-05 17:53:21,309 - llm_agent_service - INFO - Starting LLM-based category analysis for accuracy_compliance
+2025-10-05 17:53:21,368 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:53:21,368 - aicore_service - INFO - Refreshing AI Core access token (attempt 1)
+2025-10-05 17:53:22,482 - aicore_service - INFO - Successfully refreshed AI Core access token, expires at 2025-10-06 05:53:21.482222
+2025-10-05 17:54:05,514 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:54:05,531 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:54:05,531 - orchestrator_agent_service - INFO - Extracting KPIs for category accuracy_compliance: ['resolution_completeness', 'accuracy_automated_responses']
+2025-10-05 17:54:05,531 - orchestrator_agent_service - WARNING - KPI resolution_completeness not found in analysis, creating fallback
+2025-10-05 17:54:05,531 - orchestrator_agent_service - WARNING - KPI accuracy_automated_responses not found in analysis, creating fallback
+2025-10-05 17:54:05,531 - orchestrator_agent_service - INFO - Successfully extracted 2 KPIs for category accuracy_compliance
+2025-10-05 17:54:05,543 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:54:05,543 - orchestrator_agent_service - INFO - ✓ Category 'accuracy_compliance' analysis successful on attempt 1
+2025-10-05 17:54:05,543 - orchestrator_agent_service - INFO - ✓ Category accuracy_compliance analyzed successfully (2 KPIs)
+2025-10-05 17:54:05,543 - orchestrator_agent_service - INFO - Analyzing category 2/3: empathy_communication
+2025-10-05 17:54:05,543 - orchestrator_agent_service - INFO - Analyzing category 'empathy_communication' (attempt 1/2)
+2025-10-05 17:54:05,543 - llm_agent_service - INFO - Starting LLM-based category analysis for empathy_communication
+2025-10-05 17:54:05,544 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:54:44,886 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:54:44,902 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:54:44,902 - orchestrator_agent_service - INFO - Extracting KPIs for category empathy_communication: ['empathy_score', 'sentiment_shift', 'clarity_language', 'cultural_sensitivity', 'adaptability_quotient', 'conversation_flow']
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI empathy_score not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI sentiment_shift not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI clarity_language not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI cultural_sensitivity not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI adaptability_quotient not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - WARNING - KPI conversation_flow not found in analysis, creating fallback
+2025-10-05 17:54:44,902 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category empathy_communication
+2025-10-05 17:54:44,914 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:54:44,914 - orchestrator_agent_service - INFO - ✓ Category 'empathy_communication' analysis successful on attempt 1
+2025-10-05 17:54:44,914 - orchestrator_agent_service - INFO - ✓ Category empathy_communication analyzed successfully (6 KPIs)
+2025-10-05 17:54:44,914 - orchestrator_agent_service - INFO - Analyzing category 3/3: efficiency_resolution
+2025-10-05 17:54:44,915 - orchestrator_agent_service - INFO - Analyzing category 'efficiency_resolution' (attempt 1/2)
+2025-10-05 17:54:44,915 - llm_agent_service - INFO - Starting LLM-based category analysis for efficiency_resolution
+2025-10-05 17:54:44,916 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:55:23,351 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:55:23,372 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:55:23,372 - orchestrator_agent_service - INFO - Extracting KPIs for category efficiency_resolution: ['followup_necessity', 'customer_effort_score', 'first_response_accuracy', 'csat_resolution', 'escalation_rate', 'customer_effort_reduction']
+2025-10-05 17:55:23,372 - orchestrator_agent_service - WARNING - KPI followup_necessity not found in analysis, creating fallback
+2025-10-05 17:55:23,372 - orchestrator_agent_service - WARNING - KPI customer_effort_score not found in analysis, creating fallback
+2025-10-05 17:55:23,372 - orchestrator_agent_service - WARNING - KPI first_response_accuracy not found in analysis, creating fallback
+2025-10-05 17:55:23,373 - orchestrator_agent_service - WARNING - KPI csat_resolution not found in analysis, creating fallback
+2025-10-05 17:55:23,373 - orchestrator_agent_service - WARNING - KPI escalation_rate not found in analysis, creating fallback
+2025-10-05 17:55:23,373 - orchestrator_agent_service - WARNING - KPI customer_effort_reduction not found in analysis, creating fallback
+2025-10-05 17:55:23,373 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category efficiency_resolution
+2025-10-05 17:55:23,383 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:55:23,383 - orchestrator_agent_service - INFO - ✓ Category 'efficiency_resolution' analysis successful on attempt 1
+2025-10-05 17:55:23,383 - orchestrator_agent_service - INFO - ✓ Category efficiency_resolution analyzed successfully (6 KPIs)
+2025-10-05 17:55:23,384 - orchestrator_agent_service - INFO - Collated results: 3/3 categories successful
+2025-10-05 17:55:23,384 - orchestrator_agent_service - INFO - Orchestrator analysis completed in 122.08 seconds
+2025-10-05 17:55:23,384 - __main__ - INFO - Sequential analysis completed in 122.08 seconds
+2025-10-05 17:55:23,384 - __main__ - INFO - Analysis Summary:
+2025-10-05 17:55:23,384 - __main__ - INFO -   - Total categories analyzed: 3
+2025-10-05 17:55:23,384 - __main__ - INFO -   - Total KPIs evaluated: 14
+2025-10-05 17:55:23,384 - __main__ - INFO -   - Analysis duration: 122.08s
+2025-10-05 17:55:23,384 - __main__ - INFO -   - accuracy_compliance: ✓ SUCCESS (2 KPIs, score: 6.0)
+2025-10-05 17:55:23,384 - __main__ - INFO -   - empathy_communication: ✓ SUCCESS (6 KPIs, score: 6.0)
+2025-10-05 17:55:23,384 - __main__ - INFO -   - efficiency_resolution: ✓ SUCCESS (6 KPIs, score: 6.0)
+2025-10-05 17:55:23,384 - __main__ - INFO - Overall Performance:
+2025-10-05 17:55:23,384 - __main__ - INFO -   - Score: 6.0/10
+2025-10-05 17:55:23,384 - __main__ - INFO -   - Level: Good
+2025-10-05 17:55:23,384 - __main__ - INFO - Results saved to: orchestrator_sequential_test_results_20251005_175523.json
+2025-10-05 17:55:23,384 - __main__ - INFO - === Testing Orchestrator Agent (Parallel Analysis) ===
+2025-10-05 17:55:23,385 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:55:23,408 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:55:23,408 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:55:23,418 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:55:23,418 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:55:23,418 - __main__ - INFO - Created sample conversation with 7 tweets
+2025-10-05 17:55:23,418 - __main__ - INFO - Starting orchestrator-based parallel analysis...
+2025-10-05 17:55:23,418 - orchestrator_agent_service - INFO - Starting orchestrator-based comprehensive analysis
+2025-10-05 17:55:23,428 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:55:23,428 - orchestrator_agent_service - INFO - Orchestrator will analyze 3 categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:55:23,428 - orchestrator_agent_service - INFO - Starting parallel analysis of 3 categories with 3 workers
+2025-10-05 17:55:23,429 - orchestrator_agent_service - INFO - Analyzing category 'accuracy_compliance' (attempt 1/2)
+2025-10-05 17:55:23,429 - orchestrator_agent_service - INFO - Analyzing category 'empathy_communication' (attempt 1/2)
+2025-10-05 17:55:23,429 - orchestrator_agent_service - INFO - Analyzing category 'efficiency_resolution' (attempt 1/2)
+2025-10-05 17:55:23,429 - llm_agent_service - INFO - Starting LLM-based category analysis for accuracy_compliance
+2025-10-05 17:55:23,429 - llm_agent_service - INFO - Starting LLM-based category analysis for empathy_communication
+2025-10-05 17:55:23,429 - llm_agent_service - INFO - Starting LLM-based category analysis for efficiency_resolution
+2025-10-05 17:55:23,432 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:55:23,432 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:55:23,433 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:56:00,990 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:56:01,007 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:01,007 - orchestrator_agent_service - INFO - Extracting KPIs for category empathy_communication: ['empathy_score', 'sentiment_shift', 'clarity_language', 'cultural_sensitivity', 'adaptability_quotient', 'conversation_flow']
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI empathy_score not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI sentiment_shift not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI clarity_language not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI cultural_sensitivity not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI adaptability_quotient not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - WARNING - KPI conversation_flow not found in analysis, creating fallback
+2025-10-05 17:56:01,007 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category empathy_communication
+2025-10-05 17:56:01,017 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:01,017 - orchestrator_agent_service - INFO - ✓ Category 'empathy_communication' analysis successful on attempt 1
+2025-10-05 17:56:01,017 - orchestrator_agent_service - INFO - ✓ Category empathy_communication analyzed successfully (6 KPIs)
+2025-10-05 17:56:02,084 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:56:02,094 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:02,095 - orchestrator_agent_service - INFO - Extracting KPIs for category efficiency_resolution: ['followup_necessity', 'customer_effort_score', 'first_response_accuracy', 'csat_resolution', 'escalation_rate', 'customer_effort_reduction']
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI followup_necessity not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI customer_effort_score not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI first_response_accuracy not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI csat_resolution not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI escalation_rate not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - WARNING - KPI customer_effort_reduction not found in analysis, creating fallback
+2025-10-05 17:56:02,095 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category efficiency_resolution
+2025-10-05 17:56:02,105 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:02,105 - orchestrator_agent_service - INFO - ✓ Category 'efficiency_resolution' analysis successful on attempt 1
+2025-10-05 17:56:02,105 - orchestrator_agent_service - INFO - ✓ Category efficiency_resolution analyzed successfully (6 KPIs)
+2025-10-05 17:56:07,481 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:56:07,500 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:07,500 - orchestrator_agent_service - INFO - Extracting KPIs for category accuracy_compliance: ['resolution_completeness', 'accuracy_automated_responses']
+2025-10-05 17:56:07,500 - orchestrator_agent_service - WARNING - KPI resolution_completeness not found in analysis, creating fallback
+2025-10-05 17:56:07,500 - orchestrator_agent_service - WARNING - KPI accuracy_automated_responses not found in analysis, creating fallback
+2025-10-05 17:56:07,500 - orchestrator_agent_service - INFO - Successfully extracted 2 KPIs for category accuracy_compliance
+2025-10-05 17:56:07,511 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:07,511 - orchestrator_agent_service - INFO - ✓ Category 'accuracy_compliance' analysis successful on attempt 1
+2025-10-05 17:56:07,511 - orchestrator_agent_service - INFO - ✓ Category accuracy_compliance analyzed successfully (2 KPIs)
+2025-10-05 17:56:07,511 - orchestrator_agent_service - INFO - Collated results: 3/3 categories successful
+2025-10-05 17:56:07,511 - orchestrator_agent_service - INFO - Orchestrator analysis completed in 44.09 seconds
+2025-10-05 17:56:07,511 - __main__ - INFO - Parallel analysis completed in 44.09 seconds
+2025-10-05 17:56:07,511 - __main__ - INFO - Analysis Summary:
+2025-10-05 17:56:07,511 - __main__ - INFO -   - Total categories analyzed: 3
+2025-10-05 17:56:07,511 - __main__ - INFO -   - Total KPIs evaluated: 14
+2025-10-05 17:56:07,511 - __main__ - INFO -   - Analysis duration: 44.09s
+2025-10-05 17:56:07,511 - __main__ - INFO -   - empathy_communication: ✓ SUCCESS (6 KPIs, score: 6.0)
+2025-10-05 17:56:07,511 - __main__ - INFO -   - efficiency_resolution: ✓ SUCCESS (6 KPIs, score: 6.0)
+2025-10-05 17:56:07,511 - __main__ - INFO -   - accuracy_compliance: ✓ SUCCESS (2 KPIs, score: 6.0)
+2025-10-05 17:56:07,511 - __main__ - INFO - Overall Performance:
+2025-10-05 17:56:07,511 - __main__ - INFO -   - Score: 6.0/10
+2025-10-05 17:56:07,511 - __main__ - INFO -   - Level: Good
+2025-10-05 17:56:07,512 - __main__ - INFO - Results saved to: orchestrator_parallel_test_results_20251005_175607.json
+2025-10-05 17:56:07,512 - __main__ - INFO - === Comparing Sequential vs Parallel Analysis ===
+2025-10-05 17:56:07,512 - __main__ - INFO - Testing sequential analysis...
+2025-10-05 17:56:07,512 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:56:07,537 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:07,538 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:56:07,548 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:07,548 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:56:07,548 - orchestrator_agent_service - INFO - Starting orchestrator-based comprehensive analysis
+2025-10-05 17:56:07,558 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:07,558 - orchestrator_agent_service - INFO - Orchestrator will analyze 3 categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:56:07,558 - orchestrator_agent_service - INFO - Analyzing category 1/3: accuracy_compliance
+2025-10-05 17:56:07,558 - orchestrator_agent_service - INFO - Analyzing category 'accuracy_compliance' (attempt 1/3)
+2025-10-05 17:56:07,558 - llm_agent_service - INFO - Starting LLM-based category analysis for accuracy_compliance
+2025-10-05 17:56:07,560 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:56:50,254 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:56:50,272 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:50,272 - orchestrator_agent_service - INFO - Extracting KPIs for category accuracy_compliance: ['resolution_completeness', 'accuracy_automated_responses']
+2025-10-05 17:56:50,272 - orchestrator_agent_service - WARNING - KPI resolution_completeness not found in analysis, creating fallback
+2025-10-05 17:56:50,272 - orchestrator_agent_service - WARNING - KPI accuracy_automated_responses not found in analysis, creating fallback
+2025-10-05 17:56:50,272 - orchestrator_agent_service - INFO - Successfully extracted 2 KPIs for category accuracy_compliance
+2025-10-05 17:56:50,283 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:56:50,283 - orchestrator_agent_service - INFO - ✓ Category 'accuracy_compliance' analysis successful on attempt 1
+2025-10-05 17:56:50,283 - orchestrator_agent_service - INFO - ✓ Category accuracy_compliance analyzed successfully (2 KPIs)
+2025-10-05 17:56:50,283 - orchestrator_agent_service - INFO - Analyzing category 2/3: empathy_communication
+2025-10-05 17:56:50,283 - orchestrator_agent_service - INFO - Analyzing category 'empathy_communication' (attempt 1/3)
+2025-10-05 17:56:50,283 - llm_agent_service - INFO - Starting LLM-based category analysis for empathy_communication
+2025-10-05 17:56:50,284 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:57:30,409 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:57:30,427 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:57:30,427 - orchestrator_agent_service - INFO - Extracting KPIs for category empathy_communication: ['empathy_score', 'sentiment_shift', 'clarity_language', 'cultural_sensitivity', 'adaptability_quotient', 'conversation_flow']
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI empathy_score not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI sentiment_shift not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI clarity_language not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI cultural_sensitivity not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI adaptability_quotient not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - WARNING - KPI conversation_flow not found in analysis, creating fallback
+2025-10-05 17:57:30,427 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category empathy_communication
+2025-10-05 17:57:30,440 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:57:30,440 - orchestrator_agent_service - INFO - ✓ Category 'empathy_communication' analysis successful on attempt 1
+2025-10-05 17:57:30,440 - orchestrator_agent_service - INFO - ✓ Category empathy_communication analyzed successfully (6 KPIs)
+2025-10-05 17:57:30,440 - orchestrator_agent_service - INFO - Analyzing category 3/3: efficiency_resolution
+2025-10-05 17:57:30,440 - orchestrator_agent_service - INFO - Analyzing category 'efficiency_resolution' (attempt 1/3)
+2025-10-05 17:57:30,440 - llm_agent_service - INFO - Starting LLM-based category analysis for efficiency_resolution
+2025-10-05 17:57:30,441 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:58:08,974 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:58:09,024 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:09,024 - orchestrator_agent_service - INFO - Extracting KPIs for category efficiency_resolution: ['followup_necessity', 'customer_effort_score', 'first_response_accuracy', 'csat_resolution', 'escalation_rate', 'customer_effort_reduction']
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI followup_necessity not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI customer_effort_score not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI first_response_accuracy not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI csat_resolution not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI escalation_rate not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - WARNING - KPI customer_effort_reduction not found in analysis, creating fallback
+2025-10-05 17:58:09,024 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category efficiency_resolution
+2025-10-05 17:58:09,036 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:09,036 - orchestrator_agent_service - INFO - ✓ Category 'efficiency_resolution' analysis successful on attempt 1
+2025-10-05 17:58:09,036 - orchestrator_agent_service - INFO - ✓ Category efficiency_resolution analyzed successfully (6 KPIs)
+2025-10-05 17:58:09,036 - orchestrator_agent_service - INFO - Collated results: 3/3 categories successful
+2025-10-05 17:58:09,036 - orchestrator_agent_service - INFO - Orchestrator analysis completed in 121.49 seconds
+2025-10-05 17:58:09,036 - __main__ - INFO - Testing parallel analysis...
+2025-10-05 17:58:09,036 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:58:09,060 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:09,060 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:58:09,071 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:09,071 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:58:09,071 - orchestrator_agent_service - INFO - Starting orchestrator-based comprehensive analysis
+2025-10-05 17:58:09,080 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:09,080 - orchestrator_agent_service - INFO - Orchestrator will analyze 3 categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:58:09,080 - orchestrator_agent_service - INFO - Starting parallel analysis of 3 categories with 3 workers
+2025-10-05 17:58:09,081 - orchestrator_agent_service - INFO - Analyzing category 'accuracy_compliance' (attempt 1/3)
+2025-10-05 17:58:09,081 - llm_agent_service - INFO - Starting LLM-based category analysis for accuracy_compliance
+2025-10-05 17:58:09,081 - orchestrator_agent_service - INFO - Analyzing category 'empathy_communication' (attempt 1/3)
+2025-10-05 17:58:09,081 - orchestrator_agent_service - INFO - Analyzing category 'efficiency_resolution' (attempt 1/3)
+2025-10-05 17:58:09,081 - llm_agent_service - INFO - Starting LLM-based category analysis for empathy_communication
+2025-10-05 17:58:09,081 - llm_agent_service - INFO - Starting LLM-based category analysis for efficiency_resolution
+2025-10-05 17:58:09,083 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:58:09,084 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:58:09,085 - aicore_service - INFO - Using single confirmed working Anthropic API version: ['bedrock-2023-05-31']
+2025-10-05 17:58:42,911 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:58:42,929 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:42,929 - orchestrator_agent_service - INFO - Extracting KPIs for category empathy_communication: ['empathy_score', 'sentiment_shift', 'clarity_language', 'cultural_sensitivity', 'adaptability_quotient', 'conversation_flow']
+2025-10-05 17:58:42,929 - orchestrator_agent_service - WARNING - KPI empathy_score not found in analysis, creating fallback
+2025-10-05 17:58:42,929 - orchestrator_agent_service - WARNING - KPI sentiment_shift not found in analysis, creating fallback
+2025-10-05 17:58:42,929 - orchestrator_agent_service - WARNING - KPI clarity_language not found in analysis, creating fallback
+2025-10-05 17:58:42,929 - orchestrator_agent_service - WARNING - KPI cultural_sensitivity not found in analysis, creating fallback
+2025-10-05 17:58:42,929 - orchestrator_agent_service - WARNING - KPI adaptability_quotient not found in analysis, creating fallback
+2025-10-05 17:58:42,930 - orchestrator_agent_service - WARNING - KPI conversation_flow not found in analysis, creating fallback
+2025-10-05 17:58:42,930 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category empathy_communication
+2025-10-05 17:58:42,945 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:42,945 - orchestrator_agent_service - INFO - ✓ Category 'empathy_communication' analysis successful on attempt 1
+2025-10-05 17:58:42,945 - orchestrator_agent_service - INFO - ✓ Category empathy_communication analyzed successfully (6 KPIs)
+2025-10-05 17:58:46,991 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:58:47,014 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:47,014 - orchestrator_agent_service - INFO - Extracting KPIs for category efficiency_resolution: ['followup_necessity', 'customer_effort_score', 'first_response_accuracy', 'csat_resolution', 'escalation_rate', 'customer_effort_reduction']
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI followup_necessity not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI customer_effort_score not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI first_response_accuracy not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI csat_resolution not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI escalation_rate not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - WARNING - KPI customer_effort_reduction not found in analysis, creating fallback
+2025-10-05 17:58:47,014 - orchestrator_agent_service - INFO - Successfully extracted 6 KPIs for category efficiency_resolution
+2025-10-05 17:58:47,029 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:47,030 - orchestrator_agent_service - INFO - ✓ Category 'efficiency_resolution' analysis successful on attempt 1
+2025-10-05 17:58:47,030 - orchestrator_agent_service - INFO - ✓ Category efficiency_resolution analyzed successfully (6 KPIs)
+2025-10-05 17:58:51,651 - aicore_service - INFO - Successfully used Anthropic invoke endpoint with version: bedrock-2023-05-31
+2025-10-05 17:58:51,674 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:51,674 - orchestrator_agent_service - INFO - Extracting KPIs for category accuracy_compliance: ['resolution_completeness', 'accuracy_automated_responses']
+2025-10-05 17:58:51,675 - orchestrator_agent_service - WARNING - KPI resolution_completeness not found in analysis, creating fallback
+2025-10-05 17:58:51,675 - orchestrator_agent_service - WARNING - KPI accuracy_automated_responses not found in analysis, creating fallback
+2025-10-05 17:58:51,675 - orchestrator_agent_service - INFO - Successfully extracted 2 KPIs for category accuracy_compliance
+2025-10-05 17:58:51,689 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:58:51,689 - orchestrator_agent_service - INFO - ✓ Category 'accuracy_compliance' analysis successful on attempt 1
+2025-10-05 17:58:51,689 - orchestrator_agent_service - INFO - ✓ Category accuracy_compliance analyzed successfully (2 KPIs)
+2025-10-05 17:58:51,690 - orchestrator_agent_service - INFO - Collated results: 3/3 categories successful
+2025-10-05 17:58:51,690 - orchestrator_agent_service - INFO - Orchestrator analysis completed in 42.62 seconds
+2025-10-05 17:58:51,690 - __main__ - INFO - Performance Comparison:
+2025-10-05 17:58:51,690 - __main__ - INFO -   Sequential: 121.49s
+2025-10-05 17:58:51,690 - __main__ - INFO -   Parallel: 42.62s
+2025-10-05 17:58:51,690 - __main__ - INFO -   Speed improvement: 64.9%
+2025-10-05 17:58:51,690 - __main__ - INFO - Success Rate Comparison:
+2025-10-05 17:58:51,690 - __main__ - INFO -   Sequential: 3/3 (100.0%)
+2025-10-05 17:58:51,690 - __main__ - INFO -   Parallel: 3/3 (100.0%)
+2025-10-05 17:58:51,690 - __main__ - INFO - ============================================================
+2025-10-05 17:58:51,690 - __main__ - INFO - TEST SUMMARY:
+2025-10-05 17:58:51,690 - __main__ - INFO - ============================================================
+2025-10-05 17:58:51,690 - __main__ - INFO -   config_loading: ✓ PASSED
+2025-10-05 17:58:51,690 - __main__ - INFO -   sequential_analysis: ✓ PASSED
+2025-10-05 17:58:51,690 - __main__ - INFO -   parallel_analysis: ✓ PASSED
+2025-10-05 17:58:51,690 - __main__ - INFO -   comparison: ✓ PASSED
+2025-10-05 17:58:51,690 - __main__ - INFO - 
+Overall: 4/4 tests passed (100.0%)
+2025-10-05 17:58:51,690 - __main__ - INFO - 🎉 All tests passed! Orchestrator Agent is working correctly.

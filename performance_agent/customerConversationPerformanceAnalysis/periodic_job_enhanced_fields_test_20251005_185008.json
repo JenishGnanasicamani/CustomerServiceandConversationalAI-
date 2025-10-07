@@ -1,0 +1,668 @@
+{
+  "test_timestamp": "2025-10-05T18:50:08.069179",
+  "analysis_duration_seconds": 46.591566,
+  "total_kpis": 14,
+  "total_sub_kpis": 19,
+  "kpi_completeness_percentage": 100.0,
+  "sub_kpi_completeness_percentage": 63.1578947368421,
+  "overall_completeness_percentage": 78.78787878787878,
+  "field_analysis": {
+    "enhanced_fields_found": [
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.interpretation",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.interpretation",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.normalized_score",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.confidence",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.interpretation"
+    ],
+    "basic_fields_found": [
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.evidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.score",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.reason",
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.score",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.reason",
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.score",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.reason",
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.score",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.reason",
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.score",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.reason",
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.score",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.reason",
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient.evidence",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.score",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.reason",
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate.evidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.reason",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction.evidence"
+    ],
+    "missing_enhanced_fields": [
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification.interpretation",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth.interpretation",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity.interpretation",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process.normalized_score",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process.confidence",
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification.interpretation",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance.normalized_score",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance.confidence",
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance.interpretation"
+    ],
+    "kpi_analysis": {
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.accuracy_automated_responses",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.sentiment_shift": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.sentiment_shift",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.cultural_sensitivity",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.adaptability_quotient",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.conversation_flow": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.conversation_flow",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.followup_necessity",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.first_response_accuracy",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.csat_resolution",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.escalation_rate",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_reduction",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      }
+    },
+    "sub_kpi_analysis": {
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.issue_identification",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.solution_depth",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.follow_up_clarity",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process": {
+        "path": "performance_metrics.categories.accuracy_compliance.kpis.resolution_completeness.sub_kpis.confirmation_process",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.emotion_recognition",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.acknowledgment_feelings",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.appropriate_response",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.personalization",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.supportive_language",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.empathy_score.sub_kpis.active_listening",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.readability_level",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.jargon_usage",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.sentence_structure",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.coherence",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.active_voice",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness": {
+        "path": "performance_metrics.categories.empathy_communication.kpis.clarity_language.sub_kpis.conciseness",
+        "basic_fields": [
+          "score",
+          "reason",
+          "evidence"
+        ],
+        "enhanced_fields": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ],
+        "missing_enhanced": []
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.information_gathering",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.process_simplification",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      },
+      "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance": {
+        "path": "performance_metrics.categories.efficiency_resolution.kpis.customer_effort_score.sub_kpis.proactive_assistance",
+        "basic_fields": [
+          "score",
+          "reason"
+        ],
+        "enhanced_fields": [],
+        "missing_enhanced": [
+          "normalized_score",
+          "confidence",
+          "interpretation"
+        ]
+      }
+    }
+  },
+  "test_status": "FAILED"
+}

@@ -1,0 +1,217 @@
+# Periodic Job Configuration for Customer Conversation Performance Analysis
+# Configuration settings for the automated analysis job that processes sentiment data
+
+# MongoDB Configuration
+mongodb:
+  # Connection settings
+  connection_string: "mongodb://localhost:27017/"
+  database_name: "csai"
+  
+  # Collection names
+  collections:
+    source: "sentimental_analysis"   # Source collection to read from (note: 'sentimental' not 'sentiment')
+    target: "agentic_analysis"        # Target collection to write results
+    job_state: "job_state"            # Collection to track job state
+  
+  # Connection pool settings
+  connection_pool:
+    max_pool_size: 50
+    min_pool_size: 5
+    connect_timeout_ms: 10000
+    server_selection_timeout_ms: 5000
+
+# Job Processing Configuration
+job:
+  # Job identification
+  name: "conversation_performance_analysis"
+  version: "4.1.0"
+  
+  # Batch processing settings
+  batch_size: 50                     # Records to process per batch
+  max_retries: 3                     # Maximum retries for failed records
+  retry_delay_seconds: 30            # Delay between retries
+  
+  # Timing configuration
+  interval_minutes: 5                # Minutes between job runs
+  timeout_minutes: 30                # Maximum time for single batch
+  
+  # Processing limits
+  max_records_per_day: 10000         # Daily processing limit
+  max_concurrent_analyses: 5         # Parallel analysis limit
+
+# Analysis Configuration
+analysis:
+  # Model settings
+  model_preference: "claude-4"       # Preferred analysis model
+  fallback_to_simulation: true      # Use simulation if model unavailable
+  
+  # Performance metrics configuration
+  metrics:
+    # Categories to analyze
+    categories:
+      - "accuracy_compliance"
+      - "empathy_communication"
+      - "efficiency_resolution"
+    
+    # Scoring thresholds
+    thresholds:
+      empathy_score:
+        excellent: 8.5
+        good: 7.0
+        needs_improvement: 5.0
+      
+      accuracy_automated:
+        excellent: 95
+        good: 85
+        needs_improvement: 70
+      
+      customer_satisfaction:
+        excellent: 4.5
+        good: 3.5
+        needs_improvement: 2.5
+
+# Logging Configuration
+logging:
+  # Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file settings
+  file:
+    enabled: true
+    path: "logs/periodic_job_{date}.log"
+    max_size_mb: 100
+    backup_count: 7
+    rotation: "daily"
+  
+  # Console logging
+  console:
+    enabled: true
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # Specific logger levels
+  loggers:
+    "src.periodic_job_service": "INFO"
+    "src.llm_agent_service": "INFO"
+    "src.aicore_service": "WARNING"
+    "pymongo": "WARNING"
+
+# Monitoring and Alerting
+monitoring:
+  # Health check settings
+  health_check:
+    enabled: true
+    interval_minutes: 10
+    
+  # Performance metrics
+  metrics:
+    enabled: true
+    collection_interval_seconds: 60
+    
+  # Alerting thresholds
+  alerts:
+    error_rate_threshold: 0.1        # Alert if >10% error rate
+    processing_delay_hours: 2        # Alert if processing delayed >2 hours
+    memory_usage_threshold: 0.8      # Alert if >80% memory usage
+    
+  # Notification settings (placeholder for future implementation)
+  notifications:
+    email:
+      enabled: false
+      recipients: []
+    
+    webhook:
+      enabled: false
+      url: ""
+
+# Data Quality and Validation
+data_quality:
+  # Input validation
+  validation:
+    required_fields:
+      - "conversation"
+      - "conversation.tweets"
+      - "_id"
+    
+    # Data freshness check
+    max_age_hours: 168             # Don't process data older than 7 days
+    
+  # Output validation
+  output_validation:
+    required_metrics:
+      - "empathy_score"
+      - "accuracy_automated_responses"
+      - "customer_effort_score"
+    
+    # Score range validation
+    score_ranges:
+      empathy_score: [0, 10]
+      accuracy_automated: [0, 100]
+      customer_effort_score: [1, 7]
+
+# Performance Optimization
+performance:
+  # Memory management
+  memory:
+    max_batch_size_mb: 50          # Maximum memory per batch
+    garbage_collection_interval: 100  # GC after N records
+  
+  # Database optimization
+  database:
+    use_indexes: true
+    bulk_operations: true
+    read_preference: "secondaryPreferred"
+  
+  # Caching (for future implementation)
+  caching:
+    enabled: false
+    ttl_minutes: 60
+
+# Error Handling and Recovery
+error_handling:
+  # Retry configuration
+  retry:
+    max_attempts: 3
+    backoff_strategy: "exponential"  # linear, exponential
+    base_delay_seconds: 5
+    max_delay_seconds: 300
+  
+  # Error categorization
+  error_types:
+    retriable:
+      - "connection_error"
+      - "timeout_error"
+      - "rate_limit_error"
+    
+    non_retriable:
+      - "data_validation_error"
+      - "authentication_error"
+      - "authorization_error"
+  
+  # Dead letter queue (for failed records)
+  dead_letter:
+    enabled: true
+    collection: "failed_analysis_records"
+    retention_days: 30
+
+# Environment-specific Settings
+environments:
+  development:
+    mongodb:
+      connection_string: "mongodb://localhost:27017/"
+    logging:
+      level: "DEBUG"
+    job:
+      batch_size: 10
+      interval_minutes: 1
+  
+  production:
+    mongodb:
+      connection_string: "${MONGODB_CONNECTION_STRING}"
+    logging:
+      level: "INFO"
+    job:
+      batch_size: 100
+      interval_minutes: 5
+    monitoring:
+      alerts:
+        error_rate_threshold: 0.05

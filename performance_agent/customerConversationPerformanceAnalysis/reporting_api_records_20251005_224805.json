@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-10-05T22:48:05.586565",
+    "source_api": "reporting_api",
+    "total_records": 0,
+    "query_parameters": {
+      "start_date": "2000-01-01",
+      "end_date": "2100-12-31",
+      "customer": null
+    },
+    "report_status": "success",
+    "api_version": "1.0.0"
+  },
+  "selected_records": [],
+  "summary": {
+    "what_went_well": [
+      "No data available for analysis"
+    ],
+    "what_needs_improvement": [
+      "Ensure data is being collected properly"
+    ],
+    "training_needs": [
+      "Data collection process review needed"
+    ]
+  },
+  "aggregated_insights": null,
+  "report_metadata": {
+    "generated_at": "2025-10-05T22:48:05.586045",
+    "total_records": 0
+  }
+}
