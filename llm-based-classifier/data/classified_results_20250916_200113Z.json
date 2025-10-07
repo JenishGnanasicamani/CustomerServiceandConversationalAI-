@@ -1,0 +1,214 @@
+[
+  {
+    "conversation_number": "1",
+    "messages": null,
+    "tweets": [
+      {
+        "tweet_id": 8,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 21:45:10 +0000 2017",
+        "text": "@sprintcare is the worst customer service"
+      },
+      {
+        "tweet_id": 6,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 21:46:24 +0000 2017",
+        "text": "@115712 Can you please send us a private message, so that I can gain further details about your account?"
+      },
+      {
+        "tweet_id": 5,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 21:49:35 +0000 2017",
+        "text": "@sprintcare I did."
+      },
+      {
+        "tweet_id": 4,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 21:54:49 +0000 2017",
+        "text": "@115712 Please send us a Private Message so that we can further assist you. Just click ‘Message’ at the top of your profile."
+      },
+      {
+        "tweet_id": 3,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:08:27 +0000 2017",
+        "text": "@sprintcare I have sent several private messages and no one is responding as usual"
+      },
+      {
+        "tweet_id": 1,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 22:10:47 +0000 2017",
+        "text": "@115712 I understand. I would like to assist you. We would need to get you into a private secured link to further assist."
+      },
+      {
+        "tweet_id": 2,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:11:45 +0000 2017",
+        "text": "@sprintcare and how do you propose we do that"
+      }
+    ],
+    "classification": {
+      "categorization": "Difficulty with customer service",
+      "intent": "Technical Support",
+      "topic": "General",
+      "sentiment": "Negative"
+    }
+  },
+  {
+    "conversation_number": "2",
+    "messages": null,
+    "tweets": [
+      {
+        "tweet_id": 1293,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:24:51 +0000 2017",
+        "text": "@115714 @sprintcare how can I get in touch with someone that matters at Spring Corporate"
+      },
+      {
+        "tweet_id": 1291,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 22:26:44 +0000 2017",
+        "text": "@115712 Just click ‘Message’ at the top of your profile. We're always here and eager to assist."
+      },
+      {
+        "tweet_id": 1292,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:30:09 +0000 2017",
+        "text": "@sprintcare I've sent several private messages!!! and no one responds!"
+      },
+      {
+        "tweet_id": 1294,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 22:34:30 +0000 2017",
+        "text": "@115712 Do you have a good contact number where you can be reached?"
+      },
+      {
+        "tweet_id": 1295,
+        "author_id": "115712",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:34:55 +0000 2017",
+        "text": "@sprintcare I sent it twice now to apparently noone!"
+      }
+    ],
+    "classification": {
+      "categorization": "Complaint about lack of response",
+      "intent": "Feedback",
+      "topic": "Account/Billing",
+      "sentiment": "Negative"
+    }
+  },
+  {
+    "conversation_number": "3",
+    "messages": null,
+    "tweets": [
+      {
+        "tweet_id": 3178,
+        "author_id": "116445",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:55:37 +0000 2017",
+        "text": "@sprintcare mine and my brothers data is barely working, we have full signal but nothing is loading & when it does load its very slow, help!"
+      },
+      {
+        "tweet_id": 3176,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 22:58:30 +0000 2017",
+        "text": "@116445 You’ve reached the right place, please shoot us a DM, in order for us to further assist you. -AA"
+      },
+      {
+        "tweet_id": 3177,
+        "author_id": "116445",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:09:03 +0000 2017",
+        "text": "@sprintcare Just sent a DM"
+      }
+    ],
+    "classification": {
+      "categorization": "Data connectivity issue",
+      "intent": "Technical Support",
+      "topic": "Technical",
+      "sentiment": "Negative"
+    }
+  },
+  {
+    "conversation_number": "4",
+    "messages": null,
+    "tweets": [
+      {
+        "tweet_id": 5523,
+        "author_id": "117001",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 23:12:51 +0000 2017",
+        "text": "@sprintcare @115714 thinking about upgrading my wife’s iPhone 6.  What is your best offer?"
+      },
+      {
+        "tweet_id": 5522,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 23:16:16 +0000 2017",
+        "text": "@117001 Hey! We would need to see what offers are available to you. Send us a DM so we can further assist you. -CD"
+      }
+    ],
+    "classification": {
+      "categorization": "Inquiring about phone upgrade and promotions",
+      "intent": "Product Inquiry",
+      "topic": "Product Info",
+      "sentiment": "Neutral"
+    }
+  },
+  {
+    "conversation_number": "5",
+    "messages": null,
+    "tweets": [
+      {
+        "tweet_id": 7743,
+        "author_id": "117302",
+        "role": "Customer",
+        "inbound": true,
+        "created_at": "Tue Oct 31 22:53:04 +0000 2017",
+        "text": "@115714  @sprintcare & she hung up the phone on me. I want my money back. Or else the whole world gonna know"
+      },
+      {
+        "tweet_id": 7742,
+        "author_id": "sprintcare",
+        "role": "Service Provider",
+        "inbound": false,
+        "created_at": "Tue Oct 31 23:36:56 +0000 2017",
+        "text": "@117302 Hi there! Can you tell us the reason for the credit? Can you also join us in a DM so we can assist you? -KW"
+      }
+    ],
+    "classification": {
+      "categorization": "Requesting refund and sharing negative experience",
+      "intent": "Complaint",
+      "topic": "Account/Billing",
+      "sentiment": "Negative"
+    }
+  }
+]
