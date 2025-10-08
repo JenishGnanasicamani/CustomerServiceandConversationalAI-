@@ -1,0 +1,219 @@
+{
+  "test_timestamp": "2025-10-05T18:42:38.822083",
+  "analysis_duration_seconds": 44.520189,
+  "structure_verification": {
+    "total_kpis_checked": 14,
+    "kpis_with_all_fields": 14,
+    "total_sub_kpis_checked": 12,
+    "sub_kpis_with_all_fields": 12,
+    "required_fields": [
+      "score",
+      "normalized_score",
+      "reasoning",
+      "evidence",
+      "confidence",
+      "interpretation"
+    ],
+    "field_coverage": {
+      "score": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      },
+      "normalized_score": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      },
+      "reasoning": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      },
+      "evidence": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      },
+      "confidence": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      },
+      "interpretation": {
+        "kpi_count": 14,
+        "sub_kpi_count": 12
+      }
+    },
+    "missing_fields": [],
+    "structure_issues": [],
+    "success_rate": 100.0,
+    "kpi_success_rate": 100.0,
+    "sub_kpi_success_rate": 100.0
+  },
+  "quality_analysis": {
+    "normalized_score_analysis": {
+      "valid_count": 14,
+      "invalid_count": 0,
+      "issues": []
+    },
+    "confidence_analysis": {
+      "valid_count": 14,
+      "invalid_count": 0,
+      "issues": []
+    },
+    "interpretation_analysis": {
+      "valid_count": 14,
+      "missing_count": 0,
+      "interpretations": [
+        "excellent - achieves comprehensive problem resolution",
+        "excellent - provides highly accurate information and solutions",
+        "excellent - demonstrates strong emotional intelligence",
+        "excellent - creates positive customer experience",
+        "excellent - communicates with exceptional clarity",
+        "good - shows appropriate cultural sensitivity",
+        "excellent - highly flexible and responsive approach",
+        "excellent",
+        "excellent - maximizes efficiency and minimizes customer effort",
+        "good"
+      ]
+    },
+    "field_correlations": [
+      {
+        "kpi": "resolution_completeness",
+        "score": 8.9,
+        "normalized_score": 0.89,
+        "expected_normalized": 0.89,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - achieves comprehensive problem resolution"
+      },
+      {
+        "kpi": "accuracy_automated_responses",
+        "score": 8.2,
+        "normalized_score": 0.82,
+        "expected_normalized": 0.82,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - provides highly accurate information and solutions"
+      },
+      {
+        "kpi": "empathy_score",
+        "score": 8.69,
+        "normalized_score": 0.85,
+        "expected_normalized": 0.869,
+        "normalization_accurate": false,
+        "confidence": 0.95,
+        "interpretation": "excellent - demonstrates strong emotional intelligence"
+      },
+      {
+        "kpi": "sentiment_shift",
+        "score": 8.5,
+        "normalized_score": 0.85,
+        "expected_normalized": 0.85,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - creates positive customer experience"
+      },
+      {
+        "kpi": "clarity_language",
+        "score": 8.08,
+        "normalized_score": 0.82,
+        "expected_normalized": 0.808,
+        "normalization_accurate": false,
+        "confidence": 1.0,
+        "interpretation": "excellent - communicates with exceptional clarity"
+      },
+      {
+        "kpi": "cultural_sensitivity",
+        "score": 6.7,
+        "normalized_score": 0.67,
+        "expected_normalized": 0.67,
+        "normalization_accurate": true,
+        "confidence": 0.9,
+        "interpretation": "good - shows appropriate cultural sensitivity"
+      },
+      {
+        "kpi": "adaptability_quotient",
+        "score": 8.2,
+        "normalized_score": 0.82,
+        "expected_normalized": 0.82,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - highly flexible and responsive approach"
+      },
+      {
+        "kpi": "conversation_flow",
+        "score": 8.2,
+        "normalized_score": 0.82,
+        "expected_normalized": 0.82,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent"
+      },
+      {
+        "kpi": "followup_necessity",
+        "score": 8.1,
+        "normalized_score": 0.81,
+        "expected_normalized": 0.81,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent"
+      },
+      {
+        "kpi": "customer_effort_score",
+        "score": 8.1,
+        "normalized_score": 0.81,
+        "expected_normalized": 0.81,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - maximizes efficiency and minimizes customer effort"
+      },
+      {
+        "kpi": "first_response_accuracy",
+        "score": 8.2,
+        "normalized_score": 0.82,
+        "expected_normalized": 0.82,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - provides highly accurate information and solutions"
+      },
+      {
+        "kpi": "csat_resolution",
+        "score": 8.9,
+        "normalized_score": 0.89,
+        "expected_normalized": 0.89,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - achieves comprehensive problem resolution"
+      },
+      {
+        "kpi": "escalation_rate",
+        "score": 6.0,
+        "normalized_score": 0.6,
+        "expected_normalized": 0.6,
+        "normalization_accurate": true,
+        "confidence": 0.7,
+        "interpretation": "good"
+      },
+      {
+        "kpi": "customer_effort_reduction",
+        "score": 8.1,
+        "normalized_score": 0.81,
+        "expected_normalized": 0.81,
+        "normalization_accurate": true,
+        "confidence": 1.0,
+        "interpretation": "excellent - maximizes efficiency and minimizes customer effort"
+      }
+    ]
+  },
+  "sample_kpi_structure": {
+    "accuracy_compliance.resolution_completeness": {
+      "has_score": true,
+      "has_normalized_score": true,
+      "has_confidence": true,
+      "has_interpretation": true,
+      "has_evidence": true,
+      "has_reasoning": true,
+      "evidence_count": 3,
+      "has_sub_factors": false,
+      "sub_factor_count": 0
+    }
+  },
+  "test_status": "PASSED"
+}

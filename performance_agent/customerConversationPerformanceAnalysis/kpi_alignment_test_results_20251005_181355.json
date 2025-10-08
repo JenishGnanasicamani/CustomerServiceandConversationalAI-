@@ -1,0 +1,383 @@
+{
+  "test_timestamp": "2025-10-05T18:13:55.951834",
+  "test_type": "KPI Alignment Verification",
+  "conversation_id": "kpi_alignment_test_001",
+  "analysis_duration_seconds": 40.757391,
+  "configured_kpis": {
+    "accuracy_compliance": [
+      "resolution_completeness",
+      "accuracy_automated_responses"
+    ],
+    "empathy_communication": [
+      "empathy_score",
+      "sentiment_shift",
+      "clarity_language",
+      "cultural_sensitivity",
+      "adaptability_quotient",
+      "conversation_flow"
+    ],
+    "efficiency_resolution": [
+      "followup_necessity",
+      "customer_effort_score",
+      "first_response_accuracy",
+      "csat_resolution",
+      "escalation_rate",
+      "customer_effort_reduction"
+    ]
+  },
+  "validation_results": {
+    "alignment_status": "PERFECT",
+    "total_configured_kpis": 14,
+    "total_analyzed_kpis": 14,
+    "aligned_kpis": [
+      "accuracy_compliance/resolution_completeness",
+      "accuracy_compliance/accuracy_automated_responses",
+      "empathy_communication/empathy_score",
+      "empathy_communication/sentiment_shift",
+      "empathy_communication/clarity_language",
+      "empathy_communication/cultural_sensitivity",
+      "empathy_communication/adaptability_quotient",
+      "empathy_communication/conversation_flow",
+      "efficiency_resolution/followup_necessity",
+      "efficiency_resolution/customer_effort_score",
+      "efficiency_resolution/first_response_accuracy",
+      "efficiency_resolution/csat_resolution",
+      "efficiency_resolution/escalation_rate",
+      "efficiency_resolution/customer_effort_reduction"
+    ],
+    "misaligned_kpis": [],
+    "missing_kpis": [],
+    "extra_kpis": [],
+    "alignment_percentage": 100.0,
+    "details": {
+      "accuracy_compliance": {
+        "configured_kpis": [
+          "resolution_completeness",
+          "accuracy_automated_responses"
+        ],
+        "analyzed_kpis": [
+          "resolution_completeness",
+          "accuracy_automated_responses"
+        ],
+        "aligned": [
+          "resolution_completeness",
+          "accuracy_automated_responses"
+        ],
+        "missing": [],
+        "extra": []
+      },
+      "empathy_communication": {
+        "configured_kpis": [
+          "empathy_score",
+          "sentiment_shift",
+          "clarity_language",
+          "cultural_sensitivity",
+          "adaptability_quotient",
+          "conversation_flow"
+        ],
+        "analyzed_kpis": [
+          "empathy_score",
+          "sentiment_shift",
+          "clarity_language",
+          "cultural_sensitivity",
+          "adaptability_quotient",
+          "conversation_flow"
+        ],
+        "aligned": [
+          "empathy_score",
+          "sentiment_shift",
+          "clarity_language",
+          "cultural_sensitivity",
+          "adaptability_quotient",
+          "conversation_flow"
+        ],
+        "missing": [],
+        "extra": []
+      },
+      "efficiency_resolution": {
+        "configured_kpis": [
+          "followup_necessity",
+          "customer_effort_score",
+          "first_response_accuracy",
+          "csat_resolution",
+          "escalation_rate",
+          "customer_effort_reduction"
+        ],
+        "analyzed_kpis": [
+          "followup_necessity",
+          "customer_effort_score",
+          "first_response_accuracy",
+          "csat_resolution",
+          "escalation_rate",
+          "customer_effort_reduction"
+        ],
+        "aligned": [
+          "followup_necessity",
+          "customer_effort_score",
+          "first_response_accuracy",
+          "csat_resolution",
+          "escalation_rate",
+          "customer_effort_reduction"
+        ],
+        "missing": [],
+        "extra": []
+      }
+    }
+  },
+  "analysis_result": {
+    "conversation_id": "unknown",
+    "analysis_timestamp": "2025-10-05T18:13:55.951728",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_score": 8.55,
+          "kpis": {
+            "resolution_completeness": {
+              "score": 8.9,
+              "normalized_score": 0.89,
+              "reasoning": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @AirlineSupport, I'm locked out of my account a...'); solution-oriented response ('Hi there! I completely understand how frustrating ...'). The score of 8.9 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\"",
+                "Agent: \"Account unlocked! You should be able to access your booking now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "accuracy_automated_responses": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Accuracy Automated Responses reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "empathy_communication": {
+          "category_score": 7.97,
+          "kpis": {
+            "empathy_score": {
+              "score": 7.62,
+              "normalized_score": 0.77,
+              "reasoning": "Analysis of Empathy Score reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @AirlineSupport, I'm locked out of my account a...'); empathetic acknowledgment ('Hi there! I completely understand how frustrating ...'). The score of 7.7 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 7.62",
+              "evidence": [
+                "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\"",
+                "Agent: \"Account unlocked! You should be able to access your booking now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Good",
+              "sub_factors": {
+                "emotion_recognition": {
+                  "score": 6.8,
+                  "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                  "evidence": [
+                    "Customer: \"Hi @AirlineSupport, I'm locked out of my account and can't access my booking. Very frustrated!\"",
+                    "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\""
+                  ]
+                },
+                "acknowledgment_feelings": {
+                  "score": 8.34,
+                  "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\""
+                  ]
+                },
+                "appropriate_response": {
+                  "score": 7.79,
+                  "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                  "evidence": []
+                },
+                "personalization": {
+                  "score": 6.19,
+                  "reasoning": "Sub-factor analysis for Personalization based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                    "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\""
+                  ]
+                },
+                "supportive_language": {
+                  "score": 8.57,
+                  "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                  "evidence": []
+                },
+                "active_listening": {
+                  "score": 8.22,
+                  "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "sentiment_shift": {
+              "score": 9.0,
+              "normalized_score": 0.9,
+              "reasoning": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @AirlineSupport, I'm locked out of my account a...'); relevant interaction ('Hi there! I completely understand how frustrating ...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Customer: \"Thank you! I need to access my booking for tomorrow's flight.\"",
+                "Customer: \"Perfect! DMing you now. Thank you for the quick help!\"",
+                "Customer: \"Working perfectly now! Thank you so much for the excellent help!\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "clarity_language": {
+              "score": 8.3,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Clarity Language reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: clear communication ('Hi there! I completely understand how frustrating ...'); clear communication ('Thank you! I need to access my booking for tomorro...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes. Overall score calculated using weighted formula: 8.30",
+              "evidence": [
+                "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\"",
+                "Agent: \"Account unlocked! You should be able to access your booking now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent",
+              "sub_factors": {
+                "readability_level": {
+                  "score": 7.85,
+                  "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                    "Agent: \"Account unlocked! You should be able to access your booking now. Is there anything else I can help you with?\""
+                  ]
+                },
+                "jargon_usage": {
+                  "score": 8.58,
+                  "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                    "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\""
+                  ]
+                },
+                "sentence_structure": {
+                  "score": 8.95,
+                  "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                  "evidence": []
+                },
+                "coherence": {
+                  "score": 8.67,
+                  "reasoning": "Sub-factor analysis for Coherence based on conversation evidence",
+                  "evidence": []
+                },
+                "active_voice": {
+                  "score": 7.59,
+                  "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                  "evidence": []
+                },
+                "conciseness": {
+                  "score": 8.08,
+                  "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "cultural_sensitivity": {
+              "score": 6.7,
+              "normalized_score": 0.67,
+              "reasoning": "Analysis of Cultural Sensitivity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [
+                "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            },
+            "adaptability_quotient": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('Thank you! I need to access my booking for tomorro...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "conversation_flow": {
+              "score": 8.0,
+              "normalized_score": 0.8,
+              "reasoning": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @AirlineSupport, I'm locked out of my account a...'); relevant interaction ('Hi there! I completely understand how frustrating ...'). The score of 8.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "efficiency_resolution": {
+          "category_score": 7.9,
+          "kpis": {
+            "followup_necessity": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "customer_effort_score": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "first_response_accuracy": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of First Response Accuracy reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "csat_resolution": {
+              "score": 8.9,
+              "normalized_score": 0.89,
+              "reasoning": "Analysis of Csat Resolution reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @AirlineSupport, I'm locked out of my account a...'); solution-oriented response ('Hi there! I completely understand how frustrating ...'). The score of 8.9 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"",
+                "Agent: \"I can definitely help with that! Let me assist you with unlocking your account. Please follow me and DM me your confirmation number for identity verification.\"",
+                "Agent: \"Account unlocked! You should be able to access your booking now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "escalation_rate": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis of Escalation Rate found no specific evidence within the available conversation interactions. The absence of escalation indicators suggests the issue was handled effectively at the first contact level, which is generally positive. A neutral score reflects this absence of both positive and negative indicators. Future interactions with more complex scenarios may provide clearer evidence for this KPI assessment.",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "customer_effort_reduction": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi there! I completely understand how frustrating ...'); relevant interaction ('I can definitely help with that! Let me assist you...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "total_kpis_evaluated": 14,
+        "evaluation_timestamp": "2025-10-05T18:13:55.819223",
+        "model_used": "claude-4"
+      }
+    },
+    "overall_performance": {
+      "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+      "method": "LLM-based comprehensive evaluation"
+    },
+    "agent_output": "I'll perform a complete and systematic analysis of the conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 1, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-10-05T10:00:00Z\", \"text\": \"Hi @AirlineSupport, I'm locked out of my account and can't access my booking. Very frustrated!\"}, {\"tweet_id\": 2, \"author_id\": \"support_agent_001\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-10-05T10:01:00Z\", \"text\": \"Hi there! I completely understand how frustrating that must be. I'm delighted to help you unlock your account right away.\"}, {\"tweet_id\": 3, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-10-05T10:02:00Z\", \"text\": \"Thank you! I need to access my booking for tomorrow's flight.\"}, {\"tweet_id\": 4, \"author_id\": \"support_age..."
+  },
+  "test_summary": {
+    "alignment_status": "PERFECT",
+    "alignment_percentage": 100.0,
+    "total_configured_kpis": 14,
+    "total_analyzed_kpis": 14,
+    "aligned_kpis_count": 14,
+    "missing_kpis_count": 0,
+    "extra_kpis_count": 0
+  }
+}

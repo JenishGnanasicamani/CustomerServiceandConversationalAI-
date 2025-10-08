@@ -1,0 +1,62 @@
+2025-10-05 17:52:03,672 - __main__ - INFO - Starting Orchestrator Agent Implementation Tests
+2025-10-05 17:52:03,672 - __main__ - INFO - ============================================================
+2025-10-05 17:52:03,672 - __main__ - INFO - === Testing Configuration Loading ===
+2025-10-05 17:52:03,699 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,714 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,714 - __main__ - INFO - Configuration loaded successfully
+2025-10-05 17:52:03,714 - __main__ - INFO - Available categories: ['accuracy_compliance', 'empathy_communication', 'efficiency_resolution']
+2025-10-05 17:52:03,729 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,730 - __main__ - INFO -   - accuracy_compliance: 2 KPIs
+2025-10-05 17:52:03,730 - __main__ - INFO -     Sample KPIs: resolution_completeness, accuracy_automated_responses
+2025-10-05 17:52:03,750 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,750 - __main__ - INFO -   - empathy_communication: 6 KPIs
+2025-10-05 17:52:03,750 - __main__ - INFO -     Sample KPIs: empathy_score, sentiment_shift, clarity_language
+2025-10-05 17:52:03,760 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,760 - __main__ - INFO -   - efficiency_resolution: 6 KPIs
+2025-10-05 17:52:03,760 - __main__ - INFO -     Sample KPIs: followup_necessity, customer_effort_score, first_response_accuracy
+2025-10-05 17:52:03,760 - __main__ - INFO - Total KPIs across all categories: 14
+2025-10-05 17:52:03,760 - __main__ - INFO - === Testing Orchestrator Agent (Sequential Analysis) ===
+2025-10-05 17:52:03,780 - aicore_service - INFO - Successfully loaded AI Core credentials from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/aicore_credentials.yaml
+2025-10-05 17:52:03,780 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:52:03,804 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,804 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:52:03,814 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,814 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:52:03,814 - __main__ - ERROR - Error in sequential orchestrator test: 2 validation errors for Tweet
+tweet_id
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+inbound
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-10-05 17:52:03,814 - __main__ - INFO - === Testing Orchestrator Agent (Parallel Analysis) ===
+2025-10-05 17:52:03,814 - aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 17:52:03,834 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,834 - llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 17:52:03,844 - config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 17:52:03,844 - orchestrator_agent_service - INFO - Configuration loaded successfully for Orchestrator Agent
+2025-10-05 17:52:03,844 - __main__ - ERROR - Error in parallel orchestrator test: 2 validation errors for Tweet
+tweet_id
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+inbound
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-10-05 17:52:03,844 - __main__ - INFO - === Comparing Sequential vs Parallel Analysis ===
+2025-10-05 17:52:03,844 - __main__ - ERROR - Error in comparison test: 2 validation errors for Tweet
+tweet_id
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+inbound
+  Field required [type=missing, input_value={'id': '1', 'text': "Hi @... 0, 'retweet_count': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-10-05 17:52:03,844 - __main__ - INFO - ============================================================
+2025-10-05 17:52:03,844 - __main__ - INFO - TEST SUMMARY:
+2025-10-05 17:52:03,844 - __main__ - INFO - ============================================================
+2025-10-05 17:52:03,844 - __main__ - INFO -   config_loading: ✓ PASSED
+2025-10-05 17:52:03,844 - __main__ - INFO -   sequential_analysis: ✗ FAILED
+2025-10-05 17:52:03,844 - __main__ - INFO -   parallel_analysis: ✗ FAILED
+2025-10-05 17:52:03,844 - __main__ - INFO -   comparison: ✗ FAILED
+2025-10-05 17:52:03,844 - __main__ - INFO - 
+Overall: 1/4 tests passed (25.0%)
+2025-10-05 17:52:03,844 - __main__ - WARNING - ⚠️  3 test(s) failed. Check the logs for details.

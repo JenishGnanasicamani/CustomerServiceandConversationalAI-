@@ -1,0 +1,132 @@
+{
+  "categories": {
+    "accuracy_compliance": {
+      "category_score": 7.35,
+      "kpis": {
+        "resolution_completeness": {
+          "score": 7.2,
+          "reasoning": "Comprehensive analysis for resolution_completeness based on conversation evaluation"
+        },
+        "accuracy_automated_responses": {
+          "score": 7.5,
+          "reasoning": "Comprehensive analysis for accuracy_automated_responses based on conversation evaluation"
+        }
+      }
+    },
+    "empathy_communication": {
+      "category_score": 6.39,
+      "kpis": {
+        "empathy_score": {
+          "score": 5.71,
+          "reasoning": "Comprehensive analysis for empathy_score based on conversation evaluation Overall score calculated using weighted formula: 5.71",
+          "sub_factors": {
+            "emotion_recognition": {
+              "score": 4.71,
+              "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence"
+            },
+            "acknowledgment_feelings": {
+              "score": 5.75,
+              "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence"
+            },
+            "appropriate_response": {
+              "score": 5.92,
+              "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence"
+            },
+            "personalization": {
+              "score": 5.49,
+              "reasoning": "Sub-factor analysis for Personalization based on conversation evidence"
+            },
+            "supportive_language": {
+              "score": 5.94,
+              "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence"
+            },
+            "active_listening": {
+              "score": 7.17,
+              "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence"
+            }
+          }
+        },
+        "sentiment_shift": {
+          "score": 6.4,
+          "reasoning": "Comprehensive analysis for sentiment_shift based on conversation evaluation"
+        },
+        "clarity_language": {
+          "score": 7.3,
+          "reasoning": "Comprehensive analysis for clarity_language based on conversation evaluation Overall score calculated using weighted formula: 7.30",
+          "sub_factors": {
+            "readability_level": {
+              "score": 7.41,
+              "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence"
+            },
+            "jargon_usage": {
+              "score": 6.92,
+              "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence"
+            },
+            "sentence_structure": {
+              "score": 7.51,
+              "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence"
+            },
+            "coherence": {
+              "score": 7.35,
+              "reasoning": "Sub-factor analysis for Coherence based on conversation evidence"
+            },
+            "active_voice": {
+              "score": 6.98,
+              "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence"
+            },
+            "conciseness": {
+              "score": 7.42,
+              "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence"
+            }
+          }
+        },
+        "cultural_sensitivity": {
+          "score": 5.1,
+          "reasoning": "Comprehensive analysis for cultural_sensitivity based on conversation evaluation"
+        },
+        "adaptability_quotient": {
+          "score": 6.7,
+          "reasoning": "Comprehensive analysis for adaptability_quotient based on conversation evaluation"
+        },
+        "conversation_flow": {
+          "score": 7.1,
+          "reasoning": "Comprehensive analysis for conversation_flow based on conversation evaluation"
+        }
+      }
+    },
+    "efficiency_resolution": {
+      "category_score": 7.17,
+      "kpis": {
+        "followup_necessity": {
+          "score": 6.9,
+          "reasoning": "Comprehensive analysis for followup_necessity based on conversation evaluation"
+        },
+        "customer_effort_score": {
+          "score": 7.1,
+          "reasoning": "Comprehensive analysis for customer_effort_score based on conversation evaluation"
+        },
+        "first_response_accuracy": {
+          "score": 6.7,
+          "reasoning": "Comprehensive analysis for first_response_accuracy based on conversation evaluation"
+        },
+        "csat_resolution": {
+          "score": 7.7,
+          "reasoning": "Comprehensive analysis for csat_resolution based on conversation evaluation"
+        },
+        "escalation_rate": {
+          "score": 7.3,
+          "reasoning": "Comprehensive analysis for escalation_rate based on conversation evaluation Overall score calculated using weighted formula: 7.30"
+        },
+        "customer_effort_reduction": {
+          "score": 7.3,
+          "reasoning": "Comprehensive analysis for customer_effort_reduction based on conversation evaluation Overall score calculated using weighted formula: 7.30"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "total_kpis_evaluated": 14,
+    "evaluation_timestamp": "2025-10-05T00:15:33.143732",
+    "model_used": "claude-4"
+  }
+}

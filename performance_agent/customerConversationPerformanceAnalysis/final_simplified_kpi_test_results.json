@@ -1,0 +1,51 @@
+{
+  "test_timestamp": "2025-10-05T08:56:03.831401",
+  "verification_results": {
+    "duplication_fixed": true,
+    "simplified_structure": true,
+    "kpis_persisted": true,
+    "sub_kpis_supported": true,
+    "overall_success": true
+  },
+  "sample_llm_result_keys": [
+    "conversation_id",
+    "analysis_timestamp",
+    "analysis_method",
+    "model_used",
+    "performance_metrics",
+    "overall_performance",
+    "agent_output"
+  ],
+  "sample_periodic_result_keys": [
+    "conversation_id",
+    "customer",
+    "created_at",
+    "created_time",
+    "conversation_summary",
+    "performance_metrics",
+    "analysis_timestamp",
+    "analysis_method",
+    "model_used",
+    "agent_output",
+    "source_object_id",
+    "source_timestamp",
+    "analysis_metadata"
+  ],
+  "final_document_structure": {
+    "has_top_level_categories": false,
+    "has_performance_metrics": true,
+    "categories_in_pm": true
+  },
+  "sample_kpi_structure": {
+    "keys": [
+      "score",
+      "reason",
+      "sub_kpis",
+      "overall_score"
+    ],
+    "has_score": true,
+    "has_reason": true,
+    "has_sub_kpis": true,
+    "has_overall_score": true
+  }
+}

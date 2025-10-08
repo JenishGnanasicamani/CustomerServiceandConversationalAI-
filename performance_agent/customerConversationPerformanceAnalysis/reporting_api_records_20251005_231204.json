@@ -1,0 +1,1841 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-10-05T23:12:04.278612",
+    "source_api": "reporting_api",
+    "total_records": 5,
+    "query_parameters": {
+      "start_date": "2000-01-01",
+      "end_date": "2100-12-31",
+      "customer": null,
+      "records_found": 5
+    },
+    "report_status": "success",
+    "api_version": "1.0.0"
+  },
+  "selected_records": [
+    {
+      "_id": "68e29e53f61d7c49fea920f8",
+      "conversation_id": 3751,
+      "customer": "Delta",
+      "created_at": "2025-10-05T22:04:45.771850",
+      "created_time": "22:04:45",
+      "conversation_summary": {
+        "total_messages": 2,
+        "customer_messages": 1,
+        "agent_messages": 1,
+        "conversation_type": "Complaint about airline staff behavior",
+        "intent": "Complaint",
+        "topic": "Technical Support",
+        "final_sentiment": "Negative",
+        "categorization": "Complaint about airline staff behavior"
+      },
+      "performance_metrics": {
+        "categories": {
+          "accuracy_compliance": {
+            "category_description": "Measures Accuracy Compliance performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "resolution_completeness": {
+                "score": 6.0,
+                "reason": "The 2-message conversation about Technical Support followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively",
+                "sub_kpis": {
+                  "issue_identification": {
+                    "score": 6.167928121165979,
+                    "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                  },
+                  "solution_depth": {
+                    "score": 6.7474927193653995,
+                    "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                  },
+                  "follow_up_clarity": {
+                    "score": 5.850854714993835,
+                    "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                  },
+                  "confirmation_process": {
+                    "score": 5.936809639286709,
+                    "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was implied through interaction completion"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "accuracy_automated_responses": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical Support interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              }
+            }
+          },
+          "empathy_communication": {
+            "category_description": "Measures Empathy Communication performance",
+            "overall_score": 6.12,
+            "kpis": {
+              "empathy_score": {
+                "score": 6.06,
+                "reason": "Analysis of Empathy Score reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@Delta, normally I love flying with you, but I’m e...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.06",
+                "evidence": [],
+                "normalized_score": 0.65,
+                "confidence": 0.9,
+                "interpretation": "good - shows adequate emotional awareness",
+                "sub_kpis": {
+                  "emotion_recognition": {
+                    "score": 5.32,
+                    "reason": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                    "evidence": [
+                      "Customer: \"@Delta, normally I love flying with you, but I’m extremely upset at how your team acted tonight. A team-member unapologetically snatched my bag out of my hands after I was told to wait to see if there was space overhead. There was. I said no and I feel violated. I’m not alone.\""
+                    ],
+                    "normalized_score": 0.532,
+                    "confidence": 0.75,
+                    "interpretation": "satisfactory"
+                  },
+                  "acknowledgment_feelings": {
+                    "score": 6.61,
+                    "reason": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.661,
+                    "confidence": 0.65,
+                    "interpretation": "good"
+                  },
+                  "appropriate_response": {
+                    "score": 6.7,
+                    "reason": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.67,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "personalization": {
+                    "score": 5.0,
+                    "reason": "Sub-factor analysis for Personalization based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 1.0,
+                    "confidence": 0.6,
+                    "interpretation": "needs improvement"
+                  },
+                  "supportive_language": {
+                    "score": 5.85,
+                    "reason": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.585,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory - communication clarity needs improvement"
+                  },
+                  "active_listening": {
+                    "score": 7.03,
+                    "reason": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.703,
+                    "confidence": 0.65,
+                    "interpretation": "very good"
+                  }
+                },
+                "overall_score": 6.06
+              },
+              "sentiment_shift": {
+                "score": 6.5,
+                "reason": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@Delta, normally I love flying with you, but I’m e...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.65,
+                "confidence": 0.9,
+                "interpretation": "good - maintains positive interaction tone"
+              },
+              "clarity_language": {
+                "score": 6.19,
+                "reason": "Agent responses averaged 0 words per message in this Technical Support discussion. Communication was functional though didn't showcase specific clarity enhancement techniques or customer comprehension confirmations. Overall score calculated using weighted formula: 6.19",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains clear communication standards",
+                "sub_kpis": {
+                  "readability_level": {
+                    "score": 6.08,
+                    "reason": "Sub-factor analysis for Readability Level based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.608,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "jargon_usage": {
+                    "score": 6.45,
+                    "reason": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.645,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "sentence_structure": {
+                    "score": 6.81,
+                    "reason": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.681,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "coherence": {
+                    "score": 6.65,
+                    "reason": "Sub-factor analysis for Coherence based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.665,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "active_voice": {
+                    "score": 5.8,
+                    "reason": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.58,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "conciseness": {
+                    "score": 5.16,
+                    "reason": "Sub-factor analysis for Conciseness based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.516,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  }
+                },
+                "overall_score": 6.19
+              },
+              "cultural_sensitivity": {
+                "score": 6.0,
+                "reason": "This 2-message Technical Support interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows appropriate cultural sensitivity"
+              },
+              "adaptability_quotient": {
+                "score": 6.0,
+                "reason": "Agent responses in this Technical Support case followed consistent approach patterns. No specific customer preference adjustments, communication style modifications, or adaptive problem-solving variations were required or demonstrated.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - adapts well to customer needs"
+              },
+              "conversation_flow": {
+                "score": 6.0,
+                "reason": "The 2-message exchange about Technical Support maintained basic turn-taking structure. Standard greeting-issue-response-closure pattern without notable flow disruptions or enhancement techniques.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.7,
+                "interpretation": "good"
+              }
+            }
+          },
+          "efficiency_resolution": {
+            "category_description": "Measures Efficiency Resolution performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "followup_necessity": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_score": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices",
+                "sub_kpis": {
+                  "information_gathering": {
+                    "score": 5.545742690040624,
+                    "reason": "Agent gathered necessary information through standard process. Information collection was streamlined and secure"
+                  },
+                  "process_simplification": {
+                    "score": 7.111708418871664,
+                    "reason": "Agent provided standard process guidance. Customer appreciated the resolution method"
+                  },
+                  "proactive_assistance": {
+                    "score": 7.120407849568385,
+                    "reason": "Agent responded to customer requests as presented. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "first_response_accuracy": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical Support interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              },
+              "csat_resolution": {
+                "score": 6.0,
+                "reason": "The 2-message conversation about Technical Support followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively"
+              },
+              "escalation_rate": {
+                "score": 6.0,
+                "reason": "This Technical Support interaction remained at initial support level throughout 2 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_reduction": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices"
+              }
+            }
+          }
+        }
+      },
+      "analysis_timestamp": "2025-10-05T22:05:31.821329",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "claude-4",
+      "agent_output": "I'll perform a complete and systematic analysis of the provided conversation data against all configured KPIs. Let me start by formatting the conversation and then analyzing each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 470334, \"author_id\": \"226977\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-01\", \"text\": \"@Delta, normally I love flying with you, but I'm extremely upset at how your team acted tonight. A team-member unapologetically snatched my bag out of my hands after I was told to wait to see if there was space overhead. There was. I said no and I feel violated. I'm not alone.\"}, {\"tweet_id\": 470333, \"author_id\": \"Delta\", \"role\": \"Service Provider\", \"inbound\": false, \"created_at\": \"2024-12-01\", \"text\": \"@226977 ...appropriate desk for review.  *HSD 2/2\"}], \"classification\": {\"categorization\": \"Complaint about airline staff behavior\", \"intent\": \"Complaint\", \"topic\": \"Technical Support...",
+      "source_object_id": "68dce4d8b1dee7d0fab60b02",
+      "source_timestamp": "2025-10-05T22:05:31.821000",
+      "analysis_metadata": {
+        "processed_timestamp": "2025-10-05T22:05:31.821000",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.2.0",
+        "model_used": "claude-4",
+        "restructured_format": true
+      },
+      "persistence_metadata": {
+        "inserted_timestamp": "2025-10-05T22:05:31.821000",
+        "collection": "agentic_analysis",
+        "job_name": "conversation_performance_analysis",
+        "storage_type": "mongodb"
+      }
+    },
+    {
+      "_id": "68e29e83f61d7c49fea920f9",
+      "conversation_id": 4485,
+      "customer": "Delta",
+      "created_at": "2025-10-05T22:05:31.961544",
+      "created_time": "22:05:31",
+      "conversation_summary": {
+        "total_messages": 3,
+        "customer_messages": 2,
+        "agent_messages": 1,
+        "conversation_type": "Complaint about customer service",
+        "intent": "Technical Support",
+        "topic": "General",
+        "final_sentiment": "Negative",
+        "categorization": "Complaint about customer service"
+      },
+      "performance_metrics": {
+        "categories": {
+          "accuracy_compliance": {
+            "category_description": "Measures Accuracy Compliance performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "resolution_completeness": {
+                "score": 6.0,
+                "reason": "The 3-message conversation about General followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively",
+                "sub_kpis": {
+                  "issue_identification": {
+                    "score": 6.167928121165979,
+                    "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                  },
+                  "solution_depth": {
+                    "score": 6.7474927193653995,
+                    "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                  },
+                  "follow_up_clarity": {
+                    "score": 5.850854714993835,
+                    "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                  },
+                  "confirmation_process": {
+                    "score": 5.936809639286709,
+                    "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was implied through interaction completion"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "accuracy_automated_responses": {
+                "score": 6.0,
+                "reason": "Information exchange in this General interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              }
+            }
+          },
+          "empathy_communication": {
+            "category_description": "Measures Empathy Communication performance",
+            "overall_score": 6.21,
+            "kpis": {
+              "empathy_score": {
+                "score": 6.06,
+                "reason": "Analysis of Empathy Score reveals specific evidence from the conversation. Key evidence includes: relevant interaction ('@253716 I do apologize for the long hold times we'...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.06",
+                "evidence": [],
+                "normalized_score": 0.65,
+                "confidence": 0.9,
+                "interpretation": "good - shows adequate emotional awareness",
+                "sub_kpis": {
+                  "emotion_recognition": {
+                    "score": 5.32,
+                    "reason": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.532,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "acknowledgment_feelings": {
+                    "score": 6.61,
+                    "reason": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.661,
+                    "confidence": 0.65,
+                    "interpretation": "good"
+                  },
+                  "appropriate_response": {
+                    "score": 6.7,
+                    "reason": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.67,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "personalization": {
+                    "score": 5.0,
+                    "reason": "Sub-factor analysis for Personalization based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 1.0,
+                    "confidence": 0.6,
+                    "interpretation": "needs improvement"
+                  },
+                  "supportive_language": {
+                    "score": 5.85,
+                    "reason": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.585,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory - communication clarity needs improvement"
+                  },
+                  "active_listening": {
+                    "score": 7.03,
+                    "reason": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.703,
+                    "confidence": 0.65,
+                    "interpretation": "very good"
+                  }
+                },
+                "overall_score": 6.06
+              },
+              "sentiment_shift": {
+                "score": 6.0,
+                "reason": "Customer tone remained relatively consistent from initial contact ('@Delta seriously? a two hour h...') through conclusion ('@Delta @253716 Hey you got any...'). No dramatic sentiment transformation indicators were present in this General interaction.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains positive interaction tone"
+              },
+              "clarity_language": {
+                "score": 6.19,
+                "reason": "Agent responses averaged 0 words per message in this General discussion. Communication was functional though didn't showcase specific clarity enhancement techniques or customer comprehension confirmations. Overall score calculated using weighted formula: 6.19",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains clear communication standards",
+                "sub_kpis": {
+                  "readability_level": {
+                    "score": 6.08,
+                    "reason": "Sub-factor analysis for Readability Level based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.608,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "jargon_usage": {
+                    "score": 6.45,
+                    "reason": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.645,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "sentence_structure": {
+                    "score": 6.81,
+                    "reason": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.681,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "coherence": {
+                    "score": 6.65,
+                    "reason": "Sub-factor analysis for Coherence based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.665,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "active_voice": {
+                    "score": 5.8,
+                    "reason": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.58,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "conciseness": {
+                    "score": 5.16,
+                    "reason": "Sub-factor analysis for Conciseness based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.516,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  }
+                },
+                "overall_score": 6.19
+              },
+              "cultural_sensitivity": {
+                "score": 6.0,
+                "reason": "This 3-message General interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows appropriate cultural sensitivity"
+              },
+              "adaptability_quotient": {
+                "score": 6.0,
+                "reason": "Agent responses in this General case followed consistent approach patterns. No specific customer preference adjustments, communication style modifications, or adaptive problem-solving variations were required or demonstrated.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - adapts well to customer needs"
+              },
+              "conversation_flow": {
+                "score": 7.0,
+                "reason": "Analysis of Conversation Flow reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@253716 I do apologize for the long hold times we'...'); relevant interaction ('@Delta @253716 Hey you got any weed man...'). The score of 7.0 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.7,
+                "confidence": 0.95,
+                "interpretation": "very good"
+              }
+            }
+          },
+          "efficiency_resolution": {
+            "category_description": "Measures Efficiency Resolution performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "followup_necessity": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 3-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_score": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 3-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices",
+                "sub_kpis": {
+                  "information_gathering": {
+                    "score": 5.545742690040624,
+                    "reason": "Agent gathered necessary information through standard process. Information collection was streamlined and secure"
+                  },
+                  "process_simplification": {
+                    "score": 7.111708418871664,
+                    "reason": "Agent provided standard process guidance. Customer appreciated the resolution method"
+                  },
+                  "proactive_assistance": {
+                    "score": 7.120407849568385,
+                    "reason": "Agent responded to customer requests as presented. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "first_response_accuracy": {
+                "score": 6.0,
+                "reason": "Information exchange in this General interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              },
+              "csat_resolution": {
+                "score": 6.0,
+                "reason": "The 3-message conversation about General followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively"
+              },
+              "escalation_rate": {
+                "score": 6.0,
+                "reason": "This General interaction remained at initial support level throughout 3 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.7,
+                "interpretation": "good"
+              },
+              "customer_effort_reduction": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 3-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices"
+              }
+            }
+          }
+        }
+      },
+      "analysis_timestamp": "2025-10-05T22:06:19.808457",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "claude-4",
+      "agent_output": "I'll perform a complete and systematic analysis of the provided conversation data against all configured KPIs. Let me start by formatting the conversation and then analyzing each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 569704, \"author_id\": \"253716\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-03\", \"text\": \"@Delta seriously? a two hour hold time?? what happened to your call back service? #igotalifetolive\"}, {\"tweet_id\": 569701, \"author_id\": \"Delta\", \"role\": \"Service Provider\", \"inbound\": false, \"created_at\": \"2024-12-03\", \"text\": \"@253716 I do apologize for the long hold times we're experiencing tonight. How may we help you via this channel? *TAC\"}, {\"tweet_id\": 569702, \"author_id\": \"116808\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-03\", \"text\": \"@Delta @253716 Hey you got any weed man\"}], \"classification\": {\"categorization\": \"Complaint about customer service\", \"inten...",
+      "source_object_id": "68dce4efb1dee7d0fab60b03",
+      "source_timestamp": "2025-10-05T22:06:19.808000",
+      "analysis_metadata": {
+        "processed_timestamp": "2025-10-05T22:06:19.808000",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.2.0",
+        "model_used": "claude-4",
+        "restructured_format": true
+      },
+      "persistence_metadata": {
+        "inserted_timestamp": "2025-10-05T22:06:19.808000",
+        "collection": "agentic_analysis",
+        "job_name": "conversation_performance_analysis",
+        "storage_type": "mongodb"
+      }
+    },
+    {
+      "_id": "68e29eadf61d7c49fea920fa",
+      "conversation_id": 4229,
+      "customer": "Delta",
+      "created_at": "2025-10-05T22:06:19.940847",
+      "created_time": "22:06:19",
+      "conversation_summary": {
+        "total_messages": 4,
+        "customer_messages": 3,
+        "agent_messages": 1,
+        "conversation_type": "Complaint about poor customer service",
+        "intent": "Complaint",
+        "topic": "Technical Support",
+        "final_sentiment": "Negative",
+        "categorization": "Complaint about poor customer service"
+      },
+      "performance_metrics": {
+        "categories": {
+          "accuracy_compliance": {
+            "category_description": "Measures Accuracy Compliance performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "resolution_completeness": {
+                "score": 6.0,
+                "reason": "The 4-message conversation about Technical Support followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively",
+                "sub_kpis": {
+                  "issue_identification": {
+                    "score": 6.167928121165979,
+                    "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                  },
+                  "solution_depth": {
+                    "score": 6.7474927193653995,
+                    "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                  },
+                  "follow_up_clarity": {
+                    "score": 5.850854714993835,
+                    "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                  },
+                  "confirmation_process": {
+                    "score": 5.936809639286709,
+                    "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was implied through interaction completion"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "accuracy_automated_responses": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical Support interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              }
+            }
+          },
+          "empathy_communication": {
+            "category_description": "Measures Empathy Communication performance",
+            "overall_score": 6.56,
+            "kpis": {
+              "empathy_score": {
+                "score": 6.56,
+                "reason": "Analysis of Empathy Score reveals specific evidence from the conversation. Key evidence includes: relevant interaction ('@243850 I am very sorry that you feel this way. We...'). The score of 7.0 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.56",
+                "evidence": [],
+                "normalized_score": 0.7,
+                "confidence": 0.9,
+                "interpretation": "very good - shows adequate emotional awareness",
+                "sub_kpis": {
+                  "emotion_recognition": {
+                    "score": 5.82,
+                    "reason": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.582,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "acknowledgment_feelings": {
+                    "score": 7.11,
+                    "reason": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.711,
+                    "confidence": 0.65,
+                    "interpretation": "very good"
+                  },
+                  "appropriate_response": {
+                    "score": 7.2,
+                    "reason": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.72,
+                    "confidence": 0.6,
+                    "interpretation": "very good"
+                  },
+                  "personalization": {
+                    "score": 5.5,
+                    "reason": "Sub-factor analysis for Personalization based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.55,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "supportive_language": {
+                    "score": 6.35,
+                    "reason": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.635,
+                    "confidence": 0.6,
+                    "interpretation": "good - maintains clear communication standards"
+                  },
+                  "active_listening": {
+                    "score": 7.53,
+                    "reason": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.753,
+                    "confidence": 0.65,
+                    "interpretation": "very good"
+                  }
+                },
+                "overall_score": 6.56
+              },
+              "sentiment_shift": {
+                "score": 7.3,
+                "reason": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: positive customer feedback ('@Delta @Delta thanks for cutting my time short wit...'). The score of 7.3 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [
+                  "Customer: \"@Delta @Delta thanks for cutting my time short with my mother who I won't get to see for years after I got to boot camp. This how you treat Vets? I'll make that notes\""
+                ],
+                "normalized_score": 0.73,
+                "confidence": 0.9,
+                "interpretation": "very good - maintains positive interaction tone"
+              },
+              "clarity_language": {
+                "score": 6.19,
+                "reason": "Agent responses averaged 0 words per message in this Technical Support discussion. Communication was functional though didn't showcase specific clarity enhancement techniques or customer comprehension confirmations. Overall score calculated using weighted formula: 6.19",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains clear communication standards",
+                "sub_kpis": {
+                  "readability_level": {
+                    "score": 6.08,
+                    "reason": "Sub-factor analysis for Readability Level based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.608,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "jargon_usage": {
+                    "score": 6.45,
+                    "reason": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.645,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "sentence_structure": {
+                    "score": 6.81,
+                    "reason": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.681,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "coherence": {
+                    "score": 6.65,
+                    "reason": "Sub-factor analysis for Coherence based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.665,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "active_voice": {
+                    "score": 5.8,
+                    "reason": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.58,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "conciseness": {
+                    "score": 5.16,
+                    "reason": "Sub-factor analysis for Conciseness based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.516,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  }
+                },
+                "overall_score": 6.19
+              },
+              "cultural_sensitivity": {
+                "score": 6.0,
+                "reason": "This 4-message Technical Support interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows appropriate cultural sensitivity"
+              },
+              "adaptability_quotient": {
+                "score": 6.0,
+                "reason": "Agent responses in this Technical Support case followed consistent approach patterns. No specific customer preference adjustments, communication style modifications, or adaptive problem-solving variations were required or demonstrated.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - adapts well to customer needs"
+              },
+              "conversation_flow": {
+                "score": 7.3,
+                "reason": "Analysis of Conversation Flow reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@Delta @Delta thanks for cutting my time short wit...'); relevant interaction ('@243850 I am very sorry that you feel this way. We...'). The score of 7.3 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.73,
+                "confidence": 0.95,
+                "interpretation": "very good"
+              }
+            }
+          },
+          "efficiency_resolution": {
+            "category_description": "Measures Efficiency Resolution performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "followup_necessity": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 4-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_score": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 4-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices",
+                "sub_kpis": {
+                  "information_gathering": {
+                    "score": 5.545742690040624,
+                    "reason": "Agent gathered necessary information through standard process. Information collection was streamlined and secure"
+                  },
+                  "process_simplification": {
+                    "score": 7.111708418871664,
+                    "reason": "Agent provided standard process guidance. Customer appreciated the resolution method"
+                  },
+                  "proactive_assistance": {
+                    "score": 7.120407849568385,
+                    "reason": "Agent responded to customer requests as presented. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "first_response_accuracy": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical Support interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              },
+              "csat_resolution": {
+                "score": 6.0,
+                "reason": "The 4-message conversation about Technical Support followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively"
+              },
+              "escalation_rate": {
+                "score": 6.0,
+                "reason": "This Technical Support interaction remained at initial support level throughout 4 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_reduction": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 4-message Technical Support interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices"
+              }
+            }
+          }
+        }
+      },
+      "analysis_timestamp": "2025-10-05T22:07:01.835445",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "claude-4",
+      "agent_output": "I'll perform a complete and systematic analysis of this customer service conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI thoroughly.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 534664, \"author_id\": \"243850\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-02\", \"text\": \"@Delta unacceptable the stunt the pulled. Comeplete trash. I won't ever be. Back\"}, {\"tweet_id\": 534663, \"author_id\": \"243850\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-02\", \"text\": \"@Delta @Delta thanks for cutting my time short with my mother who I won't get to see for years after I got to boot camp. This how you treat Vets? I'll make that notes\"}, {\"tweet_id\": 534661, \"author_id\": \"Delta\", \"role\": \"Service Provider\", \"inbound\": false, \"created_at\": \"2024-12-02\", \"text\": \"@243850 I am very sorry that you feel this way. We are here to help if you need us. Pleas...",
+      "source_object_id": "68dce513b1dee7d0fab60b04",
+      "source_timestamp": "2025-10-05T22:07:01.835000",
+      "analysis_metadata": {
+        "processed_timestamp": "2025-10-05T22:07:01.835000",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.2.0",
+        "model_used": "claude-4",
+        "restructured_format": true
+      },
+      "persistence_metadata": {
+        "inserted_timestamp": "2025-10-05T22:07:01.835000",
+        "collection": "agentic_analysis",
+        "job_name": "conversation_performance_analysis",
+        "storage_type": "mongodb"
+      }
+    },
+    {
+      "_id": "68e29ed8f61d7c49fea920fb",
+      "conversation_id": 3762,
+      "customer": "Delta",
+      "created_at": "2025-10-05T22:07:01.986389",
+      "created_time": "22:07:01",
+      "conversation_summary": {
+        "total_messages": 2,
+        "customer_messages": 1,
+        "agent_messages": 1,
+        "conversation_type": "Positive feedback",
+        "intent": "Feedback",
+        "topic": "General",
+        "final_sentiment": "Positive",
+        "categorization": "Positive feedback"
+      },
+      "performance_metrics": {
+        "categories": {
+          "accuracy_compliance": {
+            "category_description": "Measures Accuracy Compliance performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "resolution_completeness": {
+                "score": 6.0,
+                "reason": "The 2-message conversation about General followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively",
+                "sub_kpis": {
+                  "issue_identification": {
+                    "score": 6.167928121165979,
+                    "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                  },
+                  "solution_depth": {
+                    "score": 6.7474927193653995,
+                    "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                  },
+                  "follow_up_clarity": {
+                    "score": 5.850854714993835,
+                    "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                  },
+                  "confirmation_process": {
+                    "score": 5.936809639286709,
+                    "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was explicitly confirmed with positive feedback"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "accuracy_automated_responses": {
+                "score": 6.0,
+                "reason": "Information exchange in this General interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              }
+            }
+          },
+          "empathy_communication": {
+            "category_description": "Measures Empathy Communication performance",
+            "overall_score": 6.21,
+            "kpis": {
+              "empathy_score": {
+                "score": 5.56,
+                "reason": "In this 2-message General interaction, customer emotional expressions were minimal or indirect. The agent maintained professional communication without specific situations arising that would demonstrate empathy skills explicitly. Overall score calculated using weighted formula: 5.56",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows adequate emotional awareness",
+                "sub_kpis": {
+                  "emotion_recognition": {
+                    "score": 4.82,
+                    "reason": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.964,
+                    "confidence": 0.6,
+                    "interpretation": "needs improvement"
+                  },
+                  "acknowledgment_feelings": {
+                    "score": 6.11,
+                    "reason": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.611,
+                    "confidence": 0.65,
+                    "interpretation": "good"
+                  },
+                  "appropriate_response": {
+                    "score": 6.2,
+                    "reason": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.62,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "personalization": {
+                    "score": 4.5,
+                    "reason": "Sub-factor analysis for Personalization based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.9,
+                    "confidence": 0.6,
+                    "interpretation": "needs improvement"
+                  },
+                  "supportive_language": {
+                    "score": 5.35,
+                    "reason": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.535,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory - communication clarity needs improvement"
+                  },
+                  "active_listening": {
+                    "score": 6.53,
+                    "reason": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.653,
+                    "confidence": 0.65,
+                    "interpretation": "good"
+                  }
+                },
+                "overall_score": 5.56
+              },
+              "sentiment_shift": {
+                "score": 6.5,
+                "reason": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@Delta check in @21706 was amazingly smooth this m...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.65,
+                "confidence": 0.9,
+                "interpretation": "good - maintains positive interaction tone"
+              },
+              "clarity_language": {
+                "score": 6.19,
+                "reason": "Agent responses averaged 0 words per message in this General discussion. Communication was functional though didn't showcase specific clarity enhancement techniques or customer comprehension confirmations. Overall score calculated using weighted formula: 6.19",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains clear communication standards",
+                "sub_kpis": {
+                  "readability_level": {
+                    "score": 6.08,
+                    "reason": "Sub-factor analysis for Readability Level based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.608,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "jargon_usage": {
+                    "score": 6.45,
+                    "reason": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.645,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "sentence_structure": {
+                    "score": 6.81,
+                    "reason": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.681,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "coherence": {
+                    "score": 6.65,
+                    "reason": "Sub-factor analysis for Coherence based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.665,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "active_voice": {
+                    "score": 5.8,
+                    "reason": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.58,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "conciseness": {
+                    "score": 5.16,
+                    "reason": "Sub-factor analysis for Conciseness based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.516,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  }
+                },
+                "overall_score": 6.19
+              },
+              "cultural_sensitivity": {
+                "score": 6.0,
+                "reason": "This 2-message General interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows appropriate cultural sensitivity"
+              },
+              "adaptability_quotient": {
+                "score": 6.0,
+                "reason": "Agent responses in this General case followed consistent approach patterns. No specific customer preference adjustments, communication style modifications, or adaptive problem-solving variations were required or demonstrated.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - adapts well to customer needs"
+              },
+              "conversation_flow": {
+                "score": 7.0,
+                "reason": "Analysis of Conversation Flow reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('@Delta check in @21706 was amazingly smooth this m...'); relevant interaction ('@227319 Thank you for traveling with us, Kev. Enjo...'). The score of 7.0 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.7,
+                "confidence": 0.95,
+                "interpretation": "very good"
+              }
+            }
+          },
+          "efficiency_resolution": {
+            "category_description": "Measures Efficiency Resolution performance",
+            "overall_score": 6.0,
+            "kpis": {
+              "followup_necessity": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_score": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices",
+                "sub_kpis": {
+                  "information_gathering": {
+                    "score": 5.545742690040624,
+                    "reason": "Agent gathered necessary information through standard process. Information collection was streamlined and secure"
+                  },
+                  "process_simplification": {
+                    "score": 7.111708418871664,
+                    "reason": "Agent provided standard process guidance. Customer appreciated the resolution method"
+                  },
+                  "proactive_assistance": {
+                    "score": 7.120407849568385,
+                    "reason": "Agent responded to customer requests as presented. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "first_response_accuracy": {
+                "score": 6.0,
+                "reason": "Information exchange in this General interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              },
+              "csat_resolution": {
+                "score": 6.0,
+                "reason": "The 2-message conversation about General followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - resolves most customer issues effectively"
+              },
+              "escalation_rate": {
+                "score": 6.0,
+                "reason": "This General interaction remained at initial support level throughout 2 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.7,
+                "interpretation": "good"
+              },
+              "customer_effort_reduction": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message General interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices"
+              }
+            }
+          }
+        }
+      },
+      "analysis_timestamp": "2025-10-05T22:07:44.026420",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "claude-4",
+      "agent_output": "I'll perform a complete and systematic analysis of the provided conversation data against all configured KPIs. Let me start by formatting the conversation and then analyzing each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 471672, \"author_id\": \"227319\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-01\", \"text\": \"@Delta check in @21706 was amazingly smooth this morning. Hope the flight goes the same way 👍🏽\"}, {\"tweet_id\": 471671, \"author_id\": \"Delta\", \"role\": \"Service Provider\", \"inbound\": false, \"created_at\": \"2024-12-01\", \"text\": \"@227319 Thank you for traveling with us, Kev. Enjoy your trip! *ABN\"}], \"classification\": {\"categorization\": \"Positive feedback\", \"intent\": \"Feedback\", \"topic\": \"General\", \"sentiment\": \"Positive\"}}</parameter>\n</invoke>\n\nNow I'll systematically analyze each KPI. Let me start with the ACCURACY_COMPLIANCE category:\n\n<invoke name=\"configuration_tool\">\n<parameter name...",
+      "source_object_id": "68dce526b1dee7d0fab60b05",
+      "source_timestamp": "2025-10-05T22:07:44.026000",
+      "analysis_metadata": {
+        "processed_timestamp": "2025-10-05T22:07:44.026000",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.2.0",
+        "model_used": "claude-4",
+        "restructured_format": true
+      },
+      "persistence_metadata": {
+        "inserted_timestamp": "2025-10-05T22:07:44.026000",
+        "collection": "agentic_analysis",
+        "job_name": "conversation_performance_analysis",
+        "storage_type": "mongodb"
+      }
+    },
+    {
+      "_id": "68e29f03f61d7c49fea920fc",
+      "conversation_id": 4495,
+      "customer": "Delta",
+      "created_at": "2025-10-05T22:07:44.163157",
+      "created_time": "22:07:44",
+      "conversation_summary": {
+        "total_messages": 2,
+        "customer_messages": 1,
+        "agent_messages": 1,
+        "conversation_type": "Technical Support",
+        "intent": "Technical Support",
+        "topic": "Technical",
+        "final_sentiment": "Neutral",
+        "categorization": "Technical Support"
+      },
+      "performance_metrics": {
+        "categories": {
+          "accuracy_compliance": {
+            "category_description": "Measures Accuracy Compliance performance",
+            "overall_score": 6.5,
+            "kpis": {
+              "resolution_completeness": {
+                "score": 7.0,
+                "reason": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Key evidence includes: solution-oriented response ('@253963 I’d be delighted to assist. Please follow ...'). The score of 7.0 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.7,
+                "confidence": 0.9,
+                "interpretation": "very good - resolves most customer issues effectively",
+                "sub_kpis": {
+                  "issue_identification": {
+                    "score": 7.167928121165979,
+                    "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                  },
+                  "solution_depth": {
+                    "score": 7.7474927193653995,
+                    "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                  },
+                  "follow_up_clarity": {
+                    "score": 6.850854714993835,
+                    "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                  },
+                  "confirmation_process": {
+                    "score": 6.936809639286709,
+                    "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was implied through interaction completion"
+                  }
+                },
+                "overall_score": 7.0
+              },
+              "accuracy_automated_responses": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              }
+            }
+          },
+          "empathy_communication": {
+            "category_description": "Measures Empathy Communication performance",
+            "overall_score": 6.04,
+            "kpis": {
+              "empathy_score": {
+                "score": 6.06,
+                "reason": "Analysis of Empathy Score reveals specific evidence from the conversation. Key evidence includes: relevant interaction ('@253963 I’d be delighted to assist. Please follow ...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.06",
+                "evidence": [],
+                "normalized_score": 0.65,
+                "confidence": 0.9,
+                "interpretation": "good - shows adequate emotional awareness",
+                "sub_kpis": {
+                  "emotion_recognition": {
+                    "score": 5.32,
+                    "reason": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.532,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "acknowledgment_feelings": {
+                    "score": 6.61,
+                    "reason": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.661,
+                    "confidence": 0.65,
+                    "interpretation": "good"
+                  },
+                  "appropriate_response": {
+                    "score": 6.7,
+                    "reason": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.67,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "personalization": {
+                    "score": 5.0,
+                    "reason": "Sub-factor analysis for Personalization based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 1.0,
+                    "confidence": 0.6,
+                    "interpretation": "needs improvement"
+                  },
+                  "supportive_language": {
+                    "score": 5.85,
+                    "reason": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.585,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory - communication clarity needs improvement"
+                  },
+                  "active_listening": {
+                    "score": 7.03,
+                    "reason": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.703,
+                    "confidence": 0.65,
+                    "interpretation": "very good"
+                  }
+                },
+                "overall_score": 6.06
+              },
+              "sentiment_shift": {
+                "score": 6.0,
+                "reason": "Customer tone remained relatively consistent from initial contact ('@Delta I keep trying to change...') through conclusion ('@Delta I keep trying to change...'). No dramatic sentiment transformation indicators were present in this Technical interaction.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains positive interaction tone"
+              },
+              "clarity_language": {
+                "score": 6.19,
+                "reason": "Agent responses averaged 0 words per message in this Technical discussion. Communication was functional though didn't showcase specific clarity enhancement techniques or customer comprehension confirmations. Overall score calculated using weighted formula: 6.19",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains clear communication standards",
+                "sub_kpis": {
+                  "readability_level": {
+                    "score": 6.08,
+                    "reason": "Sub-factor analysis for Readability Level based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.608,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "jargon_usage": {
+                    "score": 6.45,
+                    "reason": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.645,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "sentence_structure": {
+                    "score": 6.81,
+                    "reason": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.681,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "coherence": {
+                    "score": 6.65,
+                    "reason": "Sub-factor analysis for Coherence based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.665,
+                    "confidence": 0.6,
+                    "interpretation": "good"
+                  },
+                  "active_voice": {
+                    "score": 5.8,
+                    "reason": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.58,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  },
+                  "conciseness": {
+                    "score": 5.16,
+                    "reason": "Sub-factor analysis for Conciseness based on conversation evidence",
+                    "evidence": [],
+                    "normalized_score": 0.516,
+                    "confidence": 0.6,
+                    "interpretation": "satisfactory"
+                  }
+                },
+                "overall_score": 6.19
+              },
+              "cultural_sensitivity": {
+                "score": 6.0,
+                "reason": "This 2-message Technical interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - shows appropriate cultural sensitivity"
+              },
+              "adaptability_quotient": {
+                "score": 6.0,
+                "reason": "Agent responses in this Technical case followed consistent approach patterns. No specific customer preference adjustments, communication style modifications, or adaptive problem-solving variations were required or demonstrated.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - adapts well to customer needs"
+              },
+              "conversation_flow": {
+                "score": 6.0,
+                "reason": "The 2-message exchange about Technical maintained basic turn-taking structure. Standard greeting-issue-response-closure pattern without notable flow disruptions or enhancement techniques.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.7,
+                "interpretation": "good"
+              }
+            }
+          },
+          "efficiency_resolution": {
+            "category_description": "Measures Efficiency Resolution performance",
+            "overall_score": 6.17,
+            "kpis": {
+              "followup_necessity": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good"
+              },
+              "customer_effort_score": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices",
+                "sub_kpis": {
+                  "information_gathering": {
+                    "score": 5.545742690040624,
+                    "reason": "Agent efficiently requested only essential information (email via DM) without excessive back-and-forth. Information collection was streamlined and secure"
+                  },
+                  "process_simplification": {
+                    "score": 7.111708418871664,
+                    "reason": "Agent provided standard process guidance. Customer appreciated the resolution method"
+                  },
+                  "proactive_assistance": {
+                    "score": 7.120407849568385,
+                    "reason": "Agent responded to customer requests as presented. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+                  }
+                },
+                "overall_score": 6.0
+              },
+              "first_response_accuracy": {
+                "score": 6.0,
+                "reason": "Information exchange in this Technical interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - maintains good accuracy standards"
+              },
+              "csat_resolution": {
+                "score": 7.0,
+                "reason": "Analysis of Csat Resolution reveals specific evidence from the conversation. Key evidence includes: solution-oriented response ('@253963 I’d be delighted to assist. Please follow ...'). The score of 7.0 indicates good performance with clear evidence supporting this assessment.",
+                "evidence": [],
+                "normalized_score": 0.7,
+                "confidence": 0.9,
+                "interpretation": "very good - resolves most customer issues effectively"
+              },
+              "escalation_rate": {
+                "score": 6.0,
+                "reason": "This Technical interaction remained at initial support level throughout 2 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.7,
+                "interpretation": "good"
+              },
+              "customer_effort_reduction": {
+                "score": 6.0,
+                "reason": "Customer engagement in this 2-message Technical interaction was direct. No explicit effort reduction measures, follow-up arrangements, or customer workload discussions were documented in the available conversation.",
+                "evidence": [],
+                "normalized_score": 0.6,
+                "confidence": 0.75,
+                "interpretation": "good - demonstrates good efficiency practices"
+              }
+            }
+          }
+        }
+      },
+      "analysis_timestamp": "2025-10-05T22:08:27.805766",
+      "analysis_method": "LLM-based Agent Analysis",
+      "model_used": "claude-4",
+      "agent_output": "I'll perform a complete and systematic analysis of the provided conversation data against all configured KPIs. Let me start by formatting the conversation and then analyzing each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 570556, \"author_id\": \"253963\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-12-03\", \"text\": \"@Delta I keep trying to change a flight on your website and getting error message. Than there is an hour long wait time to speak to someone on the phone!\"}, {\"tweet_id\": 570555, \"author_id\": \"Delta\", \"role\": \"Service Provider\", \"inbound\": false, \"created_at\": \"2024-12-03\", \"text\": \"@253963 I\\u2019d be delighted to assist. Please follow and DM your confirmation number.  *AFC https://t.co/6iDGBJAc2m\"}], \"classification\": {\"categorization\": \"Technical Support\", \"intent\": \"Technical Support\", \"topic\": \"Technical\", \"sentiment\": \"Neutral\"}}</parameter>\n</invoke>\n\nNow I'll systematically an...",
+      "source_object_id": "68dce53ab1dee7d0fab60b06",
+      "source_timestamp": "2025-10-05T22:08:27.805000",
+      "analysis_metadata": {
+        "processed_timestamp": "2025-10-05T22:08:27.805000",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.2.0",
+        "model_used": "claude-4",
+        "restructured_format": true
+      },
+      "persistence_metadata": {
+        "inserted_timestamp": "2025-10-05T22:08:27.805000",
+        "collection": "agentic_analysis",
+        "job_name": "conversation_performance_analysis",
+        "storage_type": "mongodb"
+      }
+    }
+  ],
+  "summary": {
+    "what_went_well": [
+      "Baseline performance maintained"
+    ],
+    "what_needs_improvement": [
+      "High negative sentiment rate (60.0%)"
+    ],
+    "training_needs": [
+      "Empathy and emotional intelligence training",
+      "Conflict resolution and de-escalation training"
+    ]
+  },
+  "aggregated_insights": {
+    "total_conversations": 5,
+    "unique_customers": 1,
+    "date_range": {
+      "earliest": "2025-10-05T22:04:45.771850",
+      "latest": "2025-10-05T22:07:44.163157"
+    },
+    "performance_averages": {
+      "accuracy_compliance": {
+        "overall_score": 6.1,
+        "resolution_completeness": 6.2,
+        "resolution_completeness_issue_identification": 6.37,
+        "resolution_completeness_solution_depth": 6.95,
+        "resolution_completeness_follow_up_clarity": 6.05,
+        "resolution_completeness_confirmation_process": 6.14,
+        "accuracy_automated_responses": 6.0
+      },
+      "empathy_communication": {
+        "overall_score": 6.23,
+        "empathy_score": 6.06,
+        "empathy_score_emotion_recognition": 5.32,
+        "empathy_score_acknowledgment_feelings": 6.61,
+        "empathy_score_appropriate_response": 6.7,
+        "empathy_score_personalization": 5.0,
+        "empathy_score_supportive_language": 5.85,
+        "empathy_score_active_listening": 7.03,
+        "sentiment_shift": 6.46,
+        "clarity_language": 6.19,
+        "clarity_language_readability_level": 6.08,
+        "clarity_language_jargon_usage": 6.45,
+        "clarity_language_sentence_structure": 6.81,
+        "clarity_language_coherence": 6.65,
+        "clarity_language_active_voice": 5.8,
+        "clarity_language_conciseness": 5.16,
+        "cultural_sensitivity": 6.0,
+        "adaptability_quotient": 6.0,
+        "conversation_flow": 6.66
+      },
+      "efficiency_resolution": {
+        "overall_score": 6.03,
+        "followup_necessity": 6.0,
+        "customer_effort_score": 6.0,
+        "customer_effort_score_information_gathering": 5.55,
+        "customer_effort_score_process_simplification": 7.11,
+        "customer_effort_score_proactive_assistance": 7.12,
+        "first_response_accuracy": 6.0,
+        "csat_resolution": 6.2,
+        "escalation_rate": 6.0,
+        "customer_effort_reduction": 6.0
+      }
+    },
+    "sentiment_distribution": {
+      "Negative": 3,
+      "Positive": 1,
+      "Neutral": 1
+    },
+    "intent_distribution": {
+      "Complaint": 2,
+      "Technical Support": 2,
+      "Feedback": 1
+    },
+    "topic_distribution": {
+      "Technical Support": 2,
+      "General": 2,
+      "Technical": 1
+    },
+    "combination_analysis": {
+      "Negative|Complaint|Technical Support": {
+        "sentiment": "Negative",
+        "intent": "Complaint",
+        "topic": "Technical Support",
+        "conversation_count": 2,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "overall_score": 6.0,
+            "resolution_completeness": 6.0,
+            "resolution_completeness_issue_identification": 6.17,
+            "resolution_completeness_solution_depth": 6.75,
+            "resolution_completeness_follow_up_clarity": 5.85,
+            "resolution_completeness_confirmation_process": 5.94,
+            "accuracy_automated_responses": 6.0
+          },
+          "empathy_communication": {
+            "overall_score": 6.34,
+            "empathy_score": 6.31,
+            "empathy_score_emotion_recognition": 5.57,
+            "empathy_score_acknowledgment_feelings": 6.86,
+            "empathy_score_appropriate_response": 6.95,
+            "empathy_score_personalization": 5.25,
+            "empathy_score_supportive_language": 6.1,
+            "empathy_score_active_listening": 7.28,
+            "sentiment_shift": 6.9,
+            "clarity_language": 6.19,
+            "clarity_language_readability_level": 6.08,
+            "clarity_language_jargon_usage": 6.45,
+            "clarity_language_sentence_structure": 6.81,
+            "clarity_language_coherence": 6.65,
+            "clarity_language_active_voice": 5.8,
+            "clarity_language_conciseness": 5.16,
+            "cultural_sensitivity": 6.0,
+            "adaptability_quotient": 6.0,
+            "conversation_flow": 6.65
+          },
+          "efficiency_resolution": {
+            "overall_score": 6.0,
+            "followup_necessity": 6.0,
+            "customer_effort_score": 6.0,
+            "customer_effort_score_information_gathering": 5.55,
+            "customer_effort_score_process_simplification": 7.11,
+            "customer_effort_score_proactive_assistance": 7.12,
+            "first_response_accuracy": 6.0,
+            "csat_resolution": 6.0,
+            "escalation_rate": 6.0,
+            "customer_effort_reduction": 6.0
+          }
+        },
+        "percentage_of_total": 40.0
+      },
+      "Negative|Technical Support|General": {
+        "sentiment": "Negative",
+        "intent": "Technical Support",
+        "topic": "General",
+        "conversation_count": 1,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "overall_score": 6.0,
+            "resolution_completeness": 6.0,
+            "resolution_completeness_issue_identification": 6.17,
+            "resolution_completeness_solution_depth": 6.75,
+            "resolution_completeness_follow_up_clarity": 5.85,
+            "resolution_completeness_confirmation_process": 5.94,
+            "accuracy_automated_responses": 6.0
+          },
+          "empathy_communication": {
+            "overall_score": 6.21,
+            "empathy_score": 6.06,
+            "empathy_score_emotion_recognition": 5.32,
+            "empathy_score_acknowledgment_feelings": 6.61,
+            "empathy_score_appropriate_response": 6.7,
+            "empathy_score_personalization": 5.0,
+            "empathy_score_supportive_language": 5.85,
+            "empathy_score_active_listening": 7.03,
+            "sentiment_shift": 6.0,
+            "clarity_language": 6.19,
+            "clarity_language_readability_level": 6.08,
+            "clarity_language_jargon_usage": 6.45,
+            "clarity_language_sentence_structure": 6.81,
+            "clarity_language_coherence": 6.65,
+            "clarity_language_active_voice": 5.8,
+            "clarity_language_conciseness": 5.16,
+            "cultural_sensitivity": 6.0,
+            "adaptability_quotient": 6.0,
+            "conversation_flow": 7.0
+          },
+          "efficiency_resolution": {
+            "overall_score": 6.0,
+            "followup_necessity": 6.0,
+            "customer_effort_score": 6.0,
+            "customer_effort_score_information_gathering": 5.55,
+            "customer_effort_score_process_simplification": 7.11,
+            "customer_effort_score_proactive_assistance": 7.12,
+            "first_response_accuracy": 6.0,
+            "csat_resolution": 6.0,
+            "escalation_rate": 6.0,
+            "customer_effort_reduction": 6.0
+          }
+        },
+        "percentage_of_total": 20.0
+      },
+      "Positive|Feedback|General": {
+        "sentiment": "Positive",
+        "intent": "Feedback",
+        "topic": "General",
+        "conversation_count": 1,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "overall_score": 6.0,
+            "resolution_completeness": 6.0,
+            "resolution_completeness_issue_identification": 6.17,
+            "resolution_completeness_solution_depth": 6.75,
+            "resolution_completeness_follow_up_clarity": 5.85,
+            "resolution_completeness_confirmation_process": 5.94,
+            "accuracy_automated_responses": 6.0
+          },
+          "empathy_communication": {
+            "overall_score": 6.21,
+            "empathy_score": 5.56,
+            "empathy_score_emotion_recognition": 4.82,
+            "empathy_score_acknowledgment_feelings": 6.11,
+            "empathy_score_appropriate_response": 6.2,
+            "empathy_score_personalization": 4.5,
+            "empathy_score_supportive_language": 5.35,
+            "empathy_score_active_listening": 6.53,
+            "sentiment_shift": 6.5,
+            "clarity_language": 6.19,
+            "clarity_language_readability_level": 6.08,
+            "clarity_language_jargon_usage": 6.45,
+            "clarity_language_sentence_structure": 6.81,
+            "clarity_language_coherence": 6.65,
+            "clarity_language_active_voice": 5.8,
+            "clarity_language_conciseness": 5.16,
+            "cultural_sensitivity": 6.0,
+            "adaptability_quotient": 6.0,
+            "conversation_flow": 7.0
+          },
+          "efficiency_resolution": {
+            "overall_score": 6.0,
+            "followup_necessity": 6.0,
+            "customer_effort_score": 6.0,
+            "customer_effort_score_information_gathering": 5.55,
+            "customer_effort_score_process_simplification": 7.11,
+            "customer_effort_score_proactive_assistance": 7.12,
+            "first_response_accuracy": 6.0,
+            "csat_resolution": 6.0,
+            "escalation_rate": 6.0,
+            "customer_effort_reduction": 6.0
+          }
+        },
+        "percentage_of_total": 20.0
+      },
+      "Neutral|Technical Support|Technical": {
+        "sentiment": "Neutral",
+        "intent": "Technical Support",
+        "topic": "Technical",
+        "conversation_count": 1,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "overall_score": 6.5,
+            "resolution_completeness": 7.0,
+            "resolution_completeness_issue_identification": 7.17,
+            "resolution_completeness_solution_depth": 7.75,
+            "resolution_completeness_follow_up_clarity": 6.85,
+            "resolution_completeness_confirmation_process": 6.94,
+            "accuracy_automated_responses": 6.0
+          },
+          "empathy_communication": {
+            "overall_score": 6.04,
+            "empathy_score": 6.06,
+            "empathy_score_emotion_recognition": 5.32,
+            "empathy_score_acknowledgment_feelings": 6.61,
+            "empathy_score_appropriate_response": 6.7,
+            "empathy_score_personalization": 5.0,
+            "empathy_score_supportive_language": 5.85,
+            "empathy_score_active_listening": 7.03,
+            "sentiment_shift": 6.0,
+            "clarity_language": 6.19,
+            "clarity_language_readability_level": 6.08,
+            "clarity_language_jargon_usage": 6.45,
+            "clarity_language_sentence_structure": 6.81,
+            "clarity_language_coherence": 6.65,
+            "clarity_language_active_voice": 5.8,
+            "clarity_language_conciseness": 5.16,
+            "cultural_sensitivity": 6.0,
+            "adaptability_quotient": 6.0,
+            "conversation_flow": 6.0
+          },
+          "efficiency_resolution": {
+            "overall_score": 6.17,
+            "followup_necessity": 6.0,
+            "customer_effort_score": 6.0,
+            "customer_effort_score_information_gathering": 5.55,
+            "customer_effort_score_process_simplification": 7.11,
+            "customer_effort_score_proactive_assistance": 7.12,
+            "first_response_accuracy": 6.0,
+            "csat_resolution": 7.0,
+            "escalation_rate": 6.0,
+            "customer_effort_reduction": 6.0
+          }
+        },
+        "percentage_of_total": 20.0
+      }
+    }
+  },
+  "report_metadata": {
+    "generated_at": "2025-10-05T23:12:04.272981",
+    "analysis_method": "fallback-analysis",
+    "total_records": 5
+  }
+}

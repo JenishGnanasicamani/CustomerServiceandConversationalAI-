@@ -1,0 +1,76 @@
+{
+  "original_reasoning": "The 2-message conversation about Technical Support followed a standard customer service pattern. The customer expressed a clear need for technical assistance, and the agent responded with a professional, helpful offer to resolve the issue. This demonstrates good resolution completeness as the agent acknowledged the customer's concern and committed to providing assistance. However, the conversation is incomplete as it shows only the initial exchange without the actual problem-solving steps or resolution confirmation. The agent's response indicates readiness to help but doesn't yet show the detailed troubleshooting or resolution process that would constitute complete resolution.",
+  "processed_reasoning": "The 2-message conversation about Technical Support followed a standard customer service pattern. The customer expressed a clear need for technical assistance, and the agent responded with a professional, helpful offer to resolve the issue. This demonstrates good resolution completeness as the agent acknowledged the customer's concern and committed to providing assistance. However, the conversation is incomplete as it shows only the initial exchange without the actual problem-solving steps or resolution confirmation. The agent's response indicates readiness to help but doesn't yet show the detailed troubleshooting or resolution process that would constitute complete resolution.",
+  "original_length": 685,
+  "processed_length": 685,
+  "text_preserved": true,
+  "full_restructured": {
+    "conversation_id": "3751",
+    "customer": "Delta",
+    "created_at": "2025-10-05T22:04:45",
+    "created_time": "22:04:45",
+    "conversation_summary": {
+      "total_messages": 2,
+      "customer_messages": 1,
+      "agent_messages": 1,
+      "conversation_type": "Technical Support",
+      "intent": "Support Request",
+      "topic": "Technical",
+      "final_sentiment": "Neutral",
+      "categorization": "Technical Support"
+    },
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_description": "Measures Accuracy Compliance performance",
+          "overall_score": 6.0,
+          "kpis": {
+            "resolution_completeness": {
+              "score": 6.0,
+              "reason": "The 2-message conversation about Technical Support followed a standard customer service pattern. The customer expressed a clear need for technical assistance, and the agent responded with a professional, helpful offer to resolve the issue. This demonstrates good resolution completeness as the agent acknowledged the customer's concern and committed to providing assistance. However, the conversation is incomplete as it shows only the initial exchange without the actual problem-solving steps or resolution confirmation. The agent's response indicates readiness to help but doesn't yet show the detailed troubleshooting or resolution process that would constitute complete resolution.",
+              "evidence": [
+                "Agent acknowledged customer concern",
+                "Committed to providing assistance"
+              ],
+              "normalized_score": 0.6,
+              "confidence": 0.8,
+              "interpretation": "fair - adequate performance with room for improvement",
+              "sub_kpis": {
+                "issue_identification": {
+                  "score": 6.732258655454567,
+                  "reason": "Agent addressed the customer inquiry systematically. Problem recognition was handled through standard inquiry process"
+                },
+                "solution_depth": {
+                  "score": 4.005892992957147,
+                  "reason": "Agent provided standard solution approach. Solution included basic resolution steps"
+                },
+                "follow_up_clarity": {
+                  "score": 6.554332908951487,
+                  "reason": "Agent completed resolution without explicit follow-up offer. Timeline communication was general"
+                },
+                "confirmation_process": {
+                  "score": 6.814217007768445,
+                  "reason": "Resolution confirmation was handled through standard completion process. Customer satisfaction was implied through interaction completion"
+                }
+              },
+              "overall_score": 6.0
+            }
+          }
+        }
+      }
+    },
+    "analysis_timestamp": "2025-10-05T22:07:45.987809",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "agent_output": "",
+    "source_object_id": "test123",
+    "source_timestamp": "2025-10-05 22:07:46.014464",
+    "analysis_metadata": {
+      "processed_timestamp": "2025-10-05 22:07:46.014464",
+      "source_collection": "sentiment_analysis",
+      "analysis_version": "4.2.0",
+      "model_used": "claude-4",
+      "restructured_format": true
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "status": "success",
+  "query_parameters": {
+    "start_date": "2023-01-01T00:00:00Z",
+    "end_date": "2023-01-31T23:59:59Z",
+    "customer": "customer_123",
+    "records_found": 15
+  },
+  "selected_records": [
+    {
+      "conversation_id": "conv_66f7c8e123456789abcdef01",
+      "customer": "customer_123",
+      "created_at": "2023-01-15T14:30:00Z",
+      "created_time": "14:30:00",
+      "conversation_summary": {
+        "total_messages": 4,
+        "customer_messages": 2,
+        "agent_messages": 2,
+        "conversation_type": "Technical Support",
+        "intent": "Account Support",
+        "topic": "Technical Issues",
+        "final_sentiment": "Positive",
+        "categorization": "Technical Support - Account Issues"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": 1,
+          "accuracy_automated_responses": 95.5
+        },
+        "empathy_communication": {
+          "empathy_score": 8.7,
+          "empathy_subfactors": {
+            "emotion_recognition": 8.5,
+            "acknowledgment_feelings": 9.0,
+            "appropriate_response": 8.8,
+            "personalization": 8.2,
+            "supportive_language": 8.9,
+            "active_listening": 8.1
+          },
+          "sentiment_shift": 0.6,
+          "clarity_language": 8.9,
+          "cultural_sensitivity": 4.1,
+          "adaptability_quotient": 85,
+          "conversation_flow": 4.3
+        },
+        "efficiency_resolution": {
+          "followup_necessity": 0,
+          "customer_effort_score": 2.1,
+          "first_response_accuracy": 94.0,
+          "csat_resolution": 4.8,
+          "escalation_rate": 3.0,
+          "customer_effort_reduction": 15.5
+        }
+      },
+      "source_object_id": "66f7c8e123456789abcdef01",
+      "source_timestamp": "2023-01-15T14:30:00Z",
+      "analysis_metadata": {
+        "processed_timestamp": "2023-01-15T14:35:22Z",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.1.0",
+        "model_used": "claude-4"
+      }
+    },
+    {
+      "conversation_id": "conv_66f7c8e123456789abcdef02",
+      "customer": "customer_123",
+      "created_at": "2023-01-18T09:15:30Z",
+      "created_time": "09:15:30",
+      "conversation_summary": {
+        "total_messages": 6,
+        "customer_messages": 3,
+        "agent_messages": 3,
+        "conversation_type": "Billing Inquiry",
+        "intent": "Payment Support",
+        "topic": "Billing",
+        "final_sentiment": "Neutral",
+        "categorization": "Billing - Payment Issues"
+      },
+      "performance_metrics": {
+        "accuracy_compliance": {
+          "resolution_completeness": 0.9,
+          "accuracy_automated_responses": 88.2
+        },
+        "empathy_communication": {
+          "empathy_score": 7.2,
+          "sentiment_shift": 0.1,
+          "clarity_language": 8.1,
+          "cultural_sensitivity": 3.8,
+          "adaptability_quotient": 78,
+          "conversation_flow": 3.9
+        },
+        "efficiency_resolution": {
+          "followup_necessity": 1,
+          "customer_effort_score": 3.2,
+          "first_response_accuracy": 85.0,
+          "csat_resolution": 4.2,
+          "escalation_rate": 8.0,
+          "customer_effort_reduction": 5.2
+        }
+      },
+      "source_object_id": "66f7c8e123456789abcdef02",
+      "source_timestamp": "2023-01-18T09:15:30Z",
+      "analysis_metadata": {
+        "processed_timestamp": "2023-01-18T09:20:15Z",
+        "source_collection": "sentiment_analysis",
+        "analysis_version": "4.1.0",
+        "model_used": "claude-4"
+      }
+    }
+  ],
+  "summary": {
+    "what_went_well": [
+      "Positive-Technical Support-Technical Issues combination shows exceptional performance (97% first response accuracy, 8.8 empathy score)",
+      "High positive sentiment resolution rate (73.3%) with strong performance in technical issue combinations",
+      "Account Support for Technical Issues demonstrates excellent customer effort reduction (18.2% average)",
+      "Technical support conversations maintain superior clarity (9.3) and conversation flow (4.7)"
+    ],
+    "what_needs_improvement": [
+      "Negative-Payment Support-Billing combination shows concerning metrics (72% first response accuracy, 18% escalation rate)",
+      "Neutral billing conversations underperform with 12% escalation rate compared to technical issues (1-2%)",
+      "Payment support conversations require more follow-ups (100% in negative cases) indicating incomplete resolution",
+      "Cultural sensitivity scores remain low across all combinations (3.2-4.3 range)"
+    ],
+    "training_needs": [
+      "Specialized billing and payment issue resolution training to address the underperforming Neutral/Negative-Payment Support-Billing combinations",
+      "Cultural sensitivity training across all conversation types to improve scores above 4.5 threshold",
+      "De-escalation techniques specifically for billing-related negative sentiment conversations"
+    ]
+  },
+  "aggregated_insights": {
+    "total_conversations": 15,
+    "unique_customers": 1,
+    "date_range": {
+      "earliest": "2023-01-02T10:30:00Z",
+      "latest": "2023-01-29T16:45:00Z"
+    },
+    "performance_averages": {
+      "accuracy_compliance": {
+        "resolution_completeness": 0.94,
+        "accuracy_automated_responses": 91.8
+      },
+      "empathy_communication": {
+        "empathy_score": 7.95,
+        "sentiment_shift": 0.35,
+        "clarity_language": 8.5,
+        "cultural_sensitivity": 3.95,
+        "adaptability_quotient": 81.5,
+        "conversation_flow": 4.1
+      },
+      "efficiency_resolution": {
+        "followup_necessity": 0.2,
+        "customer_effort_score": 2.65,
+        "first_response_accuracy": 89.5,
+        "csat_resolution": 4.5,
+        "escalation_rate": 5.5,
+        "customer_effort_reduction": 10.35
+      }
+    },
+    "sentiment_distribution": {
+      "Positive": 11,
+      "Neutral": 3,
+      "Negative": 1
+    },
+    "intent_distribution": {
+      "Account Support": 6,
+      "Payment Support": 4,
+      "Technical Support": 3,
+      "General Inquiry": 2
+    },
+    "topic_distribution": {
+      "Technical Issues": 6,
+      "Billing": 4,
+      "Account Management": 3,
+      "Product Information": 2
+    },
+    "combination_analysis": {
+      "Positive|Account Support|Technical Issues": {
+        "sentiment": "Positive",
+        "intent": "Account Support", 
+        "topic": "Technical Issues",
+        "conversation_count": 4,
+        "percentage_of_total": 26.7,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "resolution_completeness": 0.98,
+            "accuracy_automated_responses": 94.2
+          },
+          "empathy_communication": {
+            "empathy_score": 8.5,
+            "sentiment_shift": 0.7,
+            "clarity_language": 9.1,
+            "cultural_sensitivity": 4.2,
+            "adaptability_quotient": 87,
+            "conversation_flow": 4.5
+          },
+          "efficiency_resolution": {
+            "followup_necessity": 0,
+            "customer_effort_score": 1.8,
+            "first_response_accuracy": 96.0,
+            "csat_resolution": 4.9,
+            "escalation_rate": 2.0,
+            "customer_effort_reduction": 18.2
+          }
+        }
+      },
+      "Neutral|Payment Support|Billing": {
+        "sentiment": "Neutral",
+        "intent": "Payment Support",
+        "topic": "Billing", 
+        "conversation_count": 3,
+        "percentage_of_total": 20.0,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "resolution_completeness": 0.85,
+            "accuracy_automated_responses": 87.3
+          },
+          "empathy_communication": {
+            "empathy_score": 7.1,
+            "sentiment_shift": 0.2,
+            "clarity_language": 8.0,
+            "cultural_sensitivity": 3.7,
+            "adaptability_quotient": 76,
+            "conversation_flow": 3.8
+          },
+          "efficiency_resolution": {
+            "followup_necessity": 1,
+            "customer_effort_score": 3.4,
+            "first_response_accuracy": 82.0,
+            "csat_resolution": 4.1,
+            "escalation_rate": 12.0,
+            "customer_effort_reduction": 3.8
+          }
+        }
+      },
+      "Positive|Technical Support|Technical Issues": {
+        "sentiment": "Positive",
+        "intent": "Technical Support",
+        "topic": "Technical Issues",
+        "conversation_count": 3,
+        "percentage_of_total": 20.0,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "resolution_completeness": 1.0,
+            "accuracy_automated_responses": 95.8
+          },
+          "empathy_communication": {
+            "empathy_score": 8.8,
+            "sentiment_shift": 0.8,
+            "clarity_language": 9.3,
+            "cultural_sensitivity": 4.3,
+            "adaptability_quotient": 89,
+            "conversation_flow": 4.7
+          },
+          "efficiency_resolution": {
+            "followup_necessity": 0,
+            "customer_effort_score": 1.6,
+            "first_response_accuracy": 97.0,
+            "csat_resolution": 4.8,
+            "escalation_rate": 1.0,
+            "customer_effort_reduction": 22.1
+          }
+        }
+      },
+      "Positive|General Inquiry|Account Management": {
+        "sentiment": "Positive",
+        "intent": "General Inquiry", 
+        "topic": "Account Management",
+        "conversation_count": 2,
+        "percentage_of_total": 13.3,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "resolution_completeness": 0.92,
+            "accuracy_automated_responses": 91.5
+          },
+          "empathy_communication": {
+            "empathy_score": 7.8,
+            "sentiment_shift": 0.4,
+            "clarity_language": 8.6,
+            "cultural_sensitivity": 4.0,
+            "adaptability_quotient": 82,
+            "conversation_flow": 4.2
+          },
+          "efficiency_resolution": {
+            "followup_necessity": 0,
+            "customer_effort_score": 2.2,
+            "first_response_accuracy": 90.0,
+            "csat_resolution": 4.6,
+            "escalation_rate": 3.0,
+            "customer_effort_reduction": 12.5
+          }
+        }
+      },
+      "Negative|Payment Support|Billing": {
+        "sentiment": "Negative",
+        "intent": "Payment Support",
+        "topic": "Billing",
+        "conversation_count": 1,
+        "percentage_of_total": 6.7,
+        "performance_averages": {
+          "accuracy_compliance": {
+            "resolution_completeness": 0.75,
+            "accuracy_automated_responses": 78.5
+          },
+          "empathy_communication": {
+            "empathy_score": 6.2,
+            "sentiment_shift": -0.1,
+            "clarity_language": 7.2,
+            "cultural_sensitivity": 3.2,
+            "adaptability_quotient": 68,
+            "conversation_flow": 3.1
+          },
+          "efficiency_resolution": {
+            "followup_necessity": 1,
+            "customer_effort_score": 4.2,
+            "first_response_accuracy": 72.0,
+            "csat_resolution": 3.2,
+            "escalation_rate": 18.0,  
+            "customer_effort_reduction": -2.5
+          }
+        }
+      }
+    }
+  },
+  "report_metadata": {
+    "generated_at": "2023-01-31T15:22:45Z",
+    "analysis_method": "claude-4",
+    "total_records": 15,
+    "processing_time_seconds": 2.8,
+    "llm_tokens_used": 1250,
+    "data_quality_score": 0.95
+  }
+}

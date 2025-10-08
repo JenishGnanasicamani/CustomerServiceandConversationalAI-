@@ -1,0 +1,75 @@
+{
+  "original_reasoning": "This is a comprehensive analysis of customer service performance that includes detailed evaluation of agent response quality, empathy demonstration, problem-solving approach, communication effectiveness, and overall customer satisfaction metrics. The agent showed excellent understanding of the customer's needs and provided thorough assistance throughout the interaction.",
+  "processed_reasoning": "This is a comprehensive analysis of customer service performance that includes detailed evaluation of agent response quality, empathy demonstration, problem-solving approach, communication effectiveness, and overall customer satisfaction metrics. The agent showed excellent understanding of the customer's needs and provided thorough assistance throughout the interaction.",
+  "original_length": 372,
+  "processed_length": 372,
+  "text_preserved": true,
+  "full_restructured_result": {
+    "conversation_id": "CONV-TEST-123",
+    "customer": "TestCustomer",
+    "created_at": "2025-01-01",
+    "created_time": "12:00:00",
+    "conversation_summary": {
+      "total_messages": 1,
+      "customer_messages": 1,
+      "agent_messages": 0,
+      "conversation_type": "Test",
+      "intent": "Test",
+      "topic": "Test",
+      "final_sentiment": "Neutral",
+      "categorization": "Test"
+    },
+    "performance_metrics": {
+      "categories": {
+        "empathy_communication": {
+          "category_description": "Measures Empathy Communication performance",
+          "overall_score": 8.0,
+          "kpis": {
+            "empathy_score": {
+              "score": 8.0,
+              "reason": "This is a comprehensive analysis of customer service performance that includes detailed evaluation of agent response quality, empathy demonstration, problem-solving approach, communication effectiveness, and overall customer satisfaction metrics. The agent showed excellent understanding of the customer's needs and provided thorough assistance throughout the interaction.",
+              "evidence": [
+                "Good empathetic response"
+              ],
+              "normalized_score": 0.8,
+              "confidence": 0.8,
+              "interpretation": "excellent - shows strong performance indicators",
+              "sub_kpis": {
+                "emotion_recognition": {
+                  "score": 7.941441996803881,
+                  "reason": "Agent demonstrated emotional awareness by maintaining professional tone throughout the interaction. Key indicators: standard professional response"
+                },
+                "empathetic_language": {
+                  "score": 7.83390525321133,
+                  "reason": "Agent used professional language without specific empathetic phrases. Evidence from conversation shows standard service language"
+                },
+                "emotional_mirroring": {
+                  "score": 7.34027776135177,
+                  "reason": "Agent maintained consistent professional tone. Response pattern shows standard interaction approach"
+                },
+                "concern_validation": {
+                  "score": 8.228547189849689,
+                  "reason": "Agent focused on solution without explicit validation. Customer frustration was handled through standard problem-solving approach"
+                }
+              },
+              "overall_score": 8.0
+            }
+          }
+        }
+      }
+    },
+    "analysis_timestamp": "2025-10-05T22:01:01.196043",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "agent_output": "",
+    "source_object_id": "test123",
+    "source_timestamp": "2025-10-05 22:01:01.196104",
+    "analysis_metadata": {
+      "processed_timestamp": "2025-10-05 22:01:01.196104",
+      "source_collection": "sentiment_analysis",
+      "analysis_version": "4.2.0",
+      "model_used": "claude-4",
+      "restructured_format": true
+    }
+  }
+}

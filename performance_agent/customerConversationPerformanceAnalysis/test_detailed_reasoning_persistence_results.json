@@ -1,0 +1,12 @@
+{
+  "test_timestamp": "2025-10-05T16:24:08.461302",
+  "test_type": "detailed_reasoning_persistence",
+  "results": {
+    "llm_agent_service": true,
+    "periodic_job_service": false
+  },
+  "total_tests": 2,
+  "passed_tests": 1,
+  "overall_pass": false,
+  "summary": "Tests verify that detailed LLM reasoning is persisted instead of generic placeholder text"
+}

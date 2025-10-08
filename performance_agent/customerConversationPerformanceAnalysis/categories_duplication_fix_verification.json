@@ -1,0 +1,42 @@
+{
+  "test_timestamp": "2025-10-05T00:42:25.793281",
+  "duplication_fix_verification": {
+    "performance_metrics_categories_exists": true,
+    "performance_metrics_kpi_count": 14,
+    "top_level_categories_exists": false,
+    "duplication_fixed": true
+  },
+  "structured_result_keys": [
+    "conversation_id",
+    "customer",
+    "created_at",
+    "created_time",
+    "conversation_summary",
+    "performance_metrics",
+    "analysis_timestamp",
+    "analysis_method",
+    "model_used",
+    "agent_output",
+    "source_object_id",
+    "source_timestamp",
+    "analysis_metadata"
+  ],
+  "performance_metrics_keys": [
+    "categories"
+  ],
+  "sample_structure": {
+    "conversation_id": "str",
+    "customer": "str",
+    "created_at": "str",
+    "created_time": "str",
+    "conversation_summary": "dict",
+    "performance_metrics": "dict",
+    "analysis_timestamp": "str",
+    "analysis_method": "str",
+    "model_used": "str",
+    "agent_output": "str",
+    "source_object_id": "str",
+    "source_timestamp": "str",
+    "analysis_metadata": "dict"
+  }
+}

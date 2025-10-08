@@ -1,0 +1,198 @@
+{
+  "conversation_id": "unknown",
+  "analysis_timestamp": "2025-10-05T15:24:50.144743",
+  "analysis_method": "LLM-based Agent Analysis",
+  "model_used": "claude-4",
+  "performance_metrics": {
+    "categories": {
+      "accuracy_compliance": {
+        "category_score": 9.2,
+        "kpis": {
+          "resolution_completeness": {
+            "score": 8.4,
+            "reasoning": "Analysis based on conversation evidence for resolution_completeness",
+            "evidence": [
+              "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\"",
+              "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\"",
+              "Agent: \"Excellent! I've successfully unlocked your account and sent you a confirmation email. You should be able to access everything now. Is there anything else I can help you with today?\""
+            ]
+          },
+          "accuracy_automated_responses": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      },
+      "empathy_communication": {
+        "category_score": 8.73,
+        "kpis": {
+          "empathy_score": {
+            "score": 8.71,
+            "reasoning": "Analysis based on conversation evidence for empathy_score Overall score calculated using weighted formula: 8.71",
+            "evidence": [
+              "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\"",
+              "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\"",
+              "Agent: \"Excellent! I've successfully unlocked your account and sent you a confirmation email. You should be able to access everything now. Is there anything else I can help you with today?\""
+            ],
+            "sub_factors": {
+              "emotion_recognition": {
+                "score": 7.72,
+                "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                "evidence": [
+                  "Customer: \"Hi, I'm extremely frustrated! My account has been locked for 3 hours and I can't access my important documents. This is affecting my work productivity!\"",
+                  "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\""
+                ]
+              },
+              "acknowledgment_feelings": {
+                "score": 9.66,
+                "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                "evidence": [
+                  "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\""
+                ]
+              },
+              "appropriate_response": {
+                "score": 9.19,
+                "reasoning": "No Evidence - Sub-factor analysis for Appropriate Response based on conversation evidence",
+                "evidence": []
+              },
+              "personalization": {
+                "score": 7.59,
+                "reasoning": "Sub-factor analysis for Personalization based on conversation evidence",
+                "evidence": [
+                  "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\"",
+                  "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\""
+                ]
+              },
+              "supportive_language": {
+                "score": 9.4,
+                "reasoning": "No Evidence - Sub-factor analysis for Supportive Language based on conversation evidence",
+                "evidence": []
+              },
+              "active_listening": {
+                "score": 8.43,
+                "reasoning": "No Evidence - Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                "evidence": []
+              }
+            }
+          },
+          "sentiment_shift": {
+            "score": 8.5,
+            "reasoning": "Analysis based on conversation evidence for sentiment_shift",
+            "evidence": [
+              "Customer: \"Thank you for understanding! I really appreciate your empathy. This has been incredibly stressful as I have a deadline today.\"",
+              "Customer: \"Perfect! My email is john.smith@company.com. Thank you so much for being so helpful and quick to respond!\"",
+              "Customer: \"Amazing! It's working perfectly now! Thank you so much for your excellent help, understanding, and quick resolution. You've saved my day!\""
+            ]
+          },
+          "clarity_language": {
+            "score": 8.45,
+            "reasoning": "No Evidence Overall score calculated using weighted formula: 8.45",
+            "evidence": [],
+            "sub_factors": {
+              "readability_level": {
+                "score": 8.72,
+                "reasoning": "No Evidence - Sub-factor analysis for Readability Level based on conversation evidence",
+                "evidence": []
+              },
+              "jargon_usage": {
+                "score": 7.82,
+                "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                "evidence": [
+                  "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\"",
+                  "Agent: \"Excellent! I've successfully unlocked your account and sent you a confirmation email. You should be able to access everything now. Is there anything else I can help you with today?\""
+                ]
+              },
+              "sentence_structure": {
+                "score": 9.07,
+                "reasoning": "No Evidence - Sub-factor analysis for Sentence Structure based on conversation evidence",
+                "evidence": []
+              },
+              "coherence": {
+                "score": 7.76,
+                "reasoning": "No Evidence - Sub-factor analysis for Coherence based on conversation evidence",
+                "evidence": []
+              },
+              "active_voice": {
+                "score": 8.24,
+                "reasoning": "No Evidence - Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                "evidence": []
+              },
+              "conciseness": {
+                "score": 9.05,
+                "reasoning": "No Evidence - Sub-factor analysis for Conciseness based on conversation evidence",
+                "evidence": []
+              }
+            }
+          },
+          "cultural_sensitivity": {
+            "score": 6.7,
+            "reasoning": "Analysis based on conversation evidence for cultural_sensitivity",
+            "evidence": [
+              "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\""
+            ]
+          },
+          "adaptability_quotient": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "conversation_flow": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      },
+      "efficiency_resolution": {
+        "category_score": 9.73,
+        "kpis": {
+          "followup_necessity": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "customer_effort_score": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "first_response_accuracy": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "csat_resolution": {
+            "score": 8.4,
+            "reasoning": "Analysis based on conversation evidence for csat_resolution",
+            "evidence": [
+              "Agent: \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\"",
+              "Agent: \"I appreciate your patience. To unlock your account quickly, I need to verify your identity. Can you please provide your registered email address? I'll reset your access immediately once verified.\"",
+              "Agent: \"Excellent! I've successfully unlocked your account and sent you a confirmation email. You should be able to access everything now. Is there anything else I can help you with today?\""
+            ]
+          },
+          "escalation_rate": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          },
+          "customer_effort_reduction": {
+            "score": 10.0,
+            "reasoning": "No Evidence",
+            "evidence": []
+          }
+        }
+      }
+    },
+    "metadata": {
+      "total_kpis_evaluated": 14,
+      "evaluation_timestamp": "2025-10-05T15:24:50.018065",
+      "model_used": "claude-4"
+    }
+  },
+  "overall_performance": {
+    "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+    "method": "LLM-based comprehensive evaluation"
+  },
+  "agent_output": "I'll perform a complete and systematic analysis of the conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI systematically.\n\n<conversation_formatter_tool>\n{\"tweets\": [{\"tweet_id\": 1, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-15T10:00:00Z\", \"text\": \"Hi, I'm extremely frustrated! My account has been locked for 3 hours and I can't access my important documents. This is affecting my work productivity!\"}, {\"tweet_id\": 2, \"author_id\": \"support_agent_001\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-15T10:02:00Z\", \"text\": \"I'm truly sorry to hear about your frustration, and I completely understand how stressful this situation must be for you, especially when it's impacting your work. Let me help you resolve this right away.\"}, {\"tweet_id\": 3, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-15T10:03:00Z\", \"text\": \"Thank you for un..."
+}

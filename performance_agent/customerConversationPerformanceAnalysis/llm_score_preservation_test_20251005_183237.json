@@ -1,0 +1,388 @@
+{
+  "test_metadata": {
+    "test_name": "LLM Score Preservation Test",
+    "timestamp": "20251005_183237",
+    "duration_seconds": 44.730588,
+    "conversation_id": "test_llm_score_preservation"
+  },
+  "preservation_analysis": {
+    "total_kpis": 14,
+    "llm_scores_preserved": 14,
+    "artificial_scores_used": 0,
+    "evidence_vs_score_correlation": [
+      {
+        "kpi": "resolution_completeness",
+        "category": "accuracy_compliance",
+        "score": 9.4,
+        "evidence_count": 3,
+        "reasoning_length": 471,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "accuracy_automated_responses",
+        "category": "accuracy_compliance",
+        "score": 8.2,
+        "evidence_count": 0,
+        "reasoning_length": 464,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "empathy_score",
+        "category": "empathy_communication",
+        "score": 7.85,
+        "evidence_count": 2,
+        "reasoning_length": 513,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "sentiment_shift",
+        "category": "empathy_communication",
+        "score": 8.5,
+        "evidence_count": 2,
+        "reasoning_length": 451,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "clarity_language",
+        "category": "empathy_communication",
+        "score": 8.12,
+        "evidence_count": 3,
+        "reasoning_length": 504,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "cultural_sensitivity",
+        "category": "empathy_communication",
+        "score": 6.7,
+        "evidence_count": 1,
+        "reasoning_length": 336,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "adaptability_quotient",
+        "category": "empathy_communication",
+        "score": 8.2,
+        "evidence_count": 0,
+        "reasoning_length": 457,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "conversation_flow",
+        "category": "empathy_communication",
+        "score": 8.0,
+        "evidence_count": 0,
+        "reasoning_length": 453,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "followup_necessity",
+        "category": "efficiency_resolution",
+        "score": 8.1,
+        "evidence_count": 0,
+        "reasoning_length": 427,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "customer_effort_score",
+        "category": "efficiency_resolution",
+        "score": 8.1,
+        "evidence_count": 0,
+        "reasoning_length": 430,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "first_response_accuracy",
+        "category": "efficiency_resolution",
+        "score": 8.2,
+        "evidence_count": 0,
+        "reasoning_length": 459,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "csat_resolution",
+        "category": "efficiency_resolution",
+        "score": 9.4,
+        "evidence_count": 3,
+        "reasoning_length": 463,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "escalation_rate",
+        "category": "efficiency_resolution",
+        "score": 6.0,
+        "evidence_count": 0,
+        "reasoning_length": 200,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      },
+      {
+        "kpi": "customer_effort_reduction",
+        "category": "efficiency_resolution",
+        "score": 8.1,
+        "evidence_count": 0,
+        "reasoning_length": 434,
+        "appears_llm_preserved": true,
+        "appears_artificial": false
+      }
+    ],
+    "preservation_issues": [],
+    "success_rate": 100.0
+  },
+  "full_analysis_result": {
+    "conversation_id": "unknown",
+    "analysis_timestamp": "2025-10-05T18:32:37.590067",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_score": 8.8,
+          "kpis": {
+            "resolution_completeness": {
+              "score": 9.4,
+              "normalized_score": 0.94,
+              "reasoning": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: solution-oriented response ('@Support I need help with my account - it's locked...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.4 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\"",
+                "Agent: \"Account unlocked! You should be able to access everything now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "accuracy_automated_responses": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Accuracy Automated Responses reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('I can see how important this is. Please DM me your...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "empathy_communication": {
+          "category_score": 7.89,
+          "kpis": {
+            "empathy_score": {
+              "score": 7.85,
+              "normalized_score": 0.85,
+              "reasoning": "Analysis of Empathy Score reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: empathetic acknowledgment ('Hi! I completely understand how frustrating this m...'); empathetic acknowledgment ('Thank you for understanding. This is really import...'). The score of 8.5 reflects excellent performance with strong evidence of positive behaviors and outcomes. Overall score calculated using weighted formula: 7.85",
+              "evidence": [
+                "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                "Agent: \"Account unlocked! You should be able to access everything now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent",
+              "sub_factors": {
+                "emotion_recognition": {
+                  "score": 7.02,
+                  "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\""
+                  ]
+                },
+                "acknowledgment_feelings": {
+                  "score": 8.96,
+                  "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                    "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\""
+                  ]
+                },
+                "appropriate_response": {
+                  "score": 7.54,
+                  "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                  "evidence": []
+                },
+                "personalization": {
+                  "score": 7.51,
+                  "reasoning": "Sub-factor analysis for Personalization based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                    "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\""
+                  ]
+                },
+                "supportive_language": {
+                  "score": 8.13,
+                  "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                  "evidence": []
+                },
+                "active_listening": {
+                  "score": 7.98,
+                  "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "sentiment_shift": {
+              "score": 8.5,
+              "normalized_score": 0.85,
+              "reasoning": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I need help with my account - it's locked...'); relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 8.5 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Customer: \"Thank you for understanding. This is really important to me.\"",
+                "Customer: \"Excellent! Working perfectly now. Thank you so much for the amazing help!\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "clarity_language": {
+              "score": 8.12,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Clarity Language reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: clear communication ('Hi! I completely understand how frustrating this m...'); clear communication ('Thank you for understanding. This is really import...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes. Overall score calculated using weighted formula: 8.12",
+              "evidence": [
+                "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\"",
+                "Agent: \"Account unlocked! You should be able to access everything now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent",
+              "sub_factors": {
+                "readability_level": {
+                  "score": 8.4,
+                  "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                    "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\""
+                  ]
+                },
+                "jargon_usage": {
+                  "score": 8.02,
+                  "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                    "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\""
+                  ]
+                },
+                "sentence_structure": {
+                  "score": 8.17,
+                  "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                  "evidence": []
+                },
+                "coherence": {
+                  "score": 7.56,
+                  "reasoning": "Sub-factor analysis for Coherence based on conversation evidence",
+                  "evidence": []
+                },
+                "active_voice": {
+                  "score": 7.61,
+                  "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                  "evidence": []
+                },
+                "conciseness": {
+                  "score": 8.8,
+                  "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "cultural_sensitivity": {
+              "score": 6.7,
+              "normalized_score": 0.67,
+              "reasoning": "Analysis of Cultural Sensitivity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I can see how important this is. Please DM me your...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [
+                "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            },
+            "adaptability_quotient": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('Thank you for understanding. This is really import...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "conversation_flow": {
+              "score": 8.0,
+              "normalized_score": 0.8,
+              "reasoning": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('@Support I need help with my account - it's locked...'); relevant interaction ('Hi! I completely understand how frustrating this m...'). The score of 8.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "efficiency_resolution": {
+          "category_score": 7.98,
+          "kpis": {
+            "followup_necessity": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('I can see how important this is. Please DM me your...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "customer_effort_score": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('I can see how important this is. Please DM me your...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "first_response_accuracy": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of First Response Accuracy reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('I can see how important this is. Please DM me your...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "csat_resolution": {
+              "score": 9.4,
+              "normalized_score": 0.94,
+              "reasoning": "Analysis of Csat Resolution reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: solution-oriented response ('@Support I need help with my account - it's locked...'); solution-oriented response ('Hi! I completely understand how frustrating this m...'). The score of 9.4 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"",
+                "Agent: \"I can see how important this is. Please DM me your email address for verification and I'll unlock your account immediately.\"",
+                "Agent: \"Account unlocked! You should be able to access everything now. Is there anything else I can help you with?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "escalation_rate": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "This account_unlock interaction remained at initial support level throughout 7 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "customer_effort_reduction": {
+              "score": 8.1,
+              "normalized_score": 0.81,
+              "reasoning": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('Hi! I completely understand how frustrating this m...'); relevant interaction ('I can see how important this is. Please DM me your...'). The score of 8.1 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "total_kpis_evaluated": 14,
+        "evaluation_timestamp": "2025-10-05T18:32:37.458034",
+        "model_used": "claude-4"
+      }
+    },
+    "overall_performance": {
+      "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+      "method": "LLM-based comprehensive evaluation"
+    },
+    "agent_output": "I'll perform a complete and systematic analysis of the provided conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI systematically.\n\n<invoke name=\"conversation_formatter_tool\">\n<parameter name=\"conversation_data\">{\"tweets\": [{\"tweet_id\": 1, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-10-05T15:00:00Z\", \"text\": \"@Support I need help with my account - it's locked and I can't access it!\"}, {\"tweet_id\": 2, \"author_id\": \"support_agent_001\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-10-05T15:01:00Z\", \"text\": \"Hi! I completely understand how frustrating this must be. I'm here to help you unlock your account right away.\"}, {\"tweet_id\": 3, \"author_id\": \"customer_001\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-10-05T15:02:00Z\", \"text\": \"Thank you for understanding. This is really important to me.\"}, {\"tweet_id\": 4, \"author_id\": \"support_agent_001\", \"role\": \"Agent\"..."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "total_records_checked": 5,
+  "records_with_truncation": 0,
+  "truncated_fields": [],
+  "records_analyzed": [
+    {
+      "record_id": "68e29f03f61d7c49fea920fc",
+      "conversation_id": 4495,
+      "truncated_fields": [],
+      "total_kpis": 14,
+      "total_reasoning_chars": 3320
+    },
+    {
+      "record_id": "68e29ed8f61d7c49fea920fb",
+      "conversation_id": 3762,
+      "truncated_fields": [],
+      "total_kpis": 14,
+      "total_reasoning_chars": 3532
+    },
+    {
+      "record_id": "68e29eadf61d7c49fea920fa",
+      "conversation_id": 4229,
+      "truncated_fields": [],
+      "total_kpis": 14,
+      "total_reasoning_chars": 3688
+    },
+    {
+      "record_id": "68e29e83f61d7c49fea920f9",
+      "conversation_id": 4485,
+      "truncated_fields": [],
+      "total_kpis": 14,
+      "total_reasoning_chars": 3464
+    },
+    {
+      "record_id": "68e29e53f61d7c49fea920f8",
+      "conversation_id": 3751,
+      "truncated_fields": [],
+      "total_kpis": 14,
+      "total_reasoning_chars": 3524
+    }
+  ]
+}

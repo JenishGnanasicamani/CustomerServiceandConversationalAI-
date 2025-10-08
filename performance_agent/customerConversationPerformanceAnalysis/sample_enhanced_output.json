@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv_66f7c8e123456789abcdef01",
+  "customer": "customer_123",
+  "created_at": "2023-01-15T14:30:00Z",
+  "created_time": "14:30:00",
+  "conversation_summary": {
+    "total_messages": 4,
+    "customer_messages": 2,
+    "agent_messages": 2,
+    "conversation_type": "Technical Support",
+    "intent": "Account Support",
+    "topic": "Technical Issues",
+    "final_sentiment": "Positive",
+    "categorization": "Technical Support - Account Issues"
+  },
+  "performance_metrics": {
+    "accuracy_compliance": {
+      "resolution_completeness": 1,
+      "accuracy_automated_responses": 95.5
+    },
+    "empathy_communication": {
+      "empathy_score": 8.7,
+      "empathy_subfactors": {
+        "emotion_recognition": 8.5,
+        "acknowledgment_feelings": 9.0,
+        "appropriate_response": 8.8,
+        "personalization": 8.2,
+        "supportive_language": 8.9,
+        "active_listening": 8.1
+      },
+      "sentiment_shift": 0.6,
+      "clarity_language": 8.9,
+      "clarity_subfactors": {
+        "readability_level": 8.8,
+        "jargon_usage": 9.2,
+        "sentence_structure": 8.7,
+        "coherence": 9.0,
+        "active_voice": 8.5,
+        "conciseness": 8.9
+      },
+      "cultural_sensitivity": 4.1,
+      "adaptability_quotient": 85,
+      "conversation_flow": 4.3
+    },
+    "efficiency_resolution": {
+      "followup_necessity": 0,
+      "customer_effort_score": 2.1,
+      "first_response_accuracy": 94.0,
+      "csat_resolution": 4.8,
+      "escalation_rate": 3.0,
+      "customer_effort_reduction": 15.5
+    }
+  },
+  "source_object_id": "66f7c8e123456789abcdef01",
+  "source_timestamp": "2023-01-15T14:30:00Z",
+  "analysis_metadata": {
+    "processed_timestamp": "2023-01-15T14:35:22Z",
+    "source_collection": "sentiment_analysis",
+    "analysis_version": "4.1.0",
+    "model_used": "claude-4"
+  },
+  "persistence_metadata": {
+    "inserted_timestamp": "2023-01-15T14:35:23Z",
+    "collection": "agentic_analysis",
+    "job_name": "conversation_performance_analysis"
+  }
+}

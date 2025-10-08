@@ -1,0 +1,100 @@
+[
+  {
+    "category": "accuracy_compliance",
+    "kpi": "resolution_completeness",
+    "length": 246,
+    "text": "The 2-message conversation about Flight followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation o...",
+    "full_text": "The 2-message conversation about Flight followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements."
+  },
+  {
+    "category": "accuracy_compliance",
+    "kpi": "accuracy_automated_responses",
+    "length": 221,
+    "text": "Information exchange in this Flight interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular...",
+    "full_text": "Information exchange in this Flight interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format."
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "empathy_score",
+    "length": 383,
+    "text": "Analysis of Empathy Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to he...",
+    "full_text": "Analysis of Empathy Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.45"
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "sentiment_shift",
+    "length": 338,
+    "text": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('...",
+    "full_text": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Customer responses provide evidence of the agent's performance in this area. Key evidence includes: relevant interaction ('I need help with my flight booking issue...'). The score of 6.5 indicates good performance with clear evidence supporting this assessment."
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "clarity_language",
+    "length": 385,
+    "text": "Analysis of Clarity Language reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: clear communication ('I'll be happy to ...",
+    "full_text": "Analysis of Clarity Language reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: clear communication ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment. Overall score calculated using weighted formula: 6.22"
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "cultural_sensitivity",
+    "length": 219,
+    "text": "This 2-message Flight interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awar...",
+    "full_text": "This 2-message Flight interaction proceeded through standard professional channels. No cultural considerations, accommodations, or sensitivity requirements emerged that would demonstrate cultural awareness capabilities."
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "adaptability_quotient",
+    "length": 337,
+    "text": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be hap...",
+    "full_text": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+  },
+  {
+    "category": "empathy_communication",
+    "kpi": "conversation_flow",
+    "length": 430,
+    "text": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant in...",
+    "full_text": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('I need help with my flight booking issue...'); relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 7.2 indicates good performance with clear evidence supporting this assessment."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "followup_necessity",
+    "length": 334,
+    "text": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy ...",
+    "full_text": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "customer_effort_score",
+    "length": 337,
+    "text": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be hap...",
+    "full_text": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "first_response_accuracy",
+    "length": 221,
+    "text": "Information exchange in this Flight interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular...",
+    "full_text": "Information exchange in this Flight interaction was straightforward. Technical accuracy assessment requires specific factual claims or instructions that weren't prominently featured in this particular conversation format."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "csat_resolution",
+    "length": 246,
+    "text": "The 2-message conversation about Flight followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation o...",
+    "full_text": "The 2-message conversation about Flight followed a standard support pattern. While resolution steps may have been taken, the conversation format didn't capture detailed problem-solving documentation or explicit resolution confirmation statements."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "escalation_rate",
+    "length": 192,
+    "text": "This Flight interaction remained at initial support level throughout 2 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation.",
+    "full_text": "This Flight interaction remained at initial support level throughout 2 messages. No escalation triggers, complexity increases, or elevated support requirements emerged during the conversation."
+  },
+  {
+    "category": "efficiency_resolution",
+    "kpi": "customer_effort_reduction",
+    "length": 341,
+    "text": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be...",
+    "full_text": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I'll be happy to help you with your flight booking...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment."
+  }
+]

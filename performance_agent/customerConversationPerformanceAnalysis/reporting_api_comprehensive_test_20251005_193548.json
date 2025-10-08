@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "test_timestamp": "2025-10-05T19:35:48.592797",
+    "api_base_url": "http://localhost:8003",
+    "test_type": "comprehensive_query_pattern_analysis"
+  },
+  "collection_stats": {
+    "collection_name": "agentic_analysis",
+    "total_records": 1,
+    "unique_customers": 0,
+    "recent_records_30_days": 0,
+    "date_range": {
+      "earliest_record": null,
+      "latest_record": null
+    },
+    "sample_customers": [],
+    "timestamp": "2025-10-05T19:35:48.572011"
+  },
+  "test_results": {
+    "Max Range - No Customer": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2000-01-01",
+        "end_date": "2100-12-31"
+      }
+    },
+    "Max Range - All Customers": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2000-01-01",
+        "end_date": "2100-12-31",
+        "customer": "all"
+      }
+    },
+    "2025 Range - No Customer": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31"
+      }
+    },
+    "Oct 2025 Range - No Customer": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31"
+      }
+    },
+    "Oct 4 2025 - No Customer": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2025-10-04",
+        "end_date": "2025-10-04"
+      }
+    },
+    "Oct 4 2025 with Time - No Customer": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2025-10-04T00:00:00",
+        "end_date": "2025-10-04T23:59:59"
+      }
+    },
+    "Max Range - Customer Apple": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2000-01-01",
+        "end_date": "2100-12-31",
+        "customer": "Apple"
+      }
+    },
+    "Max Range - Customer None": {
+      "success": true,
+      "records_found": 0,
+      "status": "success",
+      "query_params": {
+        "start_date": "2000-01-01",
+        "end_date": "2100-12-31",
+        "customer": "None"
+      }
+    }
+  },
+  "analysis": {
+    "summary": {
+      "total_tests": 8,
+      "successful_tests": 8,
+      "failed_tests": 0,
+      "tests_with_records": 0
+    },
+    "successful_tests": [
+      "Max Range - No Customer",
+      "Max Range - All Customers",
+      "2025 Range - No Customer",
+      "Oct 2025 Range - No Customer",
+      "Oct 4 2025 - No Customer",
+      "Oct 4 2025 with Time - No Customer",
+      "Max Range - Customer Apple",
+      "Max Range - Customer None"
+    ],
+    "failed_tests": [],
+    "tests_with_records": [],
+    "recommendations": [
+      "No queries returned records. The data structure may not match API expectations.",
+      "Consider checking if data uses 'timestamp' field instead of 'created_at'.",
+      "Verify customer field exists and has expected values."
+    ]
+  }
+}

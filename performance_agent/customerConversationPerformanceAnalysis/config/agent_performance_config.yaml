@@ -1,0 +1,445 @@
+# Agent Performance Evaluation Configuration
+# This YAML file defines the structure and parameters for evaluating agent performance
+# across different categories and KPIs
+
+evaluation_framework:
+  name: "Agent Performance Evaluation"
+  version: "1.0"
+  
+  categories:
+    
+    # ================================================================
+    # 1. ACCURACY & COMPLIANCE
+    # ================================================================
+    
+    accuracy_compliance:
+      name: "Accuracy & Compliance"
+      description: "Measures accuracy of responses and adherence to compliance standards"
+      
+      kpis:
+        
+        resolution_completeness:
+          name: "Resolution Completeness"
+          description: "Whether the conversation fully addressed and resolved the initial query"
+          evaluates: "Issue resolution status"
+          factors:
+            - "Complete addressing of initial query"
+            - "Provision of satisfactory solution"
+            - "Customer confirmation of resolution"
+          scale:
+            type: "binary"
+            range: [0, 1]
+            description: "Binary measure: Yes (1) or No (0)"
+          target: 
+            value: 1
+            description: "Yes for each conversation"
+            operator: "="
+          
+        accuracy_automated_responses:
+          name: "Accuracy of Automated Responses"
+          description: "Measures the accuracy of any automated or AI-generated responses within the conversation"
+          evaluates: "Automated response correctness"
+          factors:
+            - "Factual correctness of automated responses"
+            - "Relevance to customer query"
+            - "Completeness of information provided"
+          scale:
+            type: "percentage"
+            range: [0, 100]
+            description: "Scale: 0-100%"
+          target:
+            value: 95
+            description: "> 95%"
+            operator: ">"
+    
+    # ================================================================
+    # 2. EMPATHY & COMMUNICATION SKILLS
+    # ================================================================
+    
+    empathy_communication:
+      name: "Empathy & Communication Skills"
+      description: "Evaluates emotional intelligence and communication effectiveness"
+      
+      kpis:
+        
+        empathy_score:
+          name: "Empathy Score"
+          description: "Comprehensive measure of empathetic communication"
+          evaluates: "Emotional intelligence and empathetic response"
+          
+          sub_factors:
+            emotion_recognition:
+              name: "Emotion Recognition"
+              description: "Accuracy in identifying the customer's emotional state"
+              scale:
+                type: "numeric"
+                range: [0, 10]
+                description: "Score: 0-10 (10 being perfect recognition)"
+              weight: 0.2
+              
+            acknowledgment_feelings:
+              name: "Acknowledgment of Feelings" 
+              description: "How well the agent/system acknowledges the customer's emotions"
+              scale:
+                type: "numeric"
+                range: [0, 10]
+                description: "Score: 0-10 (10 being excellent acknowledgment)"
+              weight: 0.2
+              
+            appropriate_response:
+              name: "Appropriate Response"
+              description: "The suitability of the emotional tone in the response"
+              scale:
+                type: "numeric"
+                range: [0, 10]
+                description: "Score: 0-10 (10 being highly appropriate)"
+              weight: 0.2
+              
+            personalization:
+              name: "Personalization"
+              description: "Use of the customer's name and reference to their specific situation"
+              scale:
+                type: "numeric"
+                range: [0, 10]
+                description: "Score: 0-10 (10 being highly personalized)"
+              weight: 0.15
+              
+            supportive_language:
+              name: "Supportive Language"
+              description: "Use of phrases that express understanding and support"
+              scale:
+                type: "numeric"
+                range: [0, 10] 
+                description: "Score: 0-10 (10 being excellent use of supportive language)"
+              weight: 0.15
+              
+            active_listening:
+              name: "Active Listening Indicators"
+              description: "Evidence of comprehending and responding to the customer's specific concerns"
+              scale:
+                type: "numeric"
+                range: [0, 10]
+                description: "Score: 0-10 (10 showing excellent active listening)"
+              weight: 0.1
+          
+          calculation:
+            formula: "(Emotion Recognition * 0.2) + (Acknowledgment * 0.2) + (Appropriate Response * 0.2) + (Personalization * 0.15) + (Supportive Language * 0.15) + (Active Listening * 0.1)"
+            final_range: [0, 10]
+            
+          interpretation:
+            excellent: [9, 10]
+            strong: [7, 8]
+            moderate: [5, 6]
+            limited: [3, 4]
+            poor: [0, 2]
+            
+          target:
+            value: 7
+            description: "≥ 7 (Strong to Exceptional empathy)"
+            operator: ">="
+        
+        sentiment_shift:
+          name: "Sentiment Shift"
+          description: "Change in sentiment from the beginning to the end of the conversation"
+          evaluates: "Customer sentiment improvement"
+          factors:
+            - "Initial customer sentiment"
+            - "Final customer sentiment"
+            - "Overall sentiment trajectory"
+          scale:
+            type: "numeric" 
+            range: [-1, 1]
+            description: "Measured on a scale from -1 (negative shift) to +1 (positive shift)"
+          target:
+            value: 0
+            description: "> 0 (positive shift)"
+            operator: ">"
+            
+        clarity_language:
+          name: "Clarity of Language"
+          description: "Measures how clear, concise, and understandable the language used is"
+          evaluates: "Language clarity and comprehensibility"
+          
+          sub_factors:
+            readability_level:
+              name: "Readability Level"
+              description: "Use established readability metrics like Flesch-Kincaid Grade Level or SMOG Index"
+              scale:
+                type: "numeric"
+                range: [1, 10]
+                description: "Score: 1-10 (10 being the most readable)"
+              weight: 0.25
+              
+            jargon_usage:
+              name: "Jargon Usage"
+              description: "Percentage of industry-specific terms or complex words that are adequately explained"
+              scale:
+                type: "percentage"
+                range: [0, 100]
+                description: "Score: 0-100%"
+              weight: 0.15
+              
+            sentence_structure:
+              name: "Sentence Structure"
+              description: "Average sentence length and complexity"
+              scale:
+                type: "numeric"
+                range: [1, 10]
+                description: "Score: 1-10 (10 being optimal - not too long, not too short)"
+              weight: 0.15
+              
+            coherence:
+              name: "Coherence"
+              description: "Logical flow and connection between sentences and ideas"
+              scale:
+                type: "numeric"
+                range: [1, 10]
+                description: "Score: 1-10 (10 being highly coherent)"
+              weight: 0.20
+              
+            active_voice:
+              name: "Use of Active Voice"
+              description: "Percentage of sentences using active voice rather than passive"
+              scale:
+                type: "percentage"
+                range: [0, 100]
+                description: "Score: 0-100%"
+              weight: 0.10
+              
+            conciseness:
+              name: "Conciseness"
+              description: "Ratio of necessary information to total words used"
+              scale:
+                type: "numeric"
+                range: [1, 10]
+                description: "Score: 1-10 (10 being optimally concise)"
+              weight: 0.15
+          
+          calculation:
+            formula: "(Readability * 0.25) + (Jargon * 0.15) + (Sentence Structure * 0.15) + (Coherence * 0.20) + (Active Voice * 0.10) + (Conciseness * 0.15)"
+            final_range: [1, 10]
+            
+          interpretation:
+            excellent: [9, 10]
+            good: [7, 8]
+            moderate: [5, 6]
+            poor: [3, 4]
+            very_poor: [1, 2]
+            
+          target:
+            value: 8
+            description: "≥ 8 (Good to Excellent clarity)"
+            operator: ">="
+            
+        cultural_sensitivity:
+          name: "Cultural Sensitivity Index (CSI)"
+          description: "Evaluates the agent's awareness and respect for cultural differences"
+          evaluates: "Cultural awareness and sensitivity"
+          factors:
+            - "Use of culturally appropriate language"
+            - "Avoiding stereotypes"
+            - "Respecting cultural norms"
+          scale:
+            type: "numeric"
+            range: [1, 5]
+            description: "Scale: 1-5"
+          target:
+            value: 4
+            description: "≥ 4"
+            operator: ">="
+            
+        adaptability_quotient:
+          name: "Adaptability Quotient (AQ)"
+          description: "Evaluates the agent's ability to adjust their communication style based on customer cues"
+          evaluates: "Communication style adaptability"
+          factors:
+            - "Adjusting pace"
+            - "Changing explanation style"
+            - "Adapting to customer's level of understanding"
+          scale:
+            type: "percentage"
+            range: [0, 100]
+            description: "Scale: 0-100"
+          target:
+            value: 80
+            description: "≥ 80"
+            operator: ">="
+            
+        conversation_flow:
+          name: "Conversation Flow Smoothness (CFS)"
+          description: "Assesses the natural progression and coherence of the conversation"
+          evaluates: "Conversation flow quality"
+          factors:
+            - "Minimal repetition"
+            - "Logical sequence of ideas"
+            - "Smooth transitions between topics"
+          scale:
+            type: "numeric"
+            range: [1, 5]
+            description: "Scale: 1-5"
+          target:
+            value: 4
+            description: "≥ 4"
+            operator: ">="
+    
+    # ================================================================
+    # 3. EFFICIENCY & RESOLUTION EFFECTIVENESS
+    # ================================================================
+    
+    efficiency_resolution:
+      name: "Efficiency & Resolution Effectiveness"
+      description: "Measures efficiency and effectiveness of issue resolution"
+      
+      kpis:
+        
+        followup_necessity:
+          name: "Follow-up Necessity"
+          description: "Indicates whether the conversation required any follow-up actions"
+          evaluates: "Need for additional interactions"
+          factors:
+            - "Completeness of initial resolution"
+            - "Customer satisfaction with response"
+            - "Remaining unresolved issues"
+          scale:
+            type: "binary"
+            range: [0, 1]
+            description: "Binary: Yes (1) or No (0)"
+          target:
+            value: 0
+            description: "0 (ideally resolving issues without need for follow-up)"
+            operator: "="
+            
+        customer_effort_score:
+          name: "Customer Effort Score (CES)"
+          description: "Measures the ease of getting their issue resolved from the customer's perspective"
+          evaluates: "Customer effort required"
+          factors:
+            - "Number of interactions required"
+            - "Complexity of process"
+            - "Customer satisfaction with ease"
+          scale:
+            type: "numeric"
+            range: [1, 7]
+            description: "Scale: 1-7 (1 being very low effort, 7 being very high effort)"
+          target:
+            value: 3
+            description: "< 3"
+            operator: "<"
+            
+        first_response_accuracy:
+          name: "First Response Accuracy"
+          description: "Measures the accuracy of the initial response to the customer's query"
+          evaluates: "Initial response quality"
+          factors:
+            - "Correctness of first response"
+            - "Relevance to customer query"
+            - "Completeness of information"
+          scale:
+            type: "percentage"
+            range: [0, 100]
+            description: "Scale: 0-100%"
+          target:
+            value: 90
+            description: "> 90%"
+            operator: ">"
+            
+        csat_resolution:
+          name: "Customer Satisfaction with Resolution (CSAT-R)"
+          description: "Measures customer satisfaction specifically with the resolution provided"
+          evaluates: "Resolution satisfaction"
+          factors:
+            - "Customer satisfaction with outcome"
+            - "Quality of resolution"
+            - "Timeliness of resolution"
+          scale:
+            type: "numeric"
+            range: [1, 5]
+            description: "Scale: 1-5"
+          target:
+            value: 4.5
+            description: "≥ 4.5"
+            operator: ">="
+            
+        escalation_rate:
+          name: "Escalation Rate"
+          description: "Percentage of conversations that required escalation to a higher tier of support"
+          evaluates: "Need for escalation"
+          factors:
+            - "Complexity of issues handled"
+            - "Agent capability to resolve"
+            - "Customer satisfaction with first-level support"
+          scale:
+            type: "percentage"
+            range: [0, 100]
+            description: "Scale: 0-100%"
+          calculation:
+            formula: "(Number of escalated conversations / Total number of conversations) * 100"
+          target:
+            value: 10
+            description: "< 10% (lower is better)"
+            operator: "<"
+            
+        customer_effort_reduction:
+          name: "Customer Effort Reduction Rate (CERR)"
+          description: "Measures the reduction in customer effort over time for similar issues"
+          evaluates: "Improvement in customer effort"
+          factors:
+            - "Current period average CES"
+            - "Previous period average CES"
+            - "Issue type consistency"
+          scale:
+            type: "percentage_change"
+            range: [-100, 100]
+            description: "Scale: Percentage change (negative values indicate improvement)"
+          calculation:
+            formula: "(Average CES for issue type in current period - Average CES for issue type in previous period) / Average CES for issue type in previous period * 100"
+          target:
+            value: -10
+            description: "≤ -10% (indicating a 10% or greater reduction in effort)"
+            operator: "<="
+
+# ================================================================
+# 4. EVALUATION FRAMEWORK
+# ================================================================
+
+evaluation:
+  feedback:
+    methods:
+      - "Show examples of where tone could be softer or more empathetic"
+      - "Provide specific instances for improvement"
+      - "Highlight positive examples for reinforcement"
+      
+  training_needs:
+    focus_areas:
+      - "Workshops on handling frustrated customers"
+      - "Cross-cultural communication training"
+      - "Active listening skill development"
+      - "Empathy building exercises"
+      
+  recognition:
+    criteria:
+      - "Agents praised by customers for empathy and friendliness"
+      - "Consistent high performance across KPIs"
+      - "Exceptional handling of difficult situations"
+
+# ================================================================
+# 5. CONFIGURATION SETTINGS
+# ================================================================
+
+settings:
+  evaluation_frequency: "per_conversation"
+  aggregation_levels:
+    - "individual_conversation"
+    - "agent_daily"
+    - "agent_weekly"
+    - "agent_monthly"
+    - "team_summary"
+    
+  thresholds:
+    critical_alert: 0.3  # Trigger alert if score is below 30% of target
+    warning_alert: 0.7   # Trigger warning if score is below 70% of target
+    
+  reporting:
+    formats: ["json", "yaml", "csv"]
+    include_interpretations: true
+    include_recommendations: true

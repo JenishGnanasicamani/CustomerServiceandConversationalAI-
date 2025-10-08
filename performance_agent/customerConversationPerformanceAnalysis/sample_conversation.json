@@ -1,0 +1,26 @@
+{
+  "tweets": [
+    {
+      "tweet_id": 1081018,
+      "author_id": "129629",
+      "role": "Customer",
+      "inbound": true,
+      "created_at": "Mon Oct 23 19:44:24 +0000 2017",
+      "text": "I'm tired of the spam calls. Y'all are trash @sprintcare"
+    },
+    {
+      "tweet_id": 1081017,
+      "author_id": "sprintcare",
+      "role": "Service Provider",
+      "inbound": false,
+      "created_at": "Mon Oct 23 19:57:11 +0000 2017",
+      "text": "@129629 This is not the kind of feed back we like to receive. Please send us a Direct Message, so that we can further assist you. -TR"
+    }
+  ],
+  "classification": {
+    "categorization": "Complaint about unwanted calls",
+    "intent": "Complaint",
+    "topic": "General",
+    "sentiment": "Negative"
+  }
+}

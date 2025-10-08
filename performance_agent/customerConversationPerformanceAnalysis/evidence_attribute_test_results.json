@@ -1,0 +1,14 @@
+{
+  "test_timestamp": "2025-10-05T11:55:06.758303",
+  "evidence_attribute_implementation_tests": {
+    "llm_service_evidence_field": true,
+    "no_evidence_handling": false,
+    "periodic_job_persistence": true
+  },
+  "overall_success": false,
+  "summary": {
+    "total_tests": 3,
+    "passed_tests": 2,
+    "failed_tests": 1
+  }
+}

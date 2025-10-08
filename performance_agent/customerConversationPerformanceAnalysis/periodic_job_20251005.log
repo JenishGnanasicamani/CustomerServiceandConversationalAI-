@@ -1,0 +1,6 @@
+2025-10-05 22:07:45,990 - src.aicore_service - INFO - Successfully loaded AI Core credentials from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/aicore_credentials.yaml
+2025-10-05 22:07:45,991 - src.aicore_langchain - INFO - Successfully initialized AI Core client for LangChain
+2025-10-05 22:07:46,014 - src.config_loader - INFO - Successfully loaded configuration from /Users/I032294/iisc_cds/CustomerServiceandConversationalAI-/performance_agent/customerConversationPerformanceAnalysis/config/agent_performance_config.yaml
+2025-10-05 22:07:46,014 - src.llm_agent_service - INFO - Configuration loaded successfully for LLM agent
+2025-10-05 22:07:46,014 - src.periodic_job_service - INFO - LLM service initialized with model: claude-4
+2025-10-05 22:07:46,014 - src.periodic_job_service - INFO - Built performance metrics with 1 categories and 1 total KPIs

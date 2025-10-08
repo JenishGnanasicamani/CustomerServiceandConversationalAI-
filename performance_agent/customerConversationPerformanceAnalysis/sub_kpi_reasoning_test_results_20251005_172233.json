@@ -1,0 +1,89 @@
+{
+  "test_name": "Sub-KPI Reasoning Fix Test",
+  "test_timestamp": "2025-10-05T17:22:33.496306",
+  "empathy_sub_kpis": {
+    "emotion_recognition": {
+      "score": 7.939539917858658,
+      "reason": "Agent demonstrated emotional awareness by recognizing customer frustration and responding with understanding. Key indicators: understanding acknowledgment, frustration recognition, supportive assistance"
+    },
+    "empathetic_language": {
+      "score": 8.042812592154096,
+      "reason": "Agent used warm, understanding language with phrases like \"I completely understand\" showing genuine empathy. Evidence from conversation shows validation of customer concerns"
+    },
+    "emotional_mirroring": {
+      "score": 7.2616326461884135,
+      "reason": "Agent effectively matched customer emotional state, transitioning from addressing frustration to celebrating success. Response pattern shows adaptive communication style"
+    },
+    "concern_validation": {
+      "score": 9.305240435593618,
+      "reason": "Agent explicitly validated customer concerns with empathetic acknowledgment of their difficulty. Customer frustration was directly addressed and acknowledged"
+    }
+  },
+  "resolution_sub_kpis": {
+    "issue_identification": {
+      "score": 9.301658006487896,
+      "reason": "Agent quickly identified the password reset issue and understood the customer had been struggling for 30 minutes. Problem recognition was immediate and accurate"
+    },
+    "solution_depth": {
+      "score": 9.094409928563302,
+      "reason": "Agent provided comprehensive solution with manual password reset and temporary password delivery within specific timeframe. Solution included detailed steps and timeline expectations"
+    },
+    "follow_up_clarity": {
+      "score": 10.0,
+      "reason": "Agent clearly communicated next steps and offered additional assistance with \"Is there anything else I can help you with today?\". Timeline communication was specific and helpful"
+    },
+    "confirmation_process": {
+      "score": 9.40018177818169,
+      "reason": "Resolution confirmation was excellent with customer stating \"Got it and it works perfectly!\". Customer satisfaction was explicitly confirmed with positive feedback"
+    }
+  },
+  "effort_sub_kpis": {
+    "information_gathering": {
+      "score": 7.523100807065074,
+      "reason": "Agent efficiently requested only essential information (email via DM) without excessive back-and-forth. Information collection was streamlined and secure"
+    },
+    "process_simplification": {
+      "score": 7.285835991956434,
+      "reason": "Agent simplified the complex password reset issue into clear, actionable steps with manual override approach. Customer appreciated the straightforward approach after struggling for 30 minutes"
+    },
+    "proactive_assistance": {
+      "score": 8.859586366971374,
+      "reason": "Agent proactively offered immediate help and manual reset without waiting for customer to request alternatives. Proactive elements included acknowledging frustration and offering immediate alternative solution"
+    }
+  },
+  "quality_statistics": {
+    "empathy_stats": {
+      "total_sub_kpis": 4,
+      "detailed_reasoning": 0,
+      "conversation_specific": 4,
+      "generic_reasoning": 0,
+      "evidence_based": 1
+    },
+    "resolution_stats": {
+      "total_sub_kpis": 4,
+      "detailed_reasoning": 0,
+      "conversation_specific": 4,
+      "generic_reasoning": 0,
+      "evidence_based": 2
+    },
+    "effort_stats": {
+      "total_sub_kpis": 3,
+      "detailed_reasoning": 0,
+      "conversation_specific": 3,
+      "generic_reasoning": 0,
+      "evidence_based": 0
+    },
+    "total_stats": {
+      "total_sub_kpis": 11,
+      "detailed_reasoning": 0,
+      "conversation_specific": 11,
+      "generic_reasoning": 0,
+      "evidence_based": 3
+    }
+  },
+  "success_criteria": {
+    "detailed_percentage": 100.0,
+    "generic_percentage": 0.0,
+    "test_passed": true
+  }
+}

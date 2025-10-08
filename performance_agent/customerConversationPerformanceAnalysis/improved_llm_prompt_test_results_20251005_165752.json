@@ -1,0 +1,249 @@
+{
+  "test_timestamp": "2025-10-05T16:57:52.652149",
+  "test_type": "Improved LLM Prompt Test",
+  "statistics": {
+    "total_kpis_analyzed": 14,
+    "kpis_with_detailed_reasoning": 14,
+    "kpis_with_evidence": 5,
+    "json_blocks_found": 0,
+    "detailed_reasoning_percentage": 100.0,
+    "evidence_percentage": 35.714285714285715
+  },
+  "performance_results": {
+    "conversation_id": "unknown",
+    "analysis_timestamp": "2025-10-05T16:57:52.651704",
+    "analysis_method": "LLM-based Agent Analysis",
+    "model_used": "claude-4",
+    "performance_metrics": {
+      "categories": {
+        "accuracy_compliance": {
+          "category_score": 8.6,
+          "kpis": {
+            "resolution_completeness": {
+              "score": 9.0,
+              "normalized_score": 0.9,
+              "reasoning": "Analysis of Resolution Completeness reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @Support, I'm really frustrated because I can't...'); solution-oriented response ('I completely understand how frustrating that must ...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"",
+                "Agent: \"Perfect! I've processed your password reset and sent you a new temporary password. You should receive it within 2 minutes. Is there anything else I can help you with today?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "accuracy_automated_responses": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Accuracy Automated Responses reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Perfect! I've processed your password reset and se...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "empathy_communication": {
+          "category_score": 8.03,
+          "kpis": {
+            "empathy_score": {
+              "score": 8.44,
+              "normalized_score": 0.9,
+              "reasoning": "Analysis of Empathy Score reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @Support, I'm really frustrated because I can't...'); empathetic acknowledgment ('I completely understand how frustrating that must ...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes. Overall score calculated using weighted formula: 8.44",
+              "evidence": [
+                "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"",
+                "Agent: \"Perfect! I've processed your password reset and sent you a new temporary password. You should receive it within 2 minutes. Is there anything else I can help you with today?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent",
+              "sub_factors": {
+                "emotion_recognition": {
+                  "score": 7.55,
+                  "reasoning": "Sub-factor analysis for Emotion Recognition based on conversation evidence",
+                  "evidence": [
+                    "Customer: \"Hi @Support, I'm really frustrated because I can't reset my password. I've been trying for 30 minutes and nothing works!\"",
+                    "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\""
+                  ]
+                },
+                "acknowledgment_feelings": {
+                  "score": 9.22,
+                  "reasoning": "Sub-factor analysis for Acknowledgment of Feelings based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\""
+                  ]
+                },
+                "appropriate_response": {
+                  "score": 9.41,
+                  "reasoning": "Sub-factor analysis for Appropriate Response based on conversation evidence",
+                  "evidence": []
+                },
+                "personalization": {
+                  "score": 7.31,
+                  "reasoning": "Sub-factor analysis for Personalization based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"",
+                    "Agent: \"Perfect! I've processed your password reset and sent you a new temporary password. You should receive it within 2 minutes. Is there anything else I can help you with today?\""
+                  ]
+                },
+                "supportive_language": {
+                  "score": 8.04,
+                  "reasoning": "Sub-factor analysis for Supportive Language based on conversation evidence",
+                  "evidence": []
+                },
+                "active_listening": {
+                  "score": 9.04,
+                  "reasoning": "Sub-factor analysis for Active Listening Indicators based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "sentiment_shift": {
+              "score": 8.5,
+              "normalized_score": 0.85,
+              "reasoning": "Analysis of Sentiment Shift reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @Support, I'm really frustrated because I can't...'); relevant interaction ('I completely understand how frustrating that must ...'). The score of 8.5 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Customer: \"Thank you! Just sent you my email via DM. I really appreciate your quick response!\"",
+                "Customer: \"Got it and it works perfectly! You're amazing - thank you so much for the excellent help!\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "clarity_language": {
+              "score": 8.34,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Clarity Language reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: clear communication ('I completely understand how frustrating that must ...'); clear communication ('Thank you! Just sent you my email via DM. I really...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes. Overall score calculated using weighted formula: 8.34",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent",
+              "sub_factors": {
+                "readability_level": {
+                  "score": 8.16,
+                  "reasoning": "Sub-factor analysis for Readability Level based on conversation evidence",
+                  "evidence": []
+                },
+                "jargon_usage": {
+                  "score": 8.02,
+                  "reasoning": "Sub-factor analysis for Jargon Usage based on conversation evidence",
+                  "evidence": [
+                    "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"",
+                    "Agent: \"Perfect! I've processed your password reset and sent you a new temporary password. You should receive it within 2 minutes. Is there anything else I can help you with today?\""
+                  ]
+                },
+                "sentence_structure": {
+                  "score": 7.99,
+                  "reasoning": "Sub-factor analysis for Sentence Structure based on conversation evidence",
+                  "evidence": []
+                },
+                "coherence": {
+                  "score": 8.19,
+                  "reasoning": "Sub-factor analysis for Coherence based on conversation evidence",
+                  "evidence": []
+                },
+                "active_voice": {
+                  "score": 9.09,
+                  "reasoning": "Sub-factor analysis for Use of Active Voice based on conversation evidence",
+                  "evidence": []
+                },
+                "conciseness": {
+                  "score": 9.03,
+                  "reasoning": "Sub-factor analysis for Conciseness based on conversation evidence",
+                  "evidence": []
+                }
+              }
+            },
+            "cultural_sensitivity": {
+              "score": 6.7,
+              "normalized_score": 0.67,
+              "reasoning": "Analysis of Cultural Sensitivity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'). The score of 6.7 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [
+                "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            },
+            "adaptability_quotient": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of Adaptability Quotient reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Thank you! Just sent you my email via DM. I really...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "conversation_flow": {
+              "score": 8.0,
+              "normalized_score": 0.8,
+              "reasoning": "Analysis of Conversation Flow reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @Support, I'm really frustrated because I can't...'); relevant interaction ('I completely understand how frustrating that must ...'). The score of 8.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            }
+          }
+        },
+        "efficiency_resolution": {
+          "category_score": 7.57,
+          "kpis": {
+            "followup_necessity": {
+              "score": 7.4,
+              "normalized_score": 0.74,
+              "reasoning": "Analysis of Followup Necessity reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Perfect! I've processed your password reset and se...'). The score of 7.4 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            },
+            "customer_effort_score": {
+              "score": 7.4,
+              "normalized_score": 0.74,
+              "reasoning": "Analysis of Customer Effort Score reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Perfect! I've processed your password reset and se...'). The score of 7.4 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            },
+            "first_response_accuracy": {
+              "score": 8.2,
+              "normalized_score": 0.82,
+              "reasoning": "Analysis of First Response Accuracy reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Perfect! I've processed your password reset and se...'). The score of 8.2 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "csat_resolution": {
+              "score": 9.0,
+              "normalized_score": 0.9,
+              "reasoning": "Analysis of Csat Resolution reveals specific evidence from the conversation. Both agent behavior and customer responses demonstrate relevant patterns for this KPI. Key evidence includes: relevant interaction ('Hi @Support, I'm really frustrated because I can't...'); solution-oriented response ('I completely understand how frustrating that must ...'). The score of 9.0 reflects excellent performance with strong evidence of positive behaviors and outcomes.",
+              "evidence": [
+                "Agent: \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"",
+                "Agent: \"Perfect! I've processed your password reset and sent you a new temporary password. You should receive it within 2 minutes. Is there anything else I can help you with today?\""
+              ],
+              "confidence": 0.8,
+              "interpretation": "Excellent"
+            },
+            "escalation_rate": {
+              "score": 6.0,
+              "normalized_score": 0.6,
+              "reasoning": "Analysis of Escalation Rate found no specific evidence within the available conversation interactions. The absence of escalation indicators suggests the issue was handled effectively at the first contact level, which is generally positive. A neutral score reflects this absence of both positive and negative indicators. Future interactions with more complex scenarios may provide clearer evidence for this KPI assessment.",
+              "evidence": [],
+              "confidence": 0.5,
+              "interpretation": "Good"
+            },
+            "customer_effort_reduction": {
+              "score": 7.4,
+              "normalized_score": 0.74,
+              "reasoning": "Analysis of Customer Effort Reduction reveals specific evidence from the conversation. Agent behavior shows clear indicators relevant to this KPI. Key evidence includes: relevant interaction ('I completely understand how frustrating that must ...'); relevant interaction ('Perfect! I've processed your password reset and se...'). The score of 7.4 indicates good performance with clear evidence supporting this assessment.",
+              "evidence": [],
+              "confidence": 0.8,
+              "interpretation": "Good"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "total_kpis_evaluated": 14,
+        "evaluation_timestamp": "2025-10-05T16:57:52.516772",
+        "model_used": "claude-4"
+      }
+    },
+    "overall_performance": {
+      "summary": "Analysis completed using AI agent with dynamic KPI evaluation",
+      "method": "LLM-based comprehensive evaluation"
+    },
+    "agent_output": "I'll perform a complete and systematic analysis of the conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI thoroughly.\n\n<conversation_formatter_tool>\n{\"tweets\": [{\"tweet_id\": 1001, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:00:00Z\", \"text\": \"Hi @Support, I'm really frustrated because I can't reset my password. I've been trying for 30 minutes and nothing works!\"}, {\"tweet_id\": 1002, \"author_id\": \"agent_1\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-01T10:01:00Z\", \"text\": \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"}, {\"tweet_id\": 1003, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:03:00Z\", \"text\": \"Thank you! Just sent you my email via DM. I r..."
+  },
+  "agent_output_sample": "I'll perform a complete and systematic analysis of the conversation against all configured KPIs. Let me start by formatting the conversation data and then analyze each KPI thoroughly.\n\n<conversation_formatter_tool>\n{\"tweets\": [{\"tweet_id\": 1001, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:00:00Z\", \"text\": \"Hi @Support, I'm really frustrated because I can't reset my password. I've been trying for 30 minutes and nothing works!\"}, {\"tweet_id\": 1002, \"author_id\": \"agent_1\", \"role\": \"Agent\", \"inbound\": false, \"created_at\": \"2024-01-01T10:01:00Z\", \"text\": \"I completely understand how frustrating that must be! I'm here to help you get this resolved right away. Let me assist you with a manual password reset - please DM me your email address so I can verify your account.\"}, {\"tweet_id\": 1003, \"author_id\": \"customer_1\", \"role\": \"Customer\", \"inbound\": true, \"created_at\": \"2024-01-01T10:03:00Z\", \"text\": \"Thank you! Just sent you my email via DM. I r..."
+}
