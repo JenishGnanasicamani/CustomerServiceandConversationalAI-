@@ -442,8 +442,8 @@ All configuration is managed via environment variables in a `.env` file. Key var
 
 - `MONGODB_URI`: MongoDB connection string (e.g., `mongodb://localhost:27017`)
 - `MONGODB_DB`: Database name (e.g., `customer_support`)
-- `MONGODB_QUERIES_COLLECTION`: Collection for queries (default: `queries`)
-- `MONGODB_RESULTS_COLLECTION`: Collection for results (default: `results`)
+- `MONGODB_SOURCE_COLLECTION`: Collection for queries (default: `queries`)
+- `MONGODB_TARGET_COLLECTION`: Collection for results (default: `results`)
 - `LLM_API_URL`: URL for the LLM endpoint (e.g., `http://localhost:11434/api/generate`)
 - `LLM_MODEL`: Name of the LLM model to use (e.g., `llama2`, `mistral`, etc.)
 - `LLM_API_KEY`: (If required) API key for LLM provider
